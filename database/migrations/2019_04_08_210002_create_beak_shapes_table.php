@@ -32,6 +32,6 @@ class CreateBeakshapesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('beakshapes');
+        Schema::dropIfExists('beak_shapes');
     }
 }

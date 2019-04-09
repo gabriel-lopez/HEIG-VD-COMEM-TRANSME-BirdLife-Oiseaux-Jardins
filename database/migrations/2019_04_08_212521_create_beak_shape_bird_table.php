@@ -29,6 +29,6 @@ class CreateBeakShapeBirdTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('bird_beak_shape');
+        Schema::dropIfExists('beak_shape_bird');
     }
 }
