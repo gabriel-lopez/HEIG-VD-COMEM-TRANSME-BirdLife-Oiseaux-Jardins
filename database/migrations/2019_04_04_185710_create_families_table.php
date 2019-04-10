@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
@@ -14,6 +15,8 @@ class CreateFamiliesTable extends Migration
     public function up()
     {
         Schema::disableForeignKeyConstraints();
+
+        DB::statement('SET FOREIGN_KEY_CHECKS=0');
 
         Schema::create('families', function (Blueprint $table) {
             $table->increments('id');
