@@ -22,6 +22,8 @@ class CreateColorLegTable extends Migration
             $table->foreign('bird_id')->references('id')->on('birds');
             $table->foreign('color_id')->references('id')->on('colors');
         });
+
+        Schema::enableForeignKeyConstraints();
     }
 
     /**
@@ -31,6 +33,10 @@ class CreateColorLegTable extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::dropIfExists('color_leg');
+
+        Schema::enableForeignKeyConstraints();
     }
 }

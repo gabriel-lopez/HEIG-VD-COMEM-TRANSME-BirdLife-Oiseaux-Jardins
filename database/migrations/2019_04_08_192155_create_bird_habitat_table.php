@@ -22,6 +22,8 @@ class CreateBirdHabitatTable extends Migration
             $table->foreign('bird_id')->references('id')->on('birds');
             $table->foreign('habitat_id')->references('id')->on('habitats');
         });
+
+        Schema::enableForeignKeyConstraints();
     }
 
     /**
@@ -31,6 +33,10 @@ class CreateBirdHabitatTable extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::dropIfExists('bird_habitat');
+
+        Schema::enableForeignKeyConstraints();
     }
 }

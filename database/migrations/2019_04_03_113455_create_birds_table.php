@@ -42,6 +42,8 @@ class CreateBirdsTable extends Migration
             $table->foreign('family_id')->references('id')->on('families');
             $table->foreign('order_id')->references('id')->on('orders');
         });
+
+        Schema::enableForeignKeyConstraints();
     }
 
     /**
@@ -51,6 +53,10 @@ class CreateBirdsTable extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::dropIfExists('birds');
+
+        Schema::enableForeignKeyConstraints();
     }
 }

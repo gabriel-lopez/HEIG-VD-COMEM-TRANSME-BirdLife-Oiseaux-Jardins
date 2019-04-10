@@ -25,6 +25,8 @@ class CreateHabitatsTable extends Migration
             $table->timestamps();
             $table->softDeletes();
         });
+
+        Schema::enableForeignKeyConstraints();
     }
 
     /**
@@ -34,6 +36,10 @@ class CreateHabitatsTable extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::dropIfExists('habitats');
+
+        Schema::enableForeignKeyConstraints();
     }
 }

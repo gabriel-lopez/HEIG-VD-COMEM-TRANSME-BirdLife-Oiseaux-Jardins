@@ -26,6 +26,8 @@ class CreateColorsTable extends Migration
             $table->timestamps();
             $table->softDeletes();
         });
+
+        Schema::enableForeignKeyConstraints();
     }
 
     /**
@@ -35,6 +37,10 @@ class CreateColorsTable extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::dropIfExists('colors');
+
+        Schema::enableForeignKeyConstraints();
     }
 }

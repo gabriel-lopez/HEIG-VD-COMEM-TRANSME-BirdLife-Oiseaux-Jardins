@@ -33,6 +33,10 @@ class CreateBirdSizeTable extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::dropIfExists('bird_size');
+
+        Schema::enableForeignKeyConstraints();
     }
 }

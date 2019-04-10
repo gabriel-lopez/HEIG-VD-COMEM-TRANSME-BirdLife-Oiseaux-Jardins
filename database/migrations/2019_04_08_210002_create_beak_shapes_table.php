@@ -25,6 +25,8 @@ class CreateBeakshapesTable extends Migration
             $table->timestamps();
             $table->softDeletes();
         });
+
+        Schema::enableForeignKeyConstraints();
     }
 
     /**
@@ -34,6 +36,10 @@ class CreateBeakshapesTable extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::dropIfExists('beak_shapes');
+
+        Schema::enableForeignKeyConstraints();
     }
 }

@@ -13,6 +13,8 @@ class CreateOrdersTable extends Migration
      */
     public function up()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::create('orders', function (Blueprint $table) {
             $table->increments('id');
 
@@ -24,6 +26,8 @@ class CreateOrdersTable extends Migration
             $table->timestamps();
             $table->softDeletes();
         });
+
+        Schema::enableForeignKeyConstraints();
     }
 
     /**
@@ -33,6 +37,10 @@ class CreateOrdersTable extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::dropIfExists('orders');
+
+        Schema::enableForeignKeyConstraints();
     }
 }

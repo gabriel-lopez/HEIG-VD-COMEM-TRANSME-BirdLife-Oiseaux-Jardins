@@ -22,6 +22,8 @@ class CreateBeakShapeBirdTable extends Migration
             $table->foreign('bird_id')->references('id')->on('birds');
             $table->foreign('beak_shape_id')->references('id')->on('beak_shapes');
         });
+
+        Schema::enableForeignKeyConstraints();
     }
 
     /**
@@ -31,6 +33,10 @@ class CreateBeakShapeBirdTable extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::dropIfExists('beak_shape_bird');
+
+        Schema::enableForeignKeyConstraints();
     }
 }

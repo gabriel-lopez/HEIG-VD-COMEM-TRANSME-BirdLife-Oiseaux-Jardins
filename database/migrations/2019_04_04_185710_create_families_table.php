@@ -27,6 +27,8 @@ class CreateFamiliesTable extends Migration
             $table->timestamps();
             $table->softDeletes();
         });
+
+        Schema::enableForeignKeyConstraints();
     }
 
     /**
@@ -36,6 +38,10 @@ class CreateFamiliesTable extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::dropIfExists('families');
+
+        Schema::enableForeignKeyConstraints();
     }
 }

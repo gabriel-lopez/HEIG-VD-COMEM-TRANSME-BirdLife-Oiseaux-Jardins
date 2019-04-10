@@ -13,6 +13,8 @@ class CreateSizesTable extends Migration
      */
     public function up()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::create('sizes', function (Blueprint $table) {
             $table->increments('id');
 
@@ -25,6 +27,8 @@ class CreateSizesTable extends Migration
             $table->timestamps();
             $table->softDeletes();
         });
+
+        Schema::enableForeignKeyConstraints();
     }
 
     /**
@@ -34,6 +38,10 @@ class CreateSizesTable extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::dropIfExists('sizes');
+
+        Schema::enableForeignKeyConstraints();
     }
 }

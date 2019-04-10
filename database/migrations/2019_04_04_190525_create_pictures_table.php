@@ -13,6 +13,8 @@ class CreatePicturesTable extends Migration
      */
     public function up()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::create('pictures', function (Blueprint $table) {
             $table->increments('id');
 
@@ -28,6 +30,8 @@ class CreatePicturesTable extends Migration
 
             $table->foreign('bird_id')->references('id')->on('birds');
         });
+
+        Schema::enableForeignKeyConstraints();
     }
 
     /**
@@ -37,6 +41,10 @@ class CreatePicturesTable extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::dropIfExists('pictures');
+
+        Schema::enableForeignKeyConstraints();
     }
 }

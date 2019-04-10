@@ -21,6 +21,8 @@ class CreateSubmissionsTable extends Migration
             $table->timestamps();
             $table->softDeletes();
         });
+
+        Schema::enableForeignKeyConstraints();
     }
 
     /**
@@ -30,6 +32,10 @@ class CreateSubmissionsTable extends Migration
      */
     public function down()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::dropIfExists('submissions');
+
+        Schema::enableForeignKeyConstraints();
     }
 }
