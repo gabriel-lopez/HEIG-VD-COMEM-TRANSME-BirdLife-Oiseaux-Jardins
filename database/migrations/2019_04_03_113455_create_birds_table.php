@@ -14,7 +14,7 @@ class CreateBirdsTable extends Migration
     public function up()
     {
         Schema::create('birds', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->increments('id');
 
             $table->string('name')->unique();
             $table->string('name_de')->nullable();

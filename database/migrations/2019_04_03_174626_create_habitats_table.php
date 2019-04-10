@@ -14,7 +14,7 @@ class CreateHabitatsTable extends Migration
     public function up()
     {
         Schema::create('habitats', function (Blueprint $table) {
-            $table->bigIncrements('id');
+            $table->increments('id');
 
             $table->string('name_de');
             $table->string('name_fr')->nullable();
