@@ -16,8 +16,6 @@ class CreateFamiliesTable extends Migration
     {
         Schema::disableForeignKeyConstraints();
 
-        DB::statement('SET FOREIGN_KEY_CHECKS=0');
-
         Schema::create('families', function (Blueprint $table) {
             $table->increments('id');
 

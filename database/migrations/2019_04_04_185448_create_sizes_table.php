@@ -13,8 +13,6 @@ class CreateSizesTable extends Migration
      */
     public function up()
     {
-        Schema::disableForeignKeyConstraints();
-
         Schema::create('sizes', function (Blueprint $table) {
             $table->increments('id');
 

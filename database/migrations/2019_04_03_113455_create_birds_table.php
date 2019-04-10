@@ -33,8 +33,8 @@ class CreateBirdsTable extends Migration
 
             $table->integer('singing_xeno_canto_id')->unique()->nullable();
 
-            $table->unsignedBigInteger('family_id')->nullable();
-            $table->unsignedBigInteger('order_id')->nullable();
+            $table->unsignedInteger('family_id')->nullable();
+            $table->unsignedInteger('order_id')->nullable();
 
             $table->timestamps();
             $table->softDeletes();
