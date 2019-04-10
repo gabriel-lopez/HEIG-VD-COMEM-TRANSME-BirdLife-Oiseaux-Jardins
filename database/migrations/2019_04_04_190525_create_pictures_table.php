@@ -21,7 +21,7 @@ class CreatePicturesTable extends Migration
             $table->text('author');
             $table->text('website')->nullable();
 
-            $table->unsignedBigInteger('bird_id')->nullable();
+            $table->unsignedInteger('bird_id')->nullable();
 
             $table->timestamps();
             $table->softDeletes();
