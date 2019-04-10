@@ -15,9 +15,17 @@
     return view('welcome');
 });*/
 
+use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\View;
+
 Route::get('/', function()
 {
     return View::make('pages.demo');
+});
+
+Route::get('/game', function()
+{
+    return View::make('pages.game');
 });
 
 /*Route::get('birds', function()
