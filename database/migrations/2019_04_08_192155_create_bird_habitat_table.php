@@ -13,6 +13,8 @@ class CreateBirdHabitatTable extends Migration
      */
     public function up()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::create('bird_habitat', function (Blueprint $table) {
             $table->integer('bird_id');
             $table->integer('habitat_id');

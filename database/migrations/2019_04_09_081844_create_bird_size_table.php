@@ -13,6 +13,8 @@ class CreateBirdSizeTable extends Migration
      */
     public function up()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::create('bird_size', function (Blueprint $table) {
             $table->integer('bird_id');
             $table->integer('size_id');

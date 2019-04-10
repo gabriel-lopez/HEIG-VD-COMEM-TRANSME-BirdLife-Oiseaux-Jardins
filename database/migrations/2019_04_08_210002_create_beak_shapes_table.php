@@ -13,6 +13,8 @@ class CreateBeakshapesTable extends Migration
      */
     public function up()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::create('beak_shapes', function (Blueprint $table) {
             $table->bigIncrements('id');
 

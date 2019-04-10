@@ -13,6 +13,8 @@ class CreateColorPlumageTable extends Migration
      */
     public function up()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::create('color_plumage', function (Blueprint $table) {
             $table->integer('bird_id');
             $table->integer('color_id');

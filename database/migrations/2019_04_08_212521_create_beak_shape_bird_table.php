@@ -13,6 +13,8 @@ class CreateBeakShapeBirdTable extends Migration
      */
     public function up()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::create('beak_shape_bird', function (Blueprint $table) {
             $table->integer('bird_id');
             $table->integer('beak_shape_id');
