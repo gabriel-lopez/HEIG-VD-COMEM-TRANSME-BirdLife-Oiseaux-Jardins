@@ -13,6 +13,8 @@ class CreateColorsTable extends Migration
      */
     public function up()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::create('colors', function (Blueprint $table) {
             $table->increments('id');
 

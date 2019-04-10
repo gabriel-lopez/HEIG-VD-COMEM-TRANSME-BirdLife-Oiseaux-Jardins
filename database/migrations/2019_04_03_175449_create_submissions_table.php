@@ -13,6 +13,8 @@ class CreateSubmissionsTable extends Migration
      */
     public function up()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::create('submissions', function (Blueprint $table) {
             $table->increments('id');
 

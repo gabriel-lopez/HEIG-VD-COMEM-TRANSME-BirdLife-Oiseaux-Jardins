@@ -13,6 +13,8 @@ class CreateHabitatsTable extends Migration
      */
     public function up()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::create('habitats', function (Blueprint $table) {
             $table->increments('id');
 

@@ -13,6 +13,8 @@ class CreateBirdsTable extends Migration
      */
     public function up()
     {
+        Schema::disableForeignKeyConstraints();
+
         Schema::create('birds', function (Blueprint $table) {
             $table->increments('id');
 
