@@ -16,8 +16,8 @@ class CreateBirdSizeTable extends Migration
         Schema::disableForeignKeyConstraints();
 
         Schema::create('bird_size', function (Blueprint $table) {
-            $table->integer('bird_id');
-            $table->integer('size_id');
+            $table->unsignedInteger('bird_id');
+            $table->unsignedInteger('size_id');
 
             $table->foreign('bird_id')->references('id')->on('birds');
             $table->foreign('size_id')->references('id')->on('sizes');
