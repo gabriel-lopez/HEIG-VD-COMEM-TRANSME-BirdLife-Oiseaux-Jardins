@@ -20,6 +20,8 @@ class CreateBirdSizeTable extends Migration
             $table->foreign('bird_id')->references('id')->on('birds');
             $table->foreign('size_id')->references('id')->on('sizes');
         });
+
+        Schema::enableForeignKeyConstraints();
     }
 
     /**
