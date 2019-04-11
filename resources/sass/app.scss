@@ -1,6 +1,5 @@
-
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
 
 // Variables
 @import 'variables';
@@ -8,48 +7,6 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
-
-footer {
-  background-color: $orange;
-  padding: 25px 0;
-  text-align: center;
-}
-
-ul.social-buttons li a {
-  font-size: 20px;
-  line-height: 40px;
-  display: block;
-  width: 40px;
-  height: 40px;
-  -webkit-transition: all .3s;
-  -moz-transition: all .3s;
-  transition: all .3s;
-  color: #fff;
-  border-radius: 100%;
-  outline: 0;
-  background-color: #3490dc;
-}
-
-footer span.copyright {
-  font-size: 100%;
-  line-height: 40px;
-  text-transform: none;
-}
-
-footer ul.quicklinks {
-  font-size: 100%;
-  line-height: 40px;
-  margin-bottom: 0;
-  text-transform: none;
-}
-
-ul {
-  margin: 0;
-  margin-bottom: 0px;
-  padding: 0;
-  padding-left: 0px;
-}
+@import '_navbar';
+@import '_header';
+@import '_footer';

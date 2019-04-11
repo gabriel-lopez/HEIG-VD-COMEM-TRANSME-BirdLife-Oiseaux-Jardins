@@ -36,6 +36,7 @@
             @endphp
 
         @endforeach
+        </div>
 
         {{ $birds->links() }}
     </div>

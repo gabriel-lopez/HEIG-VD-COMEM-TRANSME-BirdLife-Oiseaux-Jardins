@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <span class="copyright"><a href="https://www.birdlife.ch/">BirdLife Suisse/Svizzera</a> &copy; 2019</span>
+                <span class="copyright"><a href="https://www.birdlife.ch/">BirdLife Suisse</a> &copy; 2019</span>
             </div>
             <div class="col-md-4">
                 <ul class="list-inline social-buttons">

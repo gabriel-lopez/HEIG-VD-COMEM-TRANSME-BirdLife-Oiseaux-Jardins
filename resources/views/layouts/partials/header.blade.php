@@ -10,3 +10,5 @@
     </div>
 </section>
 -->
+
+<div class="hero-image"></div>
