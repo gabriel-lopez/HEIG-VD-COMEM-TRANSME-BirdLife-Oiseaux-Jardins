@@ -65,8 +65,7 @@
 
         "post-install-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
-            "php artisan cache:clear",
-            "php artisan migrate:refresh --force --seed"
+            "php artisan cache:clear"
         ],
         "post-update-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
