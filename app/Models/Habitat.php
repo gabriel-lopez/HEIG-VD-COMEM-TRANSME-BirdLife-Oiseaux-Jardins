@@ -17,6 +17,13 @@ class Habitat extends Model
         'name_it' => 'string|nullable',
     ];
 
+    protected $hidden = [
+        'created_at',
+        'updated_at',
+        'deleted_at',
+        'pivot',
+    ];
+
     public function birds()
     {
         return $this->hasMany(Bird::class);
