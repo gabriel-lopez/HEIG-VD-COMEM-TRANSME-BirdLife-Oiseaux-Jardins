@@ -16,6 +16,13 @@ class BirdsController extends Controller
         return view('pages.birds')->with('birds', $birds);
     }
 
+    public function show_api($id)
+    {
+        $bird = Bird::with('pictures')->get()->find($id);
+
+        return $bird->toJson(JSON_PRETTY_PRINT);
+    }
+
     public function api()
     {
         $birds = Bird::with('order', 'family', 'habitats', 'pictures')->paginate(16);

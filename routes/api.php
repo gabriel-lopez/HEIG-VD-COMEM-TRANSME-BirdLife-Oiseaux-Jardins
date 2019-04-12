@@ -19,6 +19,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::get('birds', 'BirdsController@api');
+Route::get('birds/{id}', 'BirdsController@show_api');
+
 Route::post('birds', 'BirdsController@search');
 
 Route::resource('orders', 'OrdersController');
