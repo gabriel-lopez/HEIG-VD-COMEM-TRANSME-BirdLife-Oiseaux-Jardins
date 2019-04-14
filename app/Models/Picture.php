@@ -18,6 +18,13 @@ class Picture extends Model
         'website' => 'string|nullable',
     ];
 
+    protected $hidden = [
+        'created_at',
+        'updated_at',
+        'deleted_at',
+        'bird_id'
+    ];
+
     public function bird()
     {
         return $this->belongsTo(Bird::class);

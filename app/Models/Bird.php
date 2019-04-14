@@ -3,7 +3,11 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\SoftDeletes;
+
+use App\Filters\BirdFilter;
+
 
 class Bird extends Model
 {
@@ -14,6 +18,19 @@ class Bird extends Model
     public static $rules = [
 
     ];
+
+    protected $hidden = [
+        'created_at',
+        'updated_at',
+        'deleted_at',
+        'family_id',
+        'order_id'
+    ];
+
+    public function scopeFilter(Builder $builder, $request)
+    {
+        return (new BirdFilter($request))->filter($builder);
+    }
 
     public function family()
     {
@@ -58,10 +75,5 @@ class Bird extends Model
     public function sizes()
     {
         return $this->belongsToMany(Size::class);
-    }
-
-    public function singing()
-    {
-        return $this->hasOne(Family::class);
     }
 }

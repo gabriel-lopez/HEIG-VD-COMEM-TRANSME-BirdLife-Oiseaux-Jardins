@@ -26,6 +26,6 @@ class Habitat extends Model
 
     public function birds()
     {
-        return $this->hasMany(Bird::class);
+        return $this->belongsToMany(Bird::class);
     }
 }

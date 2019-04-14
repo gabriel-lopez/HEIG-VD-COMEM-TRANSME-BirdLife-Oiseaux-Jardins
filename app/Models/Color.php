@@ -14,4 +14,11 @@ class Color extends Model
     public static $rules = [
 
     ];
+
+    protected $hidden = [
+        'created_at',
+        'updated_at',
+        'deleted_at',
+        'pivot',
+    ];
 }

@@ -18,10 +18,10 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::get('birds', 'BirdsController@api');
-Route::get('birds/{id}', 'BirdsController@show_api');
 
-Route::post('birds', 'BirdsController@search');
+Route::get('birds', 'BirdsController@index');
+Route::get('birds/{id}', 'BirdsController@show');
+
 
 Route::resource('orders', 'OrdersController');
 Route::resource('families', 'FamiliesController');

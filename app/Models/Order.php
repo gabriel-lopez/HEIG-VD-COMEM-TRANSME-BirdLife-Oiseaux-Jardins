@@ -15,6 +15,12 @@ class Order extends Model
 
     ];
 
+    protected $hidden = [
+        'created_at',
+        'updated_at',
+        'deleted_at',
+    ];
+
     public function birds()
     {
         return $this->hasMany(Bird::class);
