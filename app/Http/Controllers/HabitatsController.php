@@ -3,14 +3,14 @@
 namespace App\Http\Controllers;
 
 use App\Habitat;
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
 class HabitatsController extends Controller
 {
     public function index()
     {
-        $habitats = Habitat::all();
+        // $habitats = Habitat::all();
+
+        $habitats = Habitat::has('birds')->get();
 
         return $habitats;
     }
