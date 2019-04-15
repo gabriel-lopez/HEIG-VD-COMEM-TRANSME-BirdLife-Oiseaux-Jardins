@@ -28,3 +28,4 @@ Route::resource('families', 'FamiliesController');
 Route::resource('habitats', 'HabitatsController');
 Route::resource('colors', 'ColorsController');
 Route::resource('sizes', 'SizesController');
+Route::resource('beakshapes', 'BeakShapesController');
