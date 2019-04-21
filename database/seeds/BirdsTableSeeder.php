@@ -4,6 +4,7 @@ use App\BeakShape;
 use App\Bird;
 use App\Color;
 use App\Family;
+use App\Feature;
 use App\Habitat;
 use App\Order;
 use App\Picture;
@@ -10751,6 +10752,68 @@ class BirdsTableSeeder extends Seeder
         $bird240->sizes()->attach($_spatz);
         $bird240->sizes()->attach($spatz_amsel);
         $bird240->save();
+        //</editor-fold>
+
+        //<editor-fold desc="Features">
+        $feature1 = Feature::create( [
+            'name_de' => 'Viele einheimische Büsche',
+            'name_fr' => 'de nombreux arbres indigènes',
+            'name_it' => '',
+        ] );
+
+        $feature2 = Feature::create( [
+            'name_de' => 'Einheimische Bäume',
+            'name_fr' => 'quelques arbres indigènes',
+            'name_it' => '',
+        ] );
+
+        $feature3 = Feature::create( [
+            'name_de' => 'Viele exotische Büsche',
+            'name_fr' => 'de nombreux arbustes exotiques',
+            'name_it' => '',
+        ] );
+
+        $feature4 = Feature::create( [
+            'name_de' => 'Exotische Büsche',
+            'name_fr' => 'quelques arbustes exotiques',
+            'name_it' => '',
+        ] );
+
+        $feature5 = Feature::create( [
+            'name_de' => 'Blumenwiesen',
+            'name_fr' => 'des prairies fleuries',
+            'name_it' => '',
+        ] );
+
+        $feature6 = Feature::create( [
+            'name_de' => 'Teich',
+            'name_fr' => 'un étang',
+            'name_it' => '',
+        ] );
+
+        $feature7 = Feature::create( [
+            'name_de' => 'Kies/Sandlächen',
+            'name_fr' => 'des surfaces de gravier/sable',
+            'name_it' => '',
+        ] );
+
+        $feature8 = Feature::create( [
+            'name_de' => 'Rasen',
+            'name_fr' => 'du gazon',
+            'name_it' => '',
+        ] );
+
+        $feature9 = Feature::create( [
+            'name_de' => 'Nistkasten',
+            'name_fr' => 'des Nichoirs',
+            'name_it' => '',
+        ] );
+
+        $feature10 = Feature::create( [
+            'name_de' => 'Holzhaufen',
+            'name_fr' => 'un tas de bois',
+            'name_it' => '',
+        ] );
         //</editor-fold>
     }
 }

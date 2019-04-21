@@ -18,6 +18,20 @@ class CreateSubmissionsTable extends Migration
         Schema::create('submissions', function (Blueprint $table) {
             $table->increments('id');
 
+            $table->string('name');
+            $table->string('surname');
+            $table->string('email');
+            $table->date('birthday');
+
+            $table->boolean('newsletter')->default(false);
+            $table->boolean('newmember')->default(false);
+            $table->boolean('order')->default(false);
+
+            $table->date('observation_day');
+            $table->time('observation_time');
+            $table->integer('observation_npa');
+            $table->string('observation_city');
+
             $table->timestamps();
             $table->softDeletes();
         });
