@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 use App\Filters\BirdFilter;
 
-
 class Bird extends Model
 {
     use SoftDeletes;

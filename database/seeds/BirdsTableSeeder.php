@@ -24,128 +24,128 @@ class BirdsTableSeeder extends Seeder
         $beige = Color::create( [
             'hex'=>'#F5F5DC',
             'name_de'=>'Beige',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Beige',
+            'name_it'=>'Beige',
         ] );
 
         $blau = Color::create( [
             'hex'=>'#0000FF',
             'name_de'=>'Blau',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Bleu',
+            'name_it'=>'Blu',
         ] );
 
         $braun = Color::create( [
             'hex'=>'#A52A2A',
             'name_de'=>'Braun',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Marron',
+            'name_it'=>'Marrone',
         ] );
 
         $gelb = Color::create( [
             'hex'=>'#FFFF00',
             'name_de'=>'Gelb',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Jaune',
+            'name_it'=>'Giallo',
         ] );
 
         $grau = Color::create( [
             'hex'=>'#808080',
             'name_de'=>'Grau',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Gris',
+            'name_it'=>'Grigio',
         ] );
 
         $gruen = Color::create( [
             'hex'=>'#008000',
             'name_de'=>'Gruen',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Vert',
+            'name_it'=>'Verde',
         ] );
 
         $orange = Color::create( [
             'hex'=>'#FFA500',
             'name_de'=>'Orange',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Orange',
+            'name_it'=>'Arancione',
         ] );
 
         $rosa = Color::create( [
             'hex'=>'#FFC0CB',
             'name_de'=>'Rosa',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Rose',
+            'name_it'=>'Rosa',
         ] );
 
         $rot = Color::create( [
             'hex'=>'#FF0000',
             'name_de'=>'Rot',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Rouge',
+            'name_it'=>'Rosso',
         ] );
 
         $schwarz = Color::create( [
             'hex'=>'#000000',
             'name_de'=>'Schwarz',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Noir',
+            'name_it'=>'Nero',
         ] );
 
         $weiss = Color::create( [
             'hex'=>'#FFFFFF',
             'name_de'=>'Weiss',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Blanc',
+            'name_it'=>'Bianco',
         ] );
         //</editor-fold>
 
         //<editor-fold desc="Habitats">
         $aecker_und_feldflur = Habitat::create( [
             'name_de'=>'Aecker und Feldflur',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Champs cultivés',
+            'name_it'=>'Campi coltivati',
         ] );
 
         $gebirge = Habitat::create( [
             'name_de'=>'Gebirge',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Montagne',
+            'name_it'=>'Montagna',
         ] );
 
         $gewaesser = Habitat::create( [
             'name_de'=>'Gewaesser',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Plans et cours d’eau',
+            'name_it'=>'Acqua',
         ] );
 
         $heidelandschaft = Habitat::create( [
             'name_de'=>'Heidelandschaft',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Paysage de bruyère',
+            'name_it'=>'Paesaggio brughiera ',
         ] );
 
         $meere_und_kuesten = Habitat::create( [
             'name_de'=>'Meere und Kuesten',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Mers et côtes',
+            'name_it'=>'Mari e coste',
         ] );
 
         $siedlungsraum = Habitat::create( [
             'name_de'=>'Siedlungsraum',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Villes et villages',
+            'name_it'=>'Città e villaggi',
         ] );
 
         $wald = Habitat::create( [
             'name_de'=>'Wald',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Forêt',
+            'name_it'=>'Foresta',
         ] );
 
         $wiesen_und_weiden = Habitat::create( [
             'name_de'=>'Wiesen und Weiden',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Prairies et pâturages',
+            'name_it'=>'Prati e pascoli',
         ] );
         //</editor-fold>
 
@@ -567,7 +567,7 @@ class BirdsTableSeeder extends Seeder
         //<editor-fold desc="Orders">
         $bucerotiformes = Order::create( [
             'name' => 'Bucerotiformes',
-            'name_de'=>'',
+            'name_de'=>'Bucerotiformen',
             'name_fr'=>'',
             'name_it'=>'',
         ] );
@@ -688,99 +688,99 @@ class BirdsTableSeeder extends Seeder
         //<editor-fold desc="Beak Shapes">
         $entenschnabel = BeakShape::create( [
             'name_de'=>'Entenschnabel',
-            'name_fr'=>'',
+            'name_fr'=>'Bec de canard',
             'name_it'=>'',
         ] );
 
         $kurz_dick = BeakShape::create( [
-            'name_de'=>'Kurz Dick',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_de'=>'Kurz, dick',
+            'name_fr'=>'Court, épais',
+            'name_it'=>'Corto, spesso',
         ] );
 
         $kurz_duenn = BeakShape::create( [
-            'name_de'=>'Kurz Duenn',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_de'=>'Kurz, dünn',
+            'name_fr'=>'Court, fin',
+            'name_it'=>'Corto, fine',
         ] );
 
         $kurz_hakenfoermig = BeakShape::create( [
-            'name_de'=>'Kurz Hakenfoermig',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_de'=>'Kurz, hakenförmig',
+            'name_fr'=>'Court, en forme de crochet',
+            'name_it'=>'Corto, a forma di gancio',
         ] );
 
         $lang_dolchfoermig = BeakShape::create( [
-            'name_de'=>'Lang Dolchfoermig',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_de'=>'Lang, dolchförmig',
+            'name_fr'=>'Long, en forme de dague',
+            'name_it'=>'Lungo, a forma di pugnale',
         ] );
 
         $lang_duenn = BeakShape::create( [
-            'name_de'=>'Lang Duenn',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_de'=>'Lang, dünn',
+            'name_fr'=>'Long, fin',
+            'name_it'=>'Lungo, fine',
         ] );
 
         $lang_hakenfoermig = BeakShape::create( [
-            'name_de'=>'Lang Hakenfoermig',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_de'=>'Lang, hakenförmig',
+            'name_fr'=>'Long, en forme de crochet',
+            'name_it'=>'Lungo, a forma di gancio',
         ] );
 
         $meisselfoermig = BeakShape::create( [
-            'name_de'=>'Meisselfoermig',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_de'=>'Meisselförmig',
+            'name_fr'=>'Puissant et pointu',
+            'name_it'=>'Potente e appuntito',
         ] );
 
         $meisselschnabel = BeakShape::create( [
             'name_de'=>'Meisselschnabel',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'En ciseau',
+            'name_it'=>'A forbice',
         ] );
 
         $normal = BeakShape::create( [
             'name_de'=>'Normal',
-            'name_fr'=>'',
-            'name_it'=>'',
+            'name_fr'=>'Normal',
+            'name_it'=>'Normale',
         ] );
         //</editor-fold>
 
         //<editor-fold desc="Sizes">
-        $amsel_taube = Size::create( [
-            'name_de' => 'Amsel Taube',
-            'name_fr' => '',
-            'name_it' => '',
-            'order'=>'1'
-        ] );
-
         $_spatz = Size::create( [
-            'name_de' => 'Spatz',
-            'name_fr' => '',
-            'name_it' => '',
-            'order'=>'2'
+            'name_de' => 'Wie Spatz oder kleiner',
+            'name_fr' => 'Comme un moineau ou plus petit',
+            'name_it' => 'Come passero o più piccolo',
+            'order'   => '1'
         ] );
 
         $spatz_amsel = Size::create( [
-            'name_de' => 'Spatz Amsel',
-            'name_fr' => '',
-            'name_it' => '',
-            'order'=>'3'
+            'name_de' => 'Zwischen Spatz und Amsel',
+            'name_fr' => 'Entre moineau et merle',
+            'name_it' => 'Tra passero e merlo',
+            'order'   => '2'
         ] );
 
-        $stockente_ = Size::create( [
-            'name_de' => 'Stockente',
-            'name_fr' => '',
-            'name_it' => '',
-            'order'=>'4'
+        $amsel_taube = Size::create( [
+            'name_de' => 'Zwischen Amsel und Taube',
+            'name_fr' => 'Entre merle et pigeon',
+            'name_it' => 'Tra merlo e piccione',
+            'order'   => '3'
         ] );
 
         $taube_stockente = Size::create( [
-            'name_de' => 'Taube Stockente',
-            'name_fr' => '',
-            'name_it' => '',
-            'order'=>'5'
+            'name_de' => 'Zwischen Taube und Stockente',
+            'name_fr' => 'Entre pigeon et canard colvert',
+            'name_it' => 'Tra piccione e anatra selvatica',
+            'order'   => '4'
+        ] );
+
+        $stockente_ = Size::create( [
+            'name_de' => 'Grösser als Stockente',
+            'name_fr' => 'Plus grand que canard colvert',
+            'name_it' => 'Più grande dell\'anatra selvatica',
+            'order'   => '5'
         ] );
         //</editor-fold>
 
@@ -3481,10 +3481,72 @@ class BirdsTableSeeder extends Seeder
         ] );
         //</editor-fold>
 
+        //<editor-fold desc="Features">
+        $feature1 = Feature::create( [
+            'name_de' => 'Viele einheimische Büsche',
+            'name_fr' => 'De nombreux arbres indigènes',
+            'name_it' => 'Molti arbusti indigeni',
+        ] );
+
+        $feature2 = Feature::create( [
+            'name_de' => 'Einheimische Bäume',
+            'name_fr' => 'Quelques arbres indigènes',
+            'name_it' => 'Alberi indigeni',
+        ] );
+
+        $feature3 = Feature::create( [
+            'name_de' => 'Viele exotische Büsche',
+            'name_fr' => 'De nombreux arbustes exotiques',
+            'name_it' => 'Molti arbusti esotici',
+        ] );
+
+        $feature4 = Feature::create( [
+            'name_de' => 'Exotische Büsche',
+            'name_fr' => 'Quelques arbustes exotiques',
+            'name_it' => 'Arbusti esotici',
+        ] );
+
+        $feature5 = Feature::create( [
+            'name_de' => 'Blumenwiesen',
+            'name_fr' => 'Des prairies fleuries',
+            'name_it' => 'Prati fioriti',
+        ] );
+
+        $feature6 = Feature::create( [
+            'name_de' => 'Teich',
+            'name_fr' => 'Un étang',
+            'name_it' => 'Stagno',
+        ] );
+
+        $feature7 = Feature::create( [
+            'name_de' => 'Kies/Sandlächen',
+            'name_fr' => 'Des surfaces de gravier/sable',
+            'name_it' => 'Superfice di cava/sabbia',
+        ] );
+
+        $feature8 = Feature::create( [
+            'name_de' => 'Rasen',
+            'name_fr' => 'Du gazon',
+            'name_it' => 'Prato artificiale',
+        ] );
+
+        $feature9 = Feature::create( [
+            'name_de' => 'Nistkasten',
+            'name_fr' => 'Des Nichoirs',
+            'name_it' => 'Cassette nido',
+        ] );
+
+        $feature10 = Feature::create( [
+            'name_de' => 'Holzhaufen',
+            'name_fr' => 'Un tas de bois',
+            'name_it' => 'Mucchio di legname',
+        ] );
+        //</editor-fold>
+
         //<editor-fold desc="Birds">
-        $bird1 = Bird::create( [
+        $bird1 = Bird::firstOrCreate( [
             'name' => 'Podiceps nigricollis',
-            'name_de' => '',
+            'name_de' => 'Schwarzhalstaucher',
             'name_fr' => 'Grèbe à cou noir',
             'name_it' => 'Svasso piccolo',
             'gender_de' => 'M',
@@ -3492,6 +3554,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 142834,
         ] );
 
         $bird1->pictures()->save($schwarzhalstaucher_1);
@@ -3512,9 +3575,9 @@ class BirdsTableSeeder extends Seeder
         $bird1->sizes()->attach($amsel_taube);
         $bird1->save();
 
-        $bird2 = Bird::create( [
+        $bird2 = Bird::firstOrCreate( [
             'name' => 'Tachybaptus ruficollis',
-            'name_de' => '',
+            'name_de' => 'Zwergtaucher',
             'name_fr' => 'Grèbe castagneux',
             'name_it' => 'Tuffetto',
             'gender_de' => 'M',
@@ -3522,6 +3585,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 26929,
         ] );
 
         $bird2->pictures()->save($zwergtaucher_1);
@@ -3542,9 +3606,9 @@ class BirdsTableSeeder extends Seeder
         $bird2->sizes()->attach($amsel_taube);
         $bird2->save();
 
-        $bird3 = Bird::create( [
+        $bird3 = Bird::firstOrCreate( [
             'name' => 'Podiceps cristatus',
-            'name_de' => '',
+            'name_de' => 'Haubentaucher',
             'name_fr' => 'Grèbe huppé',
             'name_it' => 'Svasso maggiore',
             'gender_de' => 'M',
@@ -3552,6 +3616,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 26935,
         ] );
 
         $bird3->pictures()->save($haubentaucher_1);
@@ -3576,9 +3641,9 @@ class BirdsTableSeeder extends Seeder
         $bird3->sizes()->attach($taube_stockente);
         $bird3->save();
 
-        $bird4 = Bird::create( [
+        $bird4 = Bird::firstOrCreate( [
             'name' => 'Podiceps grisegena',
-            'name_de' => '',
+            'name_de' => 'Rothalstaucher',
             'name_fr' => 'Grèbe jougris',
             'name_it' => 'Svasso collorosso',
             'gender_de' => 'M',
@@ -3586,6 +3651,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 171904,
         ] );
 
         $bird4->pictures()->save($rothalstaucher_1);
@@ -3605,9 +3671,9 @@ class BirdsTableSeeder extends Seeder
         $bird4->sizes()->attach($taube_stockente);
         $bird4->save();
 
-        $bird5 = Bird::create( [
+        $bird5 = Bird::firstOrCreate( [
             'name' => 'Phalacrocorax carbo',
-            'name_de' => '',
+            'name_de' => 'Kormoran',
             'name_fr' => 'Grand Cormoran',
             'name_it' => 'Cormorano',
             'gender_de' => 'M',
@@ -3615,6 +3681,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 170184,
         ] );
 
         $bird5->pictures()->save($kormoran_1);
@@ -3634,9 +3701,9 @@ class BirdsTableSeeder extends Seeder
         $bird5->sizes()->attach($stockente_);
         $bird5->save();
 
-        $bird6 = Bird::create( [
+        $bird6 = Bird::firstOrCreate( [
             'name' => 'Botaurus stellaris',
-            'name_de' => '',
+            'name_de' => 'Rohrdommel',
             'name_fr' => 'Butor étoilé',
             'name_it' => 'Tarabuso',
             'gender_de' => 'W',
@@ -3644,6 +3711,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 76910,
         ] );
 
         $bird6->pictures()->save($rohrdommel_1);
@@ -3662,9 +3730,9 @@ class BirdsTableSeeder extends Seeder
         $bird6->sizes()->attach($stockente_);
         $bird6->save();
 
-        $bird7 = Bird::create( [
+        $bird7 = Bird::firstOrCreate( [
             'name' => 'Ixobrychus minutus',
-            'name_de' => '',
+            'name_de' => 'Zwergdommel',
             'name_fr' => 'Blongios nain',
             'name_it' => 'Tarabusino',
             'gender_de' => 'W',
@@ -3672,6 +3740,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 26555,
         ] );
 
         $bird7->pictures()->save($zwergdommel_1);
@@ -3694,9 +3763,9 @@ class BirdsTableSeeder extends Seeder
         $bird7->sizes()->attach($taube_stockente);
         $bird7->save();
 
-        $bird8 = Bird::create( [
+        $bird8 = Bird::firstOrCreate( [
             'name' => 'Nycticorax nycticorax',
-            'name_de' => '',
+            'name_de' => 'Nachtreiher',
             'name_fr' => 'Bihoreau gris',
             'name_it' => 'Nitticora',
             'gender_de' => 'M',
@@ -3704,6 +3773,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 110872,
         ] );
 
         $bird8->pictures()->save($nachtreiher_1);
@@ -3722,9 +3792,9 @@ class BirdsTableSeeder extends Seeder
         $bird8->sizes()->attach($stockente_);
         $bird8->save();
 
-        $bird9 = Bird::create( [
+        $bird9 = Bird::firstOrCreate( [
             'name' => 'Egretta garzetta',
-            'name_de' => '',
+            'name_de' => 'Seidenreiher',
             'name_fr' => 'Aigrette garzette',
             'name_it' => 'Garzetta',
             'gender_de' => 'M',
@@ -3732,6 +3802,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 161958,
         ] );
 
         $bird9->pictures()->save($seidenreiher_1);
@@ -3747,9 +3818,9 @@ class BirdsTableSeeder extends Seeder
         $bird9->sizes()->attach($stockente_);
         $bird9->save();
 
-        $bird10 = Bird::create( [
+        $bird10 = Bird::firstOrCreate( [
             'name' => 'Egretta alba',
-            'name_de' => '',
+            'name_de' => 'Silberreiher',
             'name_fr' => 'Grande Aigrette',
             'name_it' => 'Airone bianco maggiore',
             'gender_de' => 'M',
@@ -3757,6 +3828,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 167719,
         ] );
 
         $bird10->pictures()->save($silberreiher_1);
@@ -3774,16 +3846,17 @@ class BirdsTableSeeder extends Seeder
         $bird10->sizes()->attach($stockente_);
         $bird10->save();
 
-        $bird11 = Bird::create( [
+        $bird11 = Bird::firstOrCreate( [
             'name' => 'Ardea cinerea',
-            'name_de' => '',
+            'name_de' => 'Graureiher',
             'name_fr' => 'Héron cendré',
             'name_it' => 'Airone cenerino',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> grand oiseau à dominante grise, cou clair gris-blanchu00e2tre, bandeau noir au-dessus de l\'oeil. Juvéniles avec calotte et front gris foncé.r<br /><br /><strong>Voix:</strong> cri rauque et croassant.r<br /><br /><strong>Distribution:</strong> cherche sa nourriture sur les rives de plans et cours d\'eau, dans les marais, les champs et les prairies.r<br /><br /><strong>Nourriture:</strong> chasse à l\'affut ou en marchant lentement des campagnols, grenouilles, poissons, insectes et autres petits animaux.r<br /><br /><strong>Nidification:</strong> construit un grand nid de branches et brindilles haut perché dans un arbre. Pond 4-5 oeufs.',
+            'description_de' => '<strong>Kennzeichen:</strong> Grosser, überwiegend grauer Vogel mit hellem bis weisslichem Hals und schwarzem Augenstreif. Jungvögel mit dunkelgrauer Kappe.<br /><br /><strong>Stimme:</strong> Raues, heiseres Krächzen.<br /><br /><strong>Vorkommen:</strong> Sucht im Uferbereich von Gewässern, in Sümpfen und auf Wiesen und Äckern nach Nahrung.<br /><br /><strong>Nahrung:</strong> Macht lauernd oder langsam schreitend Jagd auf Mäuse, Frösche, Fische, Insekten und andere Kleintiere.<br /><br /><strong>Brut:</strong> Baut hoch in Bäumen ein grosses Nest aus Ästen und Zweigen, in welches 4-5 Eier gelegt werden.',
+            'description_fr' => '<strong>Caractéristiques:</strong> grand oiseau à dominante grise, cou clair gris-blanchâtre, bandeau noir au-dessus de l\'oeil. Juvéniles avec calotte et front gris foncé<br /><br /><strong>Voix:</strong> cri rauque et croassant<br /><br /><strong>Distribution:</strong> cherche sa nourriture sur les rives de plans et cours d\'eau, dans les marais, les champs et les prairies<br /><br /><strong>Nourriture:</strong> chasse à l\'affut ou en marchant lentement des campagnols, grenouilles, poissons, insectes et autres petits animaux<br /><br /><strong>Nidification:</strong> construit un grand nid de branches et brindilles haut perché dans un arbre. Pond 4-5 oeufs.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 64723,
         ] );
 
         $bird11->pictures()->save($graureiher_1);
@@ -3811,9 +3884,9 @@ class BirdsTableSeeder extends Seeder
         $bird11->sizes()->attach($stockente_);
         $bird11->save();
 
-        $bird12 = Bird::create( [
+        $bird12 = Bird::firstOrCreate( [
             'name' => 'Ardea purpurea',
-            'name_de' => '',
+            'name_de' => 'Purpurreiher',
             'name_fr' => 'Héron pourpré',
             'name_it' => 'Airone rosso',
             'gender_de' => 'M',
@@ -3821,6 +3894,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 44631,
         ] );
 
         $bird12->pictures()->save($purpurreiher_1);
@@ -3842,9 +3916,9 @@ class BirdsTableSeeder extends Seeder
         $bird12->sizes()->attach($stockente_);
         $bird12->save();
 
-        $bird13 = Bird::create( [
+        $bird13 = Bird::firstOrCreate( [
             'name' => 'Ciconia ciconia',
-            'name_de' => '',
+            'name_de' => 'Weissstorch',
             'name_fr' => 'Cigogne blanche',
             'name_it' => 'Cicogna bianca',
             'gender_de' => 'M',
@@ -3852,6 +3926,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 154554,
         ] );
 
         $bird13->pictures()->save($weissstorch_1);
@@ -3871,9 +3946,9 @@ class BirdsTableSeeder extends Seeder
         $bird13->sizes()->attach($stockente_);
         $bird13->save();
 
-        $bird14 = Bird::create( [
+        $bird14 = Bird::firstOrCreate( [
             'name' => 'Ciconia nigra',
-            'name_de' => '',
+            'name_de' => 'Schwarzstorch',
             'name_fr' => 'Cigogne noire',
             'name_it' => 'Cicogna nera',
             'gender_de' => 'M',
@@ -3881,6 +3956,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 96963,
         ] );
 
         $bird14->pictures()->save($schwarzstorch_1);
@@ -3898,16 +3974,17 @@ class BirdsTableSeeder extends Seeder
         $bird14->sizes()->attach($stockente_);
         $bird14->save();
 
-        $bird15 = Bird::create( [
+        $bird15 = Bird::firstOrCreate( [
             'name' => 'Cygnus olor',
-            'name_de' => '',
+            'name_de' => 'Höckerschwan',
             'name_fr' => 'Cygne tuberculé',
             'name_it' => 'Cigno reale',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> très grand oiseau d\'eau au plumage blanc. Les juvéniles sont gris ou gris-brun.r<br /><br /><strong>Voix:</strong> le cri est un «vhorr» soufflé. Lors d\'agressions, il siffle comme un serpent.r<br /><br /><strong>Distribution:</strong> fréquent sur les grands étangs, les lacs et les rivières, aussi en zone urbaine.r<br /><br /><strong>Nourriture:</strong> essentiellement diverses plantes aquatiques et terrestres.r<br /><br /><strong>Nidification:</strong> le nid est un grand tas de matériel végétal, sur les rives ou dans l\'eau peu profonde. 5-8 oeufs y sont pondus.',
+            'description_de' => '<strong>Kennzeichen:</strong> Sehr grosser Wasservogel mit weissem Gefieder. Junge Höckerschwäne sind grau oder graubraun.<br /><br /><strong>Stimme:</strong> Schnarrendes „hjorrr“, bei Aggression Fauchen.<br /><br /><strong>Vorkommen:</strong> Häufig auf grösseren Teichen, Seen und Flüssen, auch im Siedlungsraum.<br /><br /><strong>Nahrung:</strong> Hauptsächlich verschiedene Wasser- und Landpflanzen.<br /><br /><strong>Brut:</strong> Das Nest ist ein grosser Haufen aus Pflanzenmaterial am Ufer oder in seichtem Wasser. Es werden 5-8 Eier hinein gelegt.',
+            'description_fr' => '<strong>Caractéristiques:</strong> très grand oiseau d\'eau au plumage blanc. Les juvéniles sont gris ou gris-brun<br /><br /><strong>Voix:</strong> le cri est un «vhorr» soufflé. Lors d\'agressions, il siffle comme un serpent<br /><br /><strong>Distribution:</strong> fréquent sur les grands étangs, les lacs et les rivières, aussi en zone urbaine<br /><br /><strong>Nourriture:</strong> essentiellement diverses plantes aquatiques et terrestres<br /><br /><strong>Nidification:</strong> le nid est un grand tas de matériel végétal, sur les rives ou dans l\'eau peu profonde. 5-8 oeufs y sont pondus.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 184205,
         ] );
 
         $bird15->pictures()->save($hoeckerschwan_1);
@@ -3929,9 +4006,9 @@ class BirdsTableSeeder extends Seeder
         $bird15->sizes()->attach($stockente_);
         $bird15->save();
 
-        $bird16 = Bird::create( [
+        $bird16 = Bird::firstOrCreate( [
             'name' => 'Cygnus cygnus',
-            'name_de' => '',
+            'name_de' => 'Singschwan',
             'name_fr' => 'Cygne chanteur',
             'name_it' => 'Cigno selvatico',
             'gender_de' => 'M',
@@ -3939,6 +4016,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 202257,
         ] );
 
         $bird16->pictures()->save($singschwan_1);
@@ -3956,9 +4034,9 @@ class BirdsTableSeeder extends Seeder
         $bird16->sizes()->attach($stockente_);
         $bird16->save();
 
-        $bird17 = Bird::create( [
+        $bird17 = Bird::firstOrCreate( [
             'name' => 'Anser anser',
-            'name_de' => '',
+            'name_de' => 'Graugans',
             'name_fr' => 'Oie cendrée',
             'name_it' => 'Oca selvatica',
             'gender_de' => 'W',
@@ -3966,6 +4044,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 165719,
         ] );
 
         $bird17->pictures()->save($graugans_1);
@@ -3985,9 +4064,9 @@ class BirdsTableSeeder extends Seeder
         $bird17->sizes()->attach($stockente_);
         $bird17->save();
 
-        $bird18 = Bird::create( [
+        $bird18 = Bird::firstOrCreate( [
             'name' => 'Anser fabalis',
-            'name_de' => '',
+            'name_de' => 'Saatgans',
             'name_fr' => 'Oie des moissons ',
             'name_it' => 'Oca granaiola',
             'gender_de' => 'W',
@@ -3995,6 +4074,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 109681,
         ] );
 
         $bird18->pictures()->save($saatgans_1);
@@ -4015,9 +4095,9 @@ class BirdsTableSeeder extends Seeder
         $bird18->sizes()->attach($stockente_);
         $bird18->save();
 
-        $bird19 = Bird::create( [
+        $bird19 = Bird::firstOrCreate( [
             'name' => 'Anser albifrons',
-            'name_de' => '',
+            'name_de' => 'Blässgans',
             'name_fr' => 'Oie rieuse ',
             'name_it' => 'Oca lombardella',
             'gender_de' => 'W',
@@ -4025,6 +4105,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 169484,
         ] );
 
         $bird19->pictures()->save($blaessgans_1);
@@ -4049,9 +4130,9 @@ class BirdsTableSeeder extends Seeder
         $bird19->sizes()->attach($stockente_);
         $bird19->save();
 
-        $bird20 = Bird::create( [
+        $bird20 = Bird::firstOrCreate( [
             'name' => 'Tadorna tadorna',
-            'name_de' => '',
+            'name_de' => 'Brandgans',
             'name_fr' => 'Tadorne de Belon',
             'name_it' => 'Volpoca',
             'gender_de' => 'W',
@@ -4059,6 +4140,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 89602,
         ] );
 
         $bird20->pictures()->save($brandgans_1);
@@ -4078,9 +4160,9 @@ class BirdsTableSeeder extends Seeder
         $bird20->sizes()->attach($stockente_);
         $bird20->save();
 
-        $bird21 = Bird::create( [
+        $bird21 = Bird::firstOrCreate( [
             'name' => 'Tadorna ferruginea',
-            'name_de' => '',
+            'name_de' => 'Rostgans',
             'name_fr' => 'Tadorne casarca',
             'name_it' => 'Casarca',
             'gender_de' => 'W',
@@ -4088,6 +4170,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 220502,
         ] );
 
         $bird21->pictures()->save($rostgans_1);
@@ -4107,9 +4190,9 @@ class BirdsTableSeeder extends Seeder
         $bird21->sizes()->attach($stockente_);
         $bird21->save();
 
-        $bird22 = Bird::create( [
+        $bird22 = Bird::firstOrCreate( [
             'name' => 'Alopochen aegyptiaca',
-            'name_de' => '',
+            'name_de' => 'Nilgans',
             'name_fr' => 'Ouette d\'Egypte',
             'name_it' => 'Oca egiziana',
             'gender_de' => 'W',
@@ -4117,6 +4200,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 220478,
         ] );
 
         $bird22->pictures()->save($nilgans_1);
@@ -4140,9 +4224,9 @@ class BirdsTableSeeder extends Seeder
         $bird22->sizes()->attach($stockente_);
         $bird22->save();
 
-        $bird23 = Bird::create( [
+        $bird23 = Bird::firstOrCreate( [
             'name' => 'Aix galericulata',
-            'name_de' => '',
+            'name_de' => 'Mandarinente',
             'name_fr' => 'Canard mandarin',
             'name_it' => 'Anatra mandarina',
             'gender_de' => 'W',
@@ -4150,6 +4234,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 97003,
         ] );
 
         $bird23->pictures()->save($mandarinente_1);
@@ -4175,16 +4260,17 @@ class BirdsTableSeeder extends Seeder
         $bird23->sizes()->attach($taube_stockente);
         $bird23->save();
 
-        $bird24 = Bird::create( [
+        $bird24 = Bird::firstOrCreate( [
             'name' => 'Anas platyrhynchos',
-            'name_de' => '',
+            'name_de' => 'Stockente',
             'name_fr' => 'Canard colvert',
             'name_it' => 'Germano reale',
             'gender_de' => 'W',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> mu00e2le avec bec jaune, tête vert bouteille, collier blanc autour du cou et poitrine brune. La femelle a un plumage brun plus discret. r<br /><br /><strong>Voix:</strong> cancanement typique de canard «coin-coin-coin».r<br /><br /><strong>Distribution:</strong> on observe les colverts sur tous les types de plans et cours d\'eau, aussi dans les villes et les villages.r<br /><br /><strong>Nourriture:</strong> diverses plantes aquatiques et terrestres, insectes, vers, autres petits animaux.r<br /><br /><strong>Nidification:</strong> nid avec 7-11 oeufs, généralement planqué dans la végétation des rives, parfois aussi dans les bacs à fleurs sur les balcons.',
+            'description_de' => '<strong>Kennzeichen:</strong> Männchen mit gelbem Schnabel, grün schillerndem Kopf, weissem Halsring und brauner Brust, das Weibchen ist unscheinbar braun gemustert.<br /><br /><strong>Stimme:</strong> Typisches Entenquaken: „Kwäh, kwäh, kwäh...“.<br /><br /><strong>Vorkommen:</strong> Stockenten sind an Gewässern aller Art, auch in Dörfern und Städten, anzutreffen.<br /><br /><strong>Nahrung:</strong> Diverse Wasser- und Landpflanzen, Insekten, Würmer und andere Kleintiere.<br /><br /><strong>Brut:</strong> Nest mit 7-11 Eiern meist nahe am Ufer gut in der Vegetation versteckt, manchmal aber auch in Blumenkisten auf Balkonen.',
+            'description_fr' => '<strong>Caractéristiques:</strong> mâle avec bec jaune, tête vert bouteille, collier blanc autour du cou et poitrine brune. La femelle a un plumage brun plus discret. r<br /><br /><strong>Voix:</strong> cancanement typique de canard «coin-coin-coin»<br /><br /><strong>Distribution:</strong> on observe les colverts sur tous les types de plans et cours d\'eau, aussi dans les villes et les villages<br /><br /><strong>Nourriture:</strong> diverses plantes aquatiques et terrestres, insectes, vers, autres petits animaux<br /><br /><strong>Nidification:</strong> nid avec 7-11 oeufs, généralement planqué dans la végétation des rives, parfois aussi dans les bacs à fleurs sur les balcons.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 26967,
         ] );
 
         $bird24->pictures()->save($stockente_1);
@@ -4210,9 +4296,9 @@ class BirdsTableSeeder extends Seeder
         $bird24->sizes()->attach($taube_stockente);
         $bird24->save();
 
-        $bird25 = Bird::create( [
+        $bird25 = Bird::firstOrCreate( [
             'name' => 'Anas strepera',
-            'name_de' => '',
+            'name_de' => 'Schnatterente',
             'name_fr' => 'Canard chipeau',
             'name_it' => 'Canapiglia',
             'gender_de' => 'W',
@@ -4220,6 +4306,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 110398,
         ] );
 
         $bird25->pictures()->save($schnatterente_1);
@@ -4240,9 +4327,9 @@ class BirdsTableSeeder extends Seeder
         $bird25->sizes()->attach($taube_stockente);
         $bird25->save();
 
-        $bird26 = Bird::create( [
+        $bird26 = Bird::firstOrCreate( [
             'name' => 'Anas acuta',
-            'name_de' => '',
+            'name_de' => 'Spiessente',
             'name_fr' => 'Canard pilet',
             'name_it' => 'Codone',
             'gender_de' => 'W',
@@ -4250,6 +4337,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 106943,
         ] );
 
         $bird26->pictures()->save($spiessente_1);
@@ -4272,9 +4360,9 @@ class BirdsTableSeeder extends Seeder
         $bird26->sizes()->attach($stockente_);
         $bird26->save();
 
-        $bird27 = Bird::create( [
+        $bird27 = Bird::firstOrCreate( [
             'name' => 'Anas clypeata',
-            'name_de' => '',
+            'name_de' => 'Löffelente',
             'name_fr' => 'Canard souchet',
             'name_it' => 'Mestolone',
             'gender_de' => 'W',
@@ -4282,6 +4370,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 112787,
         ] );
 
         $bird27->pictures()->save($loeffelente_1);
@@ -4305,9 +4394,9 @@ class BirdsTableSeeder extends Seeder
         $bird27->sizes()->attach($stockente_);
         $bird27->save();
 
-        $bird28 = Bird::create( [
+        $bird28 = Bird::firstOrCreate( [
             'name' => 'Anas penelope',
-            'name_de' => '',
+            'name_de' => 'Pfeifente',
             'name_fr' => 'Canard siffleur',
             'name_it' => 'Fischione',
             'gender_de' => 'W',
@@ -4315,6 +4404,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 88827,
         ] );
 
         $bird28->pictures()->save($pfeifente_1);
@@ -4338,9 +4428,9 @@ class BirdsTableSeeder extends Seeder
         $bird28->sizes()->attach($taube_stockente);
         $bird28->save();
 
-        $bird29 = Bird::create( [
+        $bird29 = Bird::firstOrCreate( [
             'name' => 'Anas crecca',
-            'name_de' => '',
+            'name_de' => 'Krickente',
             'name_fr' => 'Sarcelle d`hiver',
             'name_it' => 'Alzavola',
             'gender_de' => 'W',
@@ -4348,6 +4438,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 161957,
         ] );
 
         $bird29->pictures()->save($krickente_1);
@@ -4371,9 +4462,9 @@ class BirdsTableSeeder extends Seeder
         $bird29->sizes()->attach($taube_stockente);
         $bird29->save();
 
-        $bird30 = Bird::create( [
+        $bird30 = Bird::firstOrCreate( [
             'name' => 'Anas querquedula',
-            'name_de' => '',
+            'name_de' => 'Knäkente',
             'name_fr' => 'Sarcelle d`été',
             'name_it' => 'Marzaiola',
             'gender_de' => 'W',
@@ -4381,6 +4472,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 120389,
         ] );
 
         $bird30->pictures()->save($knaekente_1);
@@ -4402,9 +4494,9 @@ class BirdsTableSeeder extends Seeder
         $bird30->sizes()->attach($taube_stockente);
         $bird30->save();
 
-        $bird31 = Bird::create( [
+        $bird31 = Bird::firstOrCreate( [
             'name' => 'Netta rufina',
-            'name_de' => '',
+            'name_de' => 'Kolbenente',
             'name_fr' => 'Nette Rousse',
             'name_it' => 'Fistione turco',
             'gender_de' => 'W',
@@ -4412,6 +4504,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 183833,
         ] );
 
         $bird31->pictures()->save($kolbenente_1);
@@ -4433,9 +4526,9 @@ class BirdsTableSeeder extends Seeder
         $bird31->sizes()->attach($taube_stockente);
         $bird31->save();
 
-        $bird32 = Bird::create( [
+        $bird32 = Bird::firstOrCreate( [
             'name' => 'Aythya ferina',
-            'name_de' => '',
+            'name_de' => 'Tafelente',
             'name_fr' => 'Fuligule milouin',
             'name_it' => 'Moriglione',
             'gender_de' => 'W',
@@ -4443,6 +4536,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 97766,
         ] );
 
         $bird32->pictures()->save($tafelente_1);
@@ -4461,9 +4555,9 @@ class BirdsTableSeeder extends Seeder
         $bird32->sizes()->attach($taube_stockente);
         $bird32->save();
 
-        $bird33 = Bird::create( [
+        $bird33 = Bird::firstOrCreate( [
             'name' => 'Aythya nyroca',
-            'name_de' => '',
+            'name_de' => 'Moorente',
             'name_fr' => 'Fuligule nyroca',
             'name_it' => 'Moretta tabaccata',
             'gender_de' => 'W',
@@ -4471,6 +4565,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 219563,
         ] );
 
         $bird33->pictures()->save($moorente_1);
@@ -4487,9 +4582,9 @@ class BirdsTableSeeder extends Seeder
         $bird33->sizes()->attach($taube_stockente);
         $bird33->save();
 
-        $bird34 = Bird::create( [
+        $bird34 = Bird::firstOrCreate( [
             'name' => 'Aythya marila',
-            'name_de' => '',
+            'name_de' => 'Bergente',
             'name_fr' => 'Fuligule milouinan',
             'name_it' => 'Moretta grigia',
             'gender_de' => 'W',
@@ -4497,6 +4592,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 210266,
         ] );
 
         $bird34->pictures()->save($bergente_1);
@@ -4515,9 +4611,9 @@ class BirdsTableSeeder extends Seeder
         $bird34->sizes()->attach($taube_stockente);
         $bird34->save();
 
-        $bird35 = Bird::create( [
+        $bird35 = Bird::firstOrCreate( [
             'name' => 'Aythya fuligula',
-            'name_de' => '',
+            'name_de' => 'Reiherente',
             'name_fr' => 'Fuligule morillon',
             'name_it' => 'Moretta',
             'gender_de' => 'W',
@@ -4525,6 +4621,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 111191,
         ] );
 
         $bird35->pictures()->save($reiherente_1);
@@ -4544,9 +4641,9 @@ class BirdsTableSeeder extends Seeder
         $bird35->sizes()->attach($taube_stockente);
         $bird35->save();
 
-        $bird36 = Bird::create( [
+        $bird36 = Bird::firstOrCreate( [
             'name' => 'Somateria mollissima',
-            'name_de' => '',
+            'name_de' => 'Eiderente',
             'name_fr' => 'Eider à duvet',
             'name_it' => 'Edredone',
             'gender_de' => 'W',
@@ -4554,6 +4651,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 214170,
         ] );
 
         $bird36->pictures()->save($eiderente_1);
@@ -4575,9 +4673,9 @@ class BirdsTableSeeder extends Seeder
         $bird36->sizes()->attach($stockente_);
         $bird36->save();
 
-        $bird37 = Bird::create( [
+        $bird37 = Bird::firstOrCreate( [
             'name' => 'Bucephala clangula',
-            'name_de' => '',
+            'name_de' => 'Schellente',
             'name_fr' => 'Garrot à d`oil',
             'name_it' => 'Quattrocchi',
             'gender_de' => 'W',
@@ -4585,6 +4683,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 216972,
         ] );
 
         $bird37->pictures()->save($schellente_1);
@@ -4605,9 +4704,9 @@ class BirdsTableSeeder extends Seeder
         $bird37->sizes()->attach($taube_stockente);
         $bird37->save();
 
-        $bird38 = Bird::create( [
+        $bird38 = Bird::firstOrCreate( [
             'name' => 'Mergus merganser',
-            'name_de' => '',
+            'name_de' => 'Gänsesäger',
             'name_fr' => 'Harle bièvre',
             'name_it' => 'Smergo maggiore',
             'gender_de' => 'M',
@@ -4615,6 +4714,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 27186,
         ] );
 
         $bird38->pictures()->save($gaensesaeger_1);
@@ -4635,9 +4735,9 @@ class BirdsTableSeeder extends Seeder
         $bird38->sizes()->attach($stockente_);
         $bird38->save();
 
-        $bird39 = Bird::create( [
+        $bird39 = Bird::firstOrCreate( [
             'name' => 'Mergus serrator',
-            'name_de' => '',
+            'name_de' => 'Mittelsäger',
             'name_fr' => 'Harle huppé',
             'name_it' => 'Smergo minore',
             'gender_de' => 'M',
@@ -4645,6 +4745,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 138274,
         ] );
 
         $bird39->pictures()->save($mittelsaeger_1);
@@ -4666,9 +4767,9 @@ class BirdsTableSeeder extends Seeder
         $bird39->sizes()->attach($taube_stockente);
         $bird39->save();
 
-        $bird40 = Bird::create( [
+        $bird40 = Bird::firstOrCreate( [
             'name' => 'Mergellus albellus',
-            'name_de' => '',
+            'name_de' => 'Zwergsäger',
             'name_fr' => 'Harle piette',
             'name_it' => 'Pesciaiola',
             'gender_de' => 'M',
@@ -4676,6 +4777,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 127438,
         ] );
 
         $bird40->pictures()->save($zwergsaeger_1);
@@ -4695,9 +4797,9 @@ class BirdsTableSeeder extends Seeder
         $bird40->sizes()->attach($taube_stockente);
         $bird40->save();
 
-        $bird41 = Bird::create( [
+        $bird41 = Bird::firstOrCreate( [
             'name' => 'Gypaetus barbatus',
-            'name_de' => '',
+            'name_de' => 'Bartgeier',
             'name_fr' => 'Gypaète barbu',
             'name_it' => 'Gipeto',
             'gender_de' => 'M',
@@ -4705,6 +4807,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 144936,
         ] );
 
         $bird41->pictures()->save($bartgeier_1);
@@ -4724,9 +4827,9 @@ class BirdsTableSeeder extends Seeder
         $bird41->sizes()->attach($stockente_);
         $bird41->save();
 
-        $bird42 = Bird::create( [
+        $bird42 = Bird::firstOrCreate( [
             'name' => 'Aquila chrysaetos',
-            'name_de' => '',
+            'name_de' => 'Steinadler',
             'name_fr' => 'Aigle royal',
             'name_it' => 'Aquila reale',
             'gender_de' => 'M',
@@ -4734,6 +4837,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 110501,
         ] );
 
         $bird42->habitats()->attach($gebirge);
@@ -4750,16 +4854,17 @@ class BirdsTableSeeder extends Seeder
         $bird42->sizes()->attach($stockente_);
         $bird42->save();
 
-        $bird43 = Bird::create( [
+        $bird43 = Bird::firstOrCreate( [
             'name' => 'Milvus milvus',
-            'name_de' => '',
+            'name_de' => 'Rotmilan',
             'name_fr' => 'Milan royal',
             'name_it' => 'Nibbio reale',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> grand rapace brun-roux avec queue profondément échancrée et «fenêtre» blanche typique sur l\'aile.r<br /><br /><strong>Voix:</strong> sorte de miaulement suivi de «vili-ouh, ii-ou, ii-ou, ii-ou» montants et descendants.r<br /><br /><strong>Distribution:</strong> fréquent dans le milieu cultivé ouvert, surtout dans le Jura et sur le Plateau Suisse. Cherche aussi souvent sa nourriture en cerclant au-dessus des villes et des villages.r<br /><br /><strong>Nourriture:</strong> petits mammifères et autres petits animaux, fréquemment des charognes ou des animaux malades ou affaiblis.r<br /><br /><strong>Nidification:</strong> construit son aire de branches et brindilles en hauteur dans un arbre, en lisière de forêt. Pond généralement 3 oeufs.',
+            'description_de' => '<strong>Kennzeichen:</strong> Grosser, rotbrauner Greifvogel mit deutlich gegabeltem Schwanz und weissen „Fenstern“ in den Flügeln.<br /><br /><strong>Stimme:</strong> Langezogener, zum Ende hin auf- und absteigender Ruf: „Wiuuuh-iuiuiu!“<br /><br /><strong>Vorkommen:</strong> Häufig im offenen Kulturland, vor allem im Jura und Mittelland. Sucht regelmässig auch über Dörfern und Städten kreisend nach Nahrung.<br /><br /><strong>Nahrung:</strong> Kleine Säugetiere und andere Kleintiere, öfters auch Aas oder kranke und schwache Tiere.<br /><br /><strong>Brut:</strong> Baut einen Horst aus Ästen und Zweigen hoch in einem Baum am Waldrand, in den meist 3 Eier gelegt werden.',
+            'description_fr' => '<strong>Caractéristiques:</strong> grand rapace brun-roux avec queue profondément échancrée et «fenêtre» blanche typique sur l\'aile<br /><br /><strong>Voix:</strong> sorte de miaulement suivi de «vili-ouh, ii-ou, ii-ou, ii-ou» montants et descendants<br /><br /><strong>Distribution:</strong> fréquent dans le milieu cultivé ouvert, surtout dans le Jura et sur le Plateau Suisse. Cherche aussi souvent sa nourriture en cerclant au-dessus des villes et des villages<br /><br /><strong>Nourriture:</strong> petits mammifères et autres petits animaux, fréquemment des charognes ou des animaux malades ou affaiblis<br /><br /><strong>Nidification:</strong> construit son aire de branches et brindilles en hauteur dans un arbre, en lisière de forêt. Pond généralement 3 oeufs.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 153198,
         ] );
 
         $bird43->pictures()->save($rotmilan_1);
@@ -4784,16 +4889,17 @@ class BirdsTableSeeder extends Seeder
         $bird43->sizes()->attach($stockente_);
         $bird43->save();
 
-        $bird44 = Bird::create( [
+        $bird44 = Bird::firstOrCreate( [
             'name' => 'Milvus migrans',
-            'name_de' => '',
+            'name_de' => 'Schwarzmilan',
             'name_fr' => 'Milan noir',
             'name_it' => 'Nibbio bruno',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> rapace brun foncé, un peu plus petit que buse variable et milan royal. Queue droite à légèrement échancrée.r<br /><br /><strong>Voix:</strong> cri puissant, hennissant, terminé en trille «piié-é-é-é-é».r<br /><br /><strong>Distribution:</strong> souvent à proximité de l\'eau, mais on peut également l\'observer cerclant au-dessus des rochers et des agglomérations.r<br /><br /><strong>Nourriture:</strong> poissons, amphibiens, reptiles et autres petits animaux, souvent charognes.r<br /><br /><strong>Nidification:</strong> grande aire faite de branches en hauteur dans un arbre, souvent avec des bouts de papier ou de plastique. 2-3 oeufs.',
+            'description_de' => '<strong>Kennzeichen:</strong> Dunkelbrauner Greifvogel, etwas kleiner als Mäusebussard und Rotmilan, mit geradem bis leicht gekerbtem Schwanz.<br /><br /><strong>Stimme:</strong> Der laut pfeifende Ruf endet auf einen Triller: „Wiuuh-i-i-i-i-i“.<br /><br /><strong>Vorkommen:</strong> Hält sich gerne in Gewässernähe auf, ist aber auch über Feldern und Siedlungen kreisend zu beobachten.<br /><br /><strong>Nahrung:</strong> Fische, Amphibien, Reptilien und andere Kleintiere, häufig auch Aas.<br /><br /><strong>Brut:</strong> Grosser Horst aus Zweigen hoch in Bäumen, oft mit eingearbeiteten Papier- oder Plastikfetzen. 2-3 Eier.',
+            'description_fr' => '<strong>Caractéristiques:</strong> rapace brun foncé, un peu plus petit que buse variable et milan royal. Queue droite à légèrement échancrée<br /><br /><strong>Voix:</strong> cri puissant, hennissant, terminé en trille «piié-é-é-é-é»<br /><br /><strong>Distribution:</strong> souvent à proximité de l\'eau, mais on peut également l\'observer cerclant au-dessus des rochers et des agglomérations<br /><br /><strong>Nourriture:</strong> poissons, amphibiens, reptiles et autres petits animaux, souvent charognes<br /><br /><strong>Nidification:</strong> grande aire faite de branches en hauteur dans un arbre, souvent avec des bouts de papier ou de plastique. 2-3 oeufs.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 56176,
         ] );
 
         $bird44->pictures()->save($schwarzmilan_1);
@@ -4812,9 +4918,9 @@ class BirdsTableSeeder extends Seeder
         $bird44->sizes()->attach($stockente_);
         $bird44->save();
 
-        $bird45 = Bird::create( [
+        $bird45 = Bird::firstOrCreate( [
             'name' => 'Circus aeruginosus',
-            'name_de' => '',
+            'name_de' => 'Rohrweihe',
             'name_fr' => 'Busard des roseaux',
             'name_it' => 'Falco di palude',
             'gender_de' => 'W',
@@ -4822,6 +4928,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 112488,
         ] );
 
         $bird45->pictures()->save($rohrweihe_1);
@@ -4841,9 +4948,9 @@ class BirdsTableSeeder extends Seeder
         $bird45->sizes()->attach($taube_stockente);
         $bird45->save();
 
-        $bird46 = Bird::create( [
+        $bird46 = Bird::firstOrCreate( [
             'name' => 'Circus cyaneus',
-            'name_de' => '',
+            'name_de' => 'Kornweihe',
             'name_fr' => 'Busard Saint-Martin',
             'name_it' => 'Albanella reale',
             'gender_de' => 'W',
@@ -4851,6 +4958,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 39638,
         ] );
 
         $bird46->pictures()->save($kornweihe_1);
@@ -4870,9 +4978,9 @@ class BirdsTableSeeder extends Seeder
         $bird46->sizes()->attach($taube_stockente);
         $bird46->save();
 
-        $bird47 = Bird::create( [
+        $bird47 = Bird::firstOrCreate( [
             'name' => 'Circus pygargus',
-            'name_de' => '',
+            'name_de' => 'Wiesenweihe',
             'name_fr' => 'Busard cendré',
             'name_it' => 'Albanella minore',
             'gender_de' => 'W',
@@ -4880,6 +4988,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 145118,
         ] );
 
         $bird47->pictures()->save($wiesenweihe_1);
@@ -4900,16 +5009,17 @@ class BirdsTableSeeder extends Seeder
         $bird47->sizes()->attach($taube_stockente);
         $bird47->save();
 
-        $bird48 = Bird::create( [
+        $bird48 = Bird::firstOrCreate( [
             'name' => 'Buteo buteo',
-            'name_de' => '',
+            'name_de' => 'Mäusebussard',
             'name_fr' => 'Buse variable',
             'name_it' => 'Poiana',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> grand rapace de couleur brune, queue arrondie. Le ventre, généralement clair, contraste avec la poitrine plus foncée.r<br /><br /><strong>Voix:</strong> sorte de miaulement sonore descendant «piiyèy».r<br /><br /><strong>Distribution:</strong> niche en forêt ou sur des bosquets et vole au-dessus des champs et prairies pour chasser ses proies.r<br /><br /><strong>Nourriture:</strong> surtout campagnols, mais aussi autres petits animaux. Parfois des charognes, surtout en hiver.r<br /><br /><strong>Nidification:</strong> l\'aire faite de branchages est construite en hauteur sur un arbre, proche du tronc. Elle contient 2-3 oeufs.',
+            'description_de' => '<strong>Kennzeichen:</strong> Grosser, überwiegend brauner Greifvogel mit abgerundetem Schwanz. Der meist hellere Bauch kontrastiert zur dunkelbraunen Brust.<br /><br /><strong>Stimme:</strong> Langgezogener, miauender Ruf „wiiääh, wiiääh“.<br /><br /><strong>Vorkommen:</strong> Brütet im Wald oder in Baumgruppen und späht über Feldern und Wiesen nach Beute.<br /><br /><strong>Nahrung:</strong> Grösstenteils Feldmäuse, aber auch andere Kleintiere und vor allem im Winter auch Aas.<br /><br /><strong>Brut:</strong> Der Reisighorst wird in einem hohen Baum nahe am Stamm gebaut und enthält 2-3 Eier.',
+            'description_fr' => '<strong>Caractéristiques:</strong> grand rapace de couleur brune, queue arrondie. Le ventre, généralement clair, contraste avec la poitrine plus foncée<br /><br /><strong>Voix:</strong> sorte de miaulement sonore descendant «piiyèy»<br /><br /><strong>Distribution:</strong> niche en forêt ou sur des bosquets et vole au-dessus des champs et prairies pour chasser ses proies<br /><br /><strong>Nourriture:</strong> surtout campagnols, mais aussi autres petits animaux. Parfois des charognes, surtout en hiver<br /><br /><strong>Nidification:</strong> l\'aire faite de branchages est construite en hauteur sur un arbre, proche du tronc. Elle contient 2-3 oeufs.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 180279,
         ] );
 
         $bird48->pictures()->save($maeusebussard_1);
@@ -4930,9 +5040,9 @@ class BirdsTableSeeder extends Seeder
         $bird48->beakShapes()->attach($kurz_hakenfoermig);
         $bird48->save();
 
-        $bird49 = Bird::create( [
+        $bird49 = Bird::firstOrCreate( [
             'name' => 'Pernis apivorus',
-            'name_de' => '',
+            'name_de' => 'Wespenbussard',
             'name_fr' => 'Bondrée apivore',
             'name_it' => 'Falco pecchiaiolo',
             'gender_de' => 'M',
@@ -4940,6 +5050,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 191125,
         ] );
 
         $bird49->pictures()->save($wespenbussard_1);
@@ -4960,16 +5071,17 @@ class BirdsTableSeeder extends Seeder
         $bird49->sizes()->attach($taube_stockente);
         $bird49->save();
 
-        $bird50 = Bird::create( [
+        $bird50 = Bird::firstOrCreate( [
             'name' => 'Accipiter nisus',
-            'name_de' => '',
+            'name_de' => 'Sperber',
             'name_fr' => 'Epervier d`Europe',
             'name_it' => 'Sparviere',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> grand rapace brun-roux avec queue profondément échancrée et «fenêtre» blanche typique sur l\'aile.r<br /><br /><strong>Voix:</strong> sorte de miaulement suivi de «vili-ouh, ii-ou, ii-ou, ii-ou» montants et descendants.r<br /><br /><strong>Distribution:</strong> fréquent dans le milieu cultivé ouvert, surtout dans le Jura et sur le Plateau Suisse. Cherche aussi souvent sa nourriture en cerclant au-dessus des villes et des villages.r<br /><br /><strong>Nourriture:</strong> petits mammifères et autres petits animaux, fréquemment des charognes ou des animaux malades ou affaiblis.r<br /><br /><strong>Nidification:</strong> construit son aire de branches et brindilles en hauteur dans un arbre, en lisière de forêt. Pond généralement 3 oeufs.',
+            'description_de' => '<strong>Kennzeichen:</strong> Nicht ganz krähengrosser Greifvogel mit breiten, runden Flügeln. Unterseits ist der Sperber fein grau, das Männchen teilweise rostorange, gebändert.<br /><br /><strong>Stimme:</strong> Schnell gackernder Ruf: „kjukjukjukju“.<br /><br /><strong>Vorkommen:</strong> Kommt in Wäldern, strukturreichem Kulturland und im Siedlungsraum mit genügend Deckung in Form von Büschen und Bäumen vor.<br /><br /><strong>Nahrung:</strong> Vor allem Vögel bis Taubengrösse, seltener auch andere Kleintiere. Schlägt als Überraschungsjäger aus der Deckung heraus zu.<br /><br /><strong>Brut:</strong> Baut sein Nest aus Zweigen oft in Nadelbäumen nahe am Stamm. 4-5 Eier.',
+            'description_fr' => '<strong>Caractéristiques:</strong> grand rapace brun-roux avec queue profondément échancrée et «fenêtre» blanche typique sur l\'aile<br /><br /><strong>Voix:</strong> sorte de miaulement suivi de «vili-ouh, ii-ou, ii-ou, ii-ou» montants et descendants<br /><br /><strong>Distribution:</strong> fréquent dans le milieu cultivé ouvert, surtout dans le Jura et sur le Plateau Suisse. Cherche aussi souvent sa nourriture en cerclant au-dessus des villes et des villages<br /><br /><strong>Nourriture:</strong> petits mammifères et autres petits animaux, fréquemment des charognes ou des animaux malades ou affaiblis<br /><br /><strong>Nidification:</strong> construit son aire de branches et brindilles en hauteur dans un arbre, en lisière de forêt. Pond généralement 3 oeufs.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 120729,
         ] );
 
         $bird50->pictures()->save($sperber_1);
@@ -4993,9 +5105,9 @@ class BirdsTableSeeder extends Seeder
         $bird50->sizes()->attach($taube_stockente);
         $bird50->save();
 
-        $bird51 = Bird::create( [
+        $bird51 = Bird::firstOrCreate( [
             'name' => 'Accipiter gentilis',
-            'name_de' => '',
+            'name_de' => 'Habicht',
             'name_fr' => 'Autour des palombes',
             'name_it' => 'Astore',
             'gender_de' => 'M',
@@ -5003,6 +5115,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 215067,
         ] );
 
         $bird51->pictures()->save($habicht_1);
@@ -5025,9 +5138,9 @@ class BirdsTableSeeder extends Seeder
         $bird51->sizes()->attach($stockente_);
         $bird51->save();
 
-        $bird52 = Bird::create( [
+        $bird52 = Bird::firstOrCreate( [
             'name' => 'Pandion haliaetus',
-            'name_de' => '',
+            'name_de' => 'Fischadler',
             'name_fr' => 'Balbuzard pêcheur',
             'name_it' => 'Falco pescatore',
             'gender_de' => 'M',
@@ -5035,6 +5148,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 84071,
         ] );
 
         $bird52->pictures()->save($fischadler_1);
@@ -5055,16 +5169,17 @@ class BirdsTableSeeder extends Seeder
         $bird52->sizes()->attach($stockente_);
         $bird52->save();
 
-        $bird53 = Bird::create( [
+        $bird53 = Bird::firstOrCreate( [
             'name' => 'Falco tinnunculus',
-            'name_de' => '',
+            'name_de' => 'Turmfalke',
             'name_fr' => 'Faucon crécerelle',
             'name_it' => 'Gheppio',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> petit rapace aux ailes pointues et à longue queue. Dessus rouge-brun avec petites taches (mu00e2le) ou barres (femelle) noires.r<br /><br /><strong>Voix:</strong> série rapide de «ki-ki-ki-ki» aigus et brefs.r<br /><br /><strong>Distribution:</strong> vit en milieu cultivé ouvert, mais aussi en bordure de villes et villages et en montagne.r<br /><br /><strong>Nourriture:</strong> surtout campagnols, mais aussi petits oiseaux et insectes.r<br /><br /><strong>Nidification:</strong> à l\'origine, le faucon crécerelle nichait dans d\'anciens nids de corvidés ou sur des surplombs rocheux, aujourd\'hui, il occupe fréquemment des nichoirs sur les granges ou des anfractuosités de hauts bu00e2timents.',
+            'description_de' => '<strong>Kennzeichen:</strong> Kleiner Greifvogel mit spitzen Flügeln und langem Schwanz. Oberseite rotbraun mit dunkler Bänderung, Unterseite hell mit dunklen Flecken (Männchen) bzw. Stricheln (Weibchen).<br /><br /><strong>Stimme:</strong> Lauter, aufgeregt klingender Ruf aus einer Reihe scharfer Töne: „Kikikikikiki...!“<br /><br /><strong>Vorkommen:</strong> Lebt im offenen Kulturland, aber auch am Rand von Dörfern und Städten und im Gebirge.<br /><br /><strong>Nahrung:</strong> Hauptsächlich Feldmäuse, aber auch Kleinvögel und Insekten.<br /><br /><strong>Brut:</strong> Ursprünglich brütet der Turmfalke in alten Krähennestern oder auf Felsvorsprüngen, heute aber oft in Nistkästen an Scheunen oder in Nischen an hohen Gebäuden.',
+            'description_fr' => '<strong>Caractéristiques:</strong> petit rapace aux ailes pointues et à longue queue. Dessus rouge-brun avec petites taches (mâle) ou barres (femelle) noires<br /><br /><strong>Voix:</strong> série rapide de «ki-ki-ki-ki» aigus et brefs<br /><br /><strong>Distribution:</strong> vit en milieu cultivé ouvert, mais aussi en bordure de villes et villages et en montagne<br /><br /><strong>Nourriture:</strong> surtout campagnols, mais aussi petits oiseaux et insectes<br /><br /><strong>Nidification:</strong> à l\'origine, le faucon crécerelle nichait dans d\'anciens nids de corvidés ou sur des surplombs rocheux, aujourd\'hui, il occupe fréquemment des nichoirs sur les granges ou des anfractuosités de hauts bâtiments.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 75176,
         ] );
 
         $bird53->pictures()->save($turmfalke_1);
@@ -5089,9 +5204,9 @@ class BirdsTableSeeder extends Seeder
         $bird53->sizes()->attach($taube_stockente);
         $bird53->save();
 
-        $bird54 = Bird::create( [
+        $bird54 = Bird::firstOrCreate( [
             'name' => 'Falco vespertinus',
-            'name_de' => '',
+            'name_de' => 'Rotfussfalke',
             'name_fr' => 'Faucon kobez',
             'name_it' => 'Falco cuculo',
             'gender_de' => 'M',
@@ -5099,6 +5214,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 34559,
         ] );
 
         $bird54->pictures()->save($rotfussfalke_1);
@@ -5126,9 +5242,9 @@ class BirdsTableSeeder extends Seeder
         $bird54->sizes()->attach($taube_stockente);
         $bird54->save();
 
-        $bird55 = Bird::create( [
+        $bird55 = Bird::firstOrCreate( [
             'name' => 'Falco subbuteo',
-            'name_de' => '',
+            'name_de' => 'Baumfalke',
             'name_fr' => 'Faucon hobereau',
             'name_it' => 'Lodolaio',
             'gender_de' => 'M',
@@ -5136,6 +5252,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 142193,
         ] );
 
         $bird55->pictures()->save($baumfalke_1);
@@ -5162,9 +5279,9 @@ class BirdsTableSeeder extends Seeder
         $bird55->sizes()->attach($taube_stockente);
         $bird55->save();
 
-        $bird56 = Bird::create( [
+        $bird56 = Bird::firstOrCreate( [
             'name' => 'Falco peregrinus',
-            'name_de' => '',
+            'name_de' => 'Wanderfalke',
             'name_fr' => 'Faucon pèlerin',
             'name_it' => 'Falco pellegrino',
             'gender_de' => 'M',
@@ -5172,6 +5289,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 213533,
         ] );
 
         $bird56->pictures()->save($wanderfalke_1);
@@ -5194,9 +5312,9 @@ class BirdsTableSeeder extends Seeder
         $bird56->sizes()->attach($taube_stockente);
         $bird56->save();
 
-        $bird57 = Bird::create( [
+        $bird57 = Bird::firstOrCreate( [
             'name' => 'Falco columbarius',
-            'name_de' => '',
+            'name_de' => 'Merlin',
             'name_fr' => 'Faucon émerillon',
             'name_it' => 'Smeriglio',
             'gender_de' => 'M',
@@ -5204,6 +5322,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 137975,
         ] );
 
         $bird57->habitats()->attach($aecker_und_feldflur);
@@ -5224,9 +5343,9 @@ class BirdsTableSeeder extends Seeder
         $bird57->sizes()->attach($amsel_taube);
         $bird57->save();
 
-        $bird58 = Bird::create( [
+        $bird58 = Bird::firstOrCreate( [
             'name' => 'Lagopus muta',
-            'name_de' => '',
+            'name_de' => 'Alpenschneehuhn',
             'name_fr' => 'Lagopède alpin ',
             'name_it' => 'Pernice bianca',
             'gender_de' => 'S',
@@ -5234,6 +5353,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 26647,
         ] );
 
         $bird58->pictures()->save($alpenschneehuhn_1);
@@ -5253,9 +5373,9 @@ class BirdsTableSeeder extends Seeder
         $bird58->sizes()->attach($taube_stockente);
         $bird58->save();
 
-        $bird59 = Bird::create( [
+        $bird59 = Bird::firstOrCreate( [
             'name' => 'Tetrao urogallus',
-            'name_de' => '',
+            'name_de' => 'Auerhuhn',
             'name_fr' => 'Grand Tétras',
             'name_it' => 'Gallo cedrone',
             'gender_de' => 'S',
@@ -5263,6 +5383,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 186530,
         ] );
 
         $bird59->pictures()->save($auerhuhn_1);
@@ -5286,9 +5407,9 @@ class BirdsTableSeeder extends Seeder
         $bird59->sizes()->attach($stockente_);
         $bird59->save();
 
-        $bird60 = Bird::create( [
+        $bird60 = Bird::firstOrCreate( [
             'name' => 'Tetrao tetrix',
-            'name_de' => '',
+            'name_de' => 'Birkhuhn',
             'name_fr' => 'Tétras lyre',
             'name_it' => 'Fagiano di monte',
             'gender_de' => 'S',
@@ -5296,6 +5417,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 178558,
         ] );
 
         $bird60->pictures()->save($birkhuhn_1);
@@ -5317,9 +5439,9 @@ class BirdsTableSeeder extends Seeder
         $bird60->sizes()->attach($taube_stockente);
         $bird60->save();
 
-        $bird61 = Bird::create( [
+        $bird61 = Bird::firstOrCreate( [
             'name' => 'Tetrastes bonasia',
-            'name_de' => '',
+            'name_de' => 'Haselhuhn',
             'name_fr' => 'Gélinotte des bois',
             'name_it' => 'Francolino di monte',
             'gender_de' => 'S',
@@ -5327,6 +5449,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 174914,
         ] );
 
         $bird61->pictures()->save($haselhuhn_1);
@@ -5347,9 +5470,9 @@ class BirdsTableSeeder extends Seeder
         $bird61->sizes()->attach($taube_stockente);
         $bird61->save();
 
-        $bird62 = Bird::create( [
+        $bird62 = Bird::firstOrCreate( [
             'name' => 'Alectoris graeca',
-            'name_de' => '',
+            'name_de' => 'Steinhuhn',
             'name_fr' => 'Perdrix bartavelle',
             'name_it' => 'Coturnice',
             'gender_de' => 'S',
@@ -5357,6 +5480,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 181359,
         ] );
 
         $bird62->habitats()->attach($gebirge);
@@ -5376,9 +5500,9 @@ class BirdsTableSeeder extends Seeder
         $bird62->sizes()->attach($taube_stockente);
         $bird62->save();
 
-        $bird63 = Bird::create( [
+        $bird63 = Bird::firstOrCreate( [
             'name' => 'Perdix perdix',
-            'name_de' => '',
+            'name_de' => 'Rebhuhn',
             'name_fr' => 'Perdix grise',
             'name_it' => 'Starna',
             'gender_de' => 'S',
@@ -5386,6 +5510,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 143118,
         ] );
 
         $bird63->pictures()->save($rebhuhn_1);
@@ -5404,9 +5529,9 @@ class BirdsTableSeeder extends Seeder
         $bird63->sizes()->attach($amsel_taube);
         $bird63->save();
 
-        $bird64 = Bird::create( [
+        $bird64 = Bird::firstOrCreate( [
             'name' => 'Coturnix coturnix',
-            'name_de' => '',
+            'name_de' => 'Wachtel',
             'name_fr' => 'Caille des blés',
             'name_it' => 'Quaglia comune',
             'gender_de' => 'W',
@@ -5414,6 +5539,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 187255,
         ] );
 
         $bird64->pictures()->save($wachtel_1);
@@ -5434,9 +5560,9 @@ class BirdsTableSeeder extends Seeder
         $bird64->sizes()->attach($amsel_taube);
         $bird64->save();
 
-        $bird65 = Bird::create( [
+        $bird65 = Bird::firstOrCreate( [
             'name' => 'Phasianus colchicus',
-            'name_de' => '',
+            'name_de' => 'Fasan',
             'name_fr' => 'Faisan de colchide',
             'name_it' => 'Fagiano comune',
             'gender_de' => 'M',
@@ -5444,6 +5570,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 153127,
         ] );
 
         $bird65->pictures()->save($fasan_1);
@@ -5474,9 +5601,9 @@ class BirdsTableSeeder extends Seeder
         $bird65->sizes()->attach($stockente_);
         $bird65->save();
 
-        $bird66 = Bird::create( [
+        $bird66 = Bird::firstOrCreate( [
             'name' => 'Rallus aquaticus',
-            'name_de' => '',
+            'name_de' => 'Wasserralle',
             'name_fr' => 'Ru00e2le d\'eau',
             'name_it' => 'Porciglione',
             'gender_de' => 'W',
@@ -5484,6 +5611,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 209239,
         ] );
 
         $bird66->pictures()->save($wasserralle_1);
@@ -5506,9 +5634,9 @@ class BirdsTableSeeder extends Seeder
         $bird66->sizes()->attach($amsel_taube);
         $bird66->save();
 
-        $bird67 = Bird::create( [
+        $bird67 = Bird::firstOrCreate( [
             'name' => 'Porzana porzana',
-            'name_de' => '',
+            'name_de' => 'Tüpfelsumpfhuhn',
             'name_fr' => 'Marouette ponctuée',
             'name_it' => 'Voltolino',
             'gender_de' => 'S',
@@ -5516,6 +5644,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 131684,
         ] );
 
         $bird67->pictures()->save($tuepfelsumpfhuhn_1);
@@ -5535,9 +5664,9 @@ class BirdsTableSeeder extends Seeder
         $bird67->sizes()->attach($spatz_amsel);
         $bird67->save();
 
-        $bird68 = Bird::create( [
+        $bird68 = Bird::firstOrCreate( [
             'name' => 'Porzana parva',
-            'name_de' => '',
+            'name_de' => 'Kleines Sumpfhuhn',
             'name_fr' => 'Marouette poussin',
             'name_it' => 'Schiribilla',
             'gender_de' => 'S',
@@ -5545,6 +5674,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 233538,
         ] );
 
         $bird68->pictures()->save($kleines_sumpfhuhn_1);
@@ -5563,9 +5693,9 @@ class BirdsTableSeeder extends Seeder
         $bird68->sizes()->attach($spatz_amsel);
         $bird68->save();
 
-        $bird69 = Bird::create( [
+        $bird69 = Bird::firstOrCreate( [
             'name' => 'Gallinula chloropus',
-            'name_de' => '',
+            'name_de' => 'Teichhuhn',
             'name_fr' => 'Gallinule poule-d`eau',
             'name_it' => 'Gallinella d\'acqua',
             'gender_de' => 'S',
@@ -5573,6 +5703,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 225356,
         ] );
 
         $bird69->pictures()->save($teichhuhn_1);
@@ -5596,16 +5727,17 @@ class BirdsTableSeeder extends Seeder
         $bird69->sizes()->attach($taube_stockente);
         $bird69->save();
 
-        $bird70 = Bird::create( [
+        $bird70 = Bird::firstOrCreate( [
             'name' => 'Fulica atra',
-            'name_de' => '',
+            'name_de' => 'Blässhuhn',
             'name_fr' => 'Foulque macroule',
             'name_it' => 'Folaga',
             'gender_de' => 'S',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> oiseau d\'eau complètement noir, bec pointu blanc, plaque frontale blanche. Juvéniles gris-brun avec le devant du cou blanc-grisu00e2tre, pas de plaque frontale.r<br /><br /><strong>Voix:</strong> le cri est un «keuk» sonore et peru00e7ant ou un «pitts\'» explosif.r<br /><br /><strong>Distribution:</strong> sur différents types de plan et cours d\'eau petits et grands, aussi en milieu urbain.r<br /><br /><strong>Nourriture:</strong> essentiellement plantes aquatiques, herbes, feuilles et graines, mais aussi insectes, escargots et moules.r<br /><br /><strong>Nidification:</strong> pond 5-10 oeufs dans un nid flottant, ancré au sol ou à la végétation, composé de tiges de roseaux et d\'autres plantes.r<br />',
+            'description_de' => '<strong>Kennzeichen:</strong> Komplett schwarzer Wasservogel mit spitzem, weissem Schnabel und weisser Hornblesse. Jungvögel dunkelgrau mit weisslichem Vorderhals und ohne Blesse.<br /><br /><strong>Stimme:</strong> Lautes, scharfes „pic!“ oder „köck!“.<br /><br /><strong>Vorkommen:</strong> An verschiedenen grossen und kleinen Gewässern, auch im Siedlungsraum.<br /><br /><strong>Nahrung:</strong> Hauptsächlich Wasserpflanzen, Gräser, Blätter und Samen, aber auch Insekten, Schnecken und Muscheln.<br /><br /><strong>Brut:</strong> Legt 5-10 Eier in ein schwimmendes, am Boden oder in der Vegetation verankertes Nest aus Schilfhalmen und anderen Pflanzen.',
+            'description_fr' => '<strong>Caractéristiques:</strong> oiseau d\'eau complètement noir, bec pointu blanc, plaque frontale blanche. Juvéniles gris-brun avec le devant du cou blanc-grisâtre, pas de plaque frontale<br /><br /><strong>Voix:</strong> le cri est un «keuk» sonore et peru00e7ant ou un «pitts\'» explosif<br /><br /><strong>Distribution:</strong> sur différents types de plan et cours d\'eau petits et grands, aussi en milieu urbain<br /><br /><strong>Nourriture:</strong> essentiellement plantes aquatiques, herbes, feuilles et graines, mais aussi insectes, escargots et moules<br /><br /><strong>Nidification:</strong> pond 5-10 oeufs dans un nid flottant, ancré au sol ou à la végétation, composé de tiges de roseaux et d\'autres plantes<br />',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 217670,
         ] );
 
         $bird70->pictures()->save($blaesshuhn_1);
@@ -5629,9 +5761,9 @@ class BirdsTableSeeder extends Seeder
         $bird70->sizes()->attach($taube_stockente);
         $bird70->save();
 
-        $bird71 = Bird::create( [
+        $bird71 = Bird::firstOrCreate( [
             'name' => 'Crex crex',
-            'name_de' => '',
+            'name_de' => 'Wachtelkönig',
             'name_fr' => 'Ru00e2le des genêts',
             'name_it' => 'Re di quaglie',
             'gender_de' => 'M',
@@ -5639,6 +5771,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 187477,
         ] );
 
         $bird71->pictures()->save($wachtelkoenig_1);
@@ -5657,9 +5790,9 @@ class BirdsTableSeeder extends Seeder
         $bird71->sizes()->attach($amsel_taube);
         $bird71->save();
 
-        $bird72 = Bird::create( [
+        $bird72 = Bird::firstOrCreate( [
             'name' => 'Grus grus',
-            'name_de' => '',
+            'name_de' => 'Kranich',
             'name_fr' => 'Grue cendrée',
             'name_it' => 'Gru',
             'gender_de' => 'M',
@@ -5667,6 +5800,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 220500,
         ] );
 
         $bird72->pictures()->save($kranich_1);
@@ -5691,9 +5825,9 @@ class BirdsTableSeeder extends Seeder
         $bird72->sizes()->attach($stockente_);
         $bird72->save();
 
-        $bird73 = Bird::create( [
+        $bird73 = Bird::firstOrCreate( [
             'name' => 'Charadrius dubius',
-            'name_de' => '',
+            'name_de' => 'Flussregenpfeifer',
             'name_fr' => 'Petit Gravelot',
             'name_it' => 'Corriere piccolo',
             'gender_de' => 'M',
@@ -5701,6 +5835,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 54037,
         ] );
 
         $bird73->pictures()->save($flussregenpfeifer_1);
@@ -5719,9 +5854,9 @@ class BirdsTableSeeder extends Seeder
         $bird73->sizes()->attach($spatz_amsel);
         $bird73->save();
 
-        $bird74 = Bird::create( [
+        $bird74 = Bird::firstOrCreate( [
             'name' => 'Charadrius hiaticula',
-            'name_de' => '',
+            'name_de' => 'Sandregenpfeifer',
             'name_fr' => 'Grand Gravelot',
             'name_it' => 'Corriere grosso',
             'gender_de' => 'M',
@@ -5729,6 +5864,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 83954,
         ] );
 
         $bird74->pictures()->save($sandregenpfeifer_1);
@@ -5749,9 +5885,9 @@ class BirdsTableSeeder extends Seeder
         $bird74->sizes()->attach($spatz_amsel);
         $bird74->save();
 
-        $bird75 = Bird::create( [
+        $bird75 = Bird::firstOrCreate( [
             'name' => 'Pluvialis squatarola',
-            'name_de' => '',
+            'name_de' => 'Kiebitzregenpfeifer',
             'name_fr' => 'Pluvier argenté',
             'name_it' => 'Pivieressa',
             'gender_de' => 'M',
@@ -5759,6 +5895,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 151295,
         ] );
 
         $bird75->pictures()->save($kiebitzregenpfeifer_1);
@@ -5776,9 +5913,9 @@ class BirdsTableSeeder extends Seeder
         $bird75->sizes()->attach($amsel_taube);
         $bird75->save();
 
-        $bird76 = Bird::create( [
+        $bird76 = Bird::firstOrCreate( [
             'name' => 'Pluvialis apricaria',
-            'name_de' => '',
+            'name_de' => 'Goldregenpfeifer',
             'name_fr' => 'Pluvier doré',
             'name_it' => 'Piviere dorato',
             'gender_de' => 'M',
@@ -5786,6 +5923,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 216977,
         ] );
 
         $bird76->pictures()->save($goldregenpfeifer_1);
@@ -5807,9 +5945,9 @@ class BirdsTableSeeder extends Seeder
         $bird76->sizes()->attach($amsel_taube);
         $bird76->save();
 
-        $bird77 = Bird::create( [
+        $bird77 = Bird::firstOrCreate( [
             'name' => 'Vanellus vanellus',
-            'name_de' => '',
+            'name_de' => 'Kiebitz',
             'name_fr' => 'Vanneau Huppé',
             'name_it' => 'Pavoncella',
             'gender_de' => 'M',
@@ -5817,6 +5955,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 141570,
         ] );
 
         $bird77->pictures()->save($kiebitz_1);
@@ -5840,9 +5979,9 @@ class BirdsTableSeeder extends Seeder
         $bird77->sizes()->attach($taube_stockente);
         $bird77->save();
 
-        $bird78 = Bird::create( [
+        $bird78 = Bird::firstOrCreate( [
             'name' => 'Calidris canutus',
-            'name_de' => '',
+            'name_de' => 'Knutt',
             'name_fr' => 'Bécasseau maubèche',
             'name_it' => 'Piovanello maggiore',
             'gender_de' => 'M',
@@ -5850,6 +5989,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 118364,
         ] );
 
         $bird78->pictures()->save($knutt_1);
@@ -5873,9 +6013,9 @@ class BirdsTableSeeder extends Seeder
         $bird78->sizes()->attach($amsel_taube);
         $bird78->save();
 
-        $bird79 = Bird::create( [
+        $bird79 = Bird::firstOrCreate( [
             'name' => 'Calidris alba',
-            'name_de' => '',
+            'name_de' => 'Sanderling',
             'name_fr' => 'Bécasseau sanderling',
             'name_it' => 'Piovanello tridattilo',
             'gender_de' => 'M',
@@ -5883,6 +6023,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 118536,
         ] );
 
         $bird79->pictures()->save($sanderling_1);
@@ -5901,9 +6042,9 @@ class BirdsTableSeeder extends Seeder
         $bird79->sizes()->attach($spatz_amsel);
         $bird79->save();
 
-        $bird80 = Bird::create( [
+        $bird80 = Bird::firstOrCreate( [
             'name' => 'Calidris alpina',
-            'name_de' => '',
+            'name_de' => 'Alpenstrandläufer',
             'name_fr' => 'Bécasseau variable',
             'name_it' => 'Piovanello pancianera',
             'gender_de' => 'M',
@@ -5911,6 +6052,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 169170,
         ] );
 
         $bird80->pictures()->save($alpenstrandlaeufer_1);
@@ -5932,9 +6074,9 @@ class BirdsTableSeeder extends Seeder
         $bird80->sizes()->attach($spatz_amsel);
         $bird80->save();
 
-        $bird81 = Bird::create( [
+        $bird81 = Bird::firstOrCreate( [
             'name' => 'Calidris ferruginea',
-            'name_de' => '',
+            'name_de' => 'Sichelstrandläufer',
             'name_fr' => 'Bécasseau cocorli ',
             'name_it' => 'Piovanello comune',
             'gender_de' => 'M',
@@ -5942,6 +6084,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 223683,
         ] );
 
         $bird81->pictures()->save($sichelstrandlaeufer_1);
@@ -5960,9 +6103,9 @@ class BirdsTableSeeder extends Seeder
         $bird81->sizes()->attach($spatz_amsel);
         $bird81->save();
 
-        $bird82 = Bird::create( [
+        $bird82 = Bird::firstOrCreate( [
             'name' => 'Calidris temminckii',
-            'name_de' => '',
+            'name_de' => 'Temminckstrandläufer',
             'name_fr' => 'Bécasseau de Temminck',
             'name_it' => 'Gambecchio nano',
             'gender_de' => 'M',
@@ -5970,6 +6113,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 138994,
         ] );
 
         $bird82->pictures()->save($temminckstrandlaeufer_1);
@@ -5989,9 +6133,9 @@ class BirdsTableSeeder extends Seeder
         $bird82->sizes()->attach($spatz_amsel);
         $bird82->save();
 
-        $bird83 = Bird::create( [
+        $bird83 = Bird::firstOrCreate( [
             'name' => 'Calidris minuta',
-            'name_de' => '',
+            'name_de' => 'Zwergstrandläufer',
             'name_fr' => 'Bécasseau minute',
             'name_it' => 'Gambecchio comune',
             'gender_de' => 'M',
@@ -5999,6 +6143,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 184330,
         ] );
 
         $bird83->pictures()->save($zwergstrandlaeufer_1);
@@ -6017,9 +6162,9 @@ class BirdsTableSeeder extends Seeder
         $bird83->sizes()->attach($spatz_amsel);
         $bird83->save();
 
-        $bird84 = Bird::create( [
+        $bird84 = Bird::firstOrCreate( [
             'name' => 'Arenaria interpres',
-            'name_de' => '',
+            'name_de' => 'Steinwälzer',
             'name_fr' => 'Tournepierre à collier',
             'name_it' => 'Voltapietre',
             'gender_de' => 'M',
@@ -6027,6 +6172,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 169260,
         ] );
 
         $bird84->pictures()->save($steinwaelzer_1);
@@ -6046,9 +6192,9 @@ class BirdsTableSeeder extends Seeder
         $bird84->sizes()->attach($spatz_amsel);
         $bird84->save();
 
-        $bird85 = Bird::create( [
+        $bird85 = Bird::firstOrCreate( [
             'name' => 'Tringa glareola',
-            'name_de' => '',
+            'name_de' => 'Bruchwasserläufer',
             'name_fr' => 'Chevalier sylvain',
             'name_it' => 'Piro piro boschereccio',
             'gender_de' => 'M',
@@ -6056,6 +6202,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 146704,
         ] );
 
         $bird85->pictures()->save($bruchwasserlaeufer_1);
@@ -6077,9 +6224,9 @@ class BirdsTableSeeder extends Seeder
         $bird85->sizes()->attach($spatz_amsel);
         $bird85->save();
 
-        $bird86 = Bird::create( [
+        $bird86 = Bird::firstOrCreate( [
             'name' => 'Tringa ochropus',
-            'name_de' => '',
+            'name_de' => 'Waldwasserläufer',
             'name_fr' => 'Chevalier culblanc',
             'name_it' => 'Piro piro culbianco',
             'gender_de' => 'M',
@@ -6087,6 +6234,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 183913,
         ] );
 
         $bird86->pictures()->save($waldwasserlaeufer_1);
@@ -6105,9 +6253,9 @@ class BirdsTableSeeder extends Seeder
         $bird86->sizes()->attach($amsel_taube);
         $bird86->save();
 
-        $bird87 = Bird::create( [
+        $bird87 = Bird::firstOrCreate( [
             'name' => 'Actitis hypoleucos',
-            'name_de' => '',
+            'name_de' => 'Flussuferläufer',
             'name_fr' => 'Chevalier guignette',
             'name_it' => 'Piro piro piccolo',
             'gender_de' => 'M',
@@ -6115,6 +6263,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 199515,
         ] );
 
         $bird87->pictures()->save($flussuferlaeufer_1);
@@ -6132,9 +6281,9 @@ class BirdsTableSeeder extends Seeder
         $bird87->sizes()->attach($spatz_amsel);
         $bird87->save();
 
-        $bird88 = Bird::create( [
+        $bird88 = Bird::firstOrCreate( [
             'name' => 'Tringa totanus',
-            'name_de' => '',
+            'name_de' => 'Rotschenkel',
             'name_fr' => 'Chevalier gambette',
             'name_it' => 'Pettegola',
             'gender_de' => 'M',
@@ -6142,6 +6291,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 179597,
         ] );
 
         $bird88->pictures()->save($rotschenkel_1);
@@ -6161,9 +6311,9 @@ class BirdsTableSeeder extends Seeder
         $bird88->sizes()->attach($amsel_taube);
         $bird88->save();
 
-        $bird89 = Bird::create( [
+        $bird89 = Bird::firstOrCreate( [
             'name' => 'Tringa erythropus',
-            'name_de' => '',
+            'name_de' => 'Dunkler Wasserläufer',
             'name_fr' => 'Chevalier arlequin ',
             'name_it' => 'Totano moro',
             'gender_de' => 'M',
@@ -6171,6 +6321,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 142501,
         ] );
 
         $bird89->pictures()->save($dunkler_wasserlaeufer_1);
@@ -6191,9 +6342,9 @@ class BirdsTableSeeder extends Seeder
         $bird89->sizes()->attach($amsel_taube);
         $bird89->save();
 
-        $bird90 = Bird::create( [
+        $bird90 = Bird::firstOrCreate( [
             'name' => 'Tringa nebularia',
-            'name_de' => '',
+            'name_de' => 'Grünschenkel',
             'name_fr' => 'Chevalier aboyeur',
             'name_it' => 'Pantana',
             'gender_de' => 'M',
@@ -6201,6 +6352,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 110306,
         ] );
 
         $bird90->pictures()->save($gruenschenkel_1);
@@ -6220,9 +6372,9 @@ class BirdsTableSeeder extends Seeder
         $bird90->sizes()->attach($amsel_taube);
         $bird90->save();
 
-        $bird91 = Bird::create( [
+        $bird91 = Bird::firstOrCreate( [
             'name' => 'Limosa limosa',
-            'name_de' => '',
+            'name_de' => 'Uferschnepfe',
             'name_fr' => 'Barge à queue noire',
             'name_it' => 'Pittima reale',
             'gender_de' => 'W',
@@ -6230,6 +6382,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 96685,
         ] );
 
         $bird91->pictures()->save($uferschnepfe_1);
@@ -6251,9 +6404,9 @@ class BirdsTableSeeder extends Seeder
         $bird91->sizes()->attach($taube_stockente);
         $bird91->save();
 
-        $bird92 = Bird::create( [
+        $bird92 = Bird::firstOrCreate( [
             'name' => 'Limosa lapponica',
-            'name_de' => '',
+            'name_de' => 'Pfuhlschnepfe',
             'name_fr' => 'Barge rousse',
             'name_it' => 'Pittima minore',
             'gender_de' => 'W',
@@ -6261,6 +6414,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 58555,
         ] );
 
         $bird92->pictures()->save($pfuhlschnepfe_1);
@@ -6284,9 +6438,9 @@ class BirdsTableSeeder extends Seeder
         $bird92->sizes()->attach($taube_stockente);
         $bird92->save();
 
-        $bird93 = Bird::create( [
+        $bird93 = Bird::firstOrCreate( [
             'name' => 'Numenius arquata',
-            'name_de' => '',
+            'name_de' => 'Grosser Brachvogel',
             'name_fr' => 'Courlis cendré',
             'name_it' => 'Chiurlo maggiore',
             'gender_de' => 'M',
@@ -6294,6 +6448,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 195998,
         ] );
 
         $bird93->pictures()->save($grosser_brachvogel_1);
@@ -6315,9 +6470,9 @@ class BirdsTableSeeder extends Seeder
         $bird93->sizes()->attach($taube_stockente);
         $bird93->save();
 
-        $bird94 = Bird::create( [
+        $bird94 = Bird::firstOrCreate( [
             'name' => 'Scolopax rusticola',
-            'name_de' => '',
+            'name_de' => 'Waldschnepfe',
             'name_fr' => 'Bécasse des bois',
             'name_it' => 'Beccaccia',
             'gender_de' => 'W',
@@ -6325,6 +6480,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 214182,
         ] );
 
         $bird94->pictures()->save($waldschnepfe_1);
@@ -6341,9 +6497,9 @@ class BirdsTableSeeder extends Seeder
         $bird94->sizes()->attach($taube_stockente);
         $bird94->save();
 
-        $bird95 = Bird::create( [
+        $bird95 = Bird::firstOrCreate( [
             'name' => 'Gallinago gallinago',
-            'name_de' => '',
+            'name_de' => 'Bekassine',
             'name_fr' => 'Bécassine des marais',
             'name_it' => 'Beccaccino',
             'gender_de' => 'W',
@@ -6351,6 +6507,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 205010,
         ] );
 
         $bird95->pictures()->save($bekassine_1);
@@ -6372,9 +6529,9 @@ class BirdsTableSeeder extends Seeder
         $bird95->sizes()->attach($amsel_taube);
         $bird95->save();
 
-        $bird96 = Bird::create( [
+        $bird96 = Bird::firstOrCreate( [
             'name' => 'Philomachus pugnax',
-            'name_de' => '',
+            'name_de' => 'Kampfläufer',
             'name_fr' => 'Combattant varié',
             'name_it' => 'Combattente',
             'gender_de' => 'M',
@@ -6382,6 +6539,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 199470,
         ] );
 
         $bird96->pictures()->save($kampflaeufer_1);
@@ -6408,16 +6566,17 @@ class BirdsTableSeeder extends Seeder
         $bird96->sizes()->attach($amsel_taube);
         $bird96->save();
 
-        $bird97 = Bird::create( [
+        $bird97 = Bird::firstOrCreate( [
             'name' => 'Larus ridibundus',
-            'name_de' => '',
+            'name_de' => 'Lachmöwe',
             'name_fr' => 'Mouette rieuse',
             'name_it' => 'Gabbiano comune',
             'gender_de' => 'W',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> en été, la mouette rieuse a un capuchon brun foncé et un bec rouge. En hiver, la tête est blanche avec deux taches noires diffuses, le bec est bicolore rouge et noir. Les juvéniles ont des ailes tachetées de brun.r<br /><br /><strong>Voix:</strong> un ricanement rauque «krréarr».r<br /><br /><strong>Distribution:</strong> en Suisse, ne niche qu\'à quelques endroits sur des u00eeles de gravier ou des plateformes de nidification. Fréquent en hiver sur divers plans et cours d\'eau.r<br /><br /><strong>Nourriture:</strong> petits animaux comme insectes, vers, petits poissons, crustacés, etc.r<br /><br /><strong>Nidification:</strong> pond généralement 3 oeufs dans un nid peu profond composé de tiges de roseaux. Le nid est souvent construit sur des u00eeles à l\'abri des prédateurs.',
+            'description_de' => '<strong>Kennzeichen:</strong> Im Sommer erkennen wir die Lachmöwe am dunkel schokoladenbraunen Kopf und dem dunkelroten Schnabel. Im Winter ist der Kopf weiss mit zwei diffusen schwarzen Flecken, der Schnabel zweifarbig rot-schwarz. Jungvögel haben braun gemusterte Flügel.<br /><br /><strong>Stimme:</strong> Lauter, lachender Ruf „kriärrr“.<br /><br /><strong>Vorkommen:</strong> Brütet in der Schweiz nur an wenigen Orten auf Kiesinseln und Brutplattformen. Im Winter häufig an diversen Gewässern.<br /><br /><strong>Nahrung:</strong> Diverse Kleintiere wie Insekten, Würmer, kleine Fische und Krebse etc.<br /><br /><strong>Brut:</strong> Legt meist 3 Eier in das flache Nest aus Schilfhalmen, welches meist auf geschützten Inseln angelegt wird.',
+            'description_fr' => '<strong>Caractéristiques:</strong> en été, la mouette rieuse a un capuchon brun foncé et un bec rouge. En hiver, la tête est blanche avec deux taches noires diffuses, le bec est bicolore rouge et noir. Les juvéniles ont des ailes tachetées de brun<br /><br /><strong>Voix:</strong> un ricanement rauque «krréarr»<br /><br /><strong>Distribution:</strong> en Suisse, ne niche qu\'à quelques endroits sur des u00eeles de gravier ou des plateformes de nidification. Fréquent en hiver sur divers plans et cours d\'eau<br /><br /><strong>Nourriture:</strong> petits animaux comme insectes, vers, petits poissons, crustacés, etc<br /><br /><strong>Nidification:</strong> pond généralement 3 oeufs dans un nid peu profond composé de tiges de roseaux. Le nid est souvent construit sur des u00eeles à l\'abri des prédateurs.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 214184,
         ] );
 
         $bird97->pictures()->save($lachmoewe_1);
@@ -6443,9 +6602,9 @@ class BirdsTableSeeder extends Seeder
         $bird97->sizes()->attach($taube_stockente);
         $bird97->save();
 
-        $bird98 = Bird::create( [
+        $bird98 = Bird::firstOrCreate( [
             'name' => 'Larus canus',
-            'name_de' => '',
+            'name_de' => 'Sturmmöwe',
             'name_fr' => 'Goéland cendré',
             'name_it' => 'Gavina',
             'gender_de' => 'W',
@@ -6453,6 +6612,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 214186,
         ] );
 
         $bird98->pictures()->save($sturmmoewe_1);
@@ -6476,9 +6636,9 @@ class BirdsTableSeeder extends Seeder
         $bird98->sizes()->attach($taube_stockente);
         $bird98->save();
 
-        $bird99 = Bird::create( [
+        $bird99 = Bird::firstOrCreate( [
             'name' => 'Larus melanocephalus',
-            'name_de' => '',
+            'name_de' => 'Schwarzkopfmöwe',
             'name_fr' => 'Mouette mélanocéphale',
             'name_it' => 'Gabbiano corallino',
             'gender_de' => 'W',
@@ -6486,6 +6646,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 186610,
         ] );
 
         $bird99->pictures()->save($schwarzkopfmoewe_1);
@@ -6505,9 +6666,9 @@ class BirdsTableSeeder extends Seeder
         $bird99->sizes()->attach($taube_stockente);
         $bird99->save();
 
-        $bird100 = Bird::create( [
+        $bird100 = Bird::firstOrCreate( [
             'name' => 'Larus michahellis',
-            'name_de' => '',
+            'name_de' => 'Mittelmeermöwe',
             'name_fr' => 'Goéland leucophée ',
             'name_it' => 'Gabbiano reale',
             'gender_de' => 'W',
@@ -6515,6 +6676,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 180826,
         ] );
 
         $bird100->pictures()->save($mittelmeermoewe_1);
@@ -6537,9 +6699,9 @@ class BirdsTableSeeder extends Seeder
         $bird100->sizes()->attach($stockente_);
         $bird100->save();
 
-        $bird101 = Bird::create( [
+        $bird101 = Bird::firstOrCreate( [
             'name' => 'Hydrocoloeus minutus',
-            'name_de' => '',
+            'name_de' => 'Zwergmöwe',
             'name_fr' => 'Mouette pygmée ',
             'name_it' => 'Gabbianello',
             'gender_de' => 'W',
@@ -6547,6 +6709,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 185472,
         ] );
 
         $bird101->pictures()->save($zwergmoewe_1);
@@ -6566,9 +6729,9 @@ class BirdsTableSeeder extends Seeder
         $bird101->sizes()->attach($taube_stockente);
         $bird101->save();
 
-        $bird102 = Bird::create( [
+        $bird102 = Bird::firstOrCreate( [
             'name' => 'Sterna hirundo',
-            'name_de' => '',
+            'name_de' => 'Flussseeschwalbe',
             'name_fr' => 'Sterne pierregarin',
             'name_it' => 'Sterna comune',
             'gender_de' => 'W',
@@ -6576,6 +6739,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 180820,
         ] );
 
         $bird102->pictures()->save($flussseeschwalbe_1);
@@ -6598,9 +6762,9 @@ class BirdsTableSeeder extends Seeder
         $bird102->sizes()->attach($taube_stockente);
         $bird102->save();
 
-        $bird103 = Bird::create( [
+        $bird103 = Bird::firstOrCreate( [
             'name' => 'Chlidonias niger',
-            'name_de' => '',
+            'name_de' => 'Trauerseeschwalbe',
             'name_fr' => 'Guifette noire',
             'name_it' => 'Mignattino comune',
             'gender_de' => 'W',
@@ -6608,6 +6772,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 182034,
         ] );
 
         $bird103->pictures()->save($trauerseeschwalbe_1);
@@ -6625,16 +6790,17 @@ class BirdsTableSeeder extends Seeder
         $bird103->sizes()->attach($amsel_taube);
         $bird103->save();
 
-        $bird104 = Bird::create( [
+        $bird104 = Bird::firstOrCreate( [
             'name' => 'Columba livia f. domestica',
-            'name_de' => '',
+            'name_de' => 'Strassentaube',
             'name_fr' => 'Pigeon biset domestique',
             'name_it' => 'Piccione torraiolo',
             'gender_de' => 'W',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> de nombreuses variantes de plumage, couleur de base gris clair à gris foncé.<br /><br /><strong>Voix:</strong> roucoulement «druou-u».<br /><br /><strong>Distribution:</strong> large distribution, souvent en grand nombre dans les villes et villages. Descend de pigeons bisets issus de pigeonniers. Ceux-ci sont élevés comme pigeons voyageurs. Les variations de plumage proviennent des différentes lignées d&rsquo;élevage.<br /><br /><strong>Nourriture:</strong> graines et déchets.<br /><br /><strong>Nidification:</strong> nid contenant deux u0153ufs, dans une niche de bu00e2timent. Plusieurs nichées annuelles. Très fidèle au site de nidification et au partenaire. Ne change de partenaire que quand l\'un des deux meurt.',
+            'description_de' => '<strong>Kennzeichen:</strong> Viele Gefiedervarianten mit heller bis dunklerer Graufärbung.<br /><br /><strong>Stimme:</strong> Ruft gurrend &bdquo;druu-guu-u&ldquo;.<br /><br /><strong>Vorkommen:</strong> Weit verbreiteter und in grosser Zahl auftretender Vogel in Städten und Dörfern. Die Strassentaube ist die verwilderte Zuchtform der Felsentaube. Die Gefiedervariationen rühren von unterschiedlichen Zuchtlinien her. <br /><br /><strong>Nahrung:</strong> Körner und Abfälle.<br /><br /><strong>Brut:</strong> Die Strassentauben bebrüten 2 Eier in Gebäudenischen in mehreren Bruten jährlich. Sie leben sehr ortstreu und verbringen ihr Leben in monogamer Ehe. Erst wenn ein Partner stirbt, wird ein neuer gesucht.',
+            'description_fr' => '<strong>Caractéristiques:</strong> de nombreuses variantes de plumage, couleur de base gris clair à gris foncé.<br /><br /><strong>Voix:</strong> roucoulement «druou-u».<br /><br /><strong>Distribution:</strong> large distribution, souvent en grand nombre dans les villes et villages. Descend de pigeons bisets issus de pigeonniers. Ceux-ci sont élevés comme pigeons voyageurs. Les variations de plumage proviennent des différentes lignées d&rsquo;élevage.<br /><br /><strong>Nourriture:</strong> graines et déchets.<br /><br /><strong>Nidification:</strong> nid contenant deux œufs, dans une niche de bâtiment. Plusieurs nichées annuelles. Très fidèle au site de nidification et au partenaire. Ne change de partenaire que quand l\'un des deux meurt.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 200010,
         ] );
 
         $bird104->pictures()->save($strassentaube_1);
@@ -6654,9 +6820,9 @@ class BirdsTableSeeder extends Seeder
         $bird104->sizes()->attach($taube_stockente);
         $bird104->save();
 
-        $bird105 = Bird::create( [
+        $bird105 = Bird::firstOrCreate( [
             'name' => 'Columba oenas',
-            'name_de' => '',
+            'name_de' => 'Hohltaube',
             'name_fr' => 'Pigeon colombin',
             'name_it' => 'Colombella',
             'gender_de' => 'W',
@@ -6664,6 +6830,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 229919,
         ] );
 
         $bird105->pictures()->save($hohltaube_1);
@@ -6685,16 +6852,17 @@ class BirdsTableSeeder extends Seeder
         $bird105->sizes()->attach($taube_stockente);
         $bird105->save();
 
-        $bird106 = Bird::create( [
+        $bird106 = Bird::firstOrCreate( [
             'name' => 'Columba palumbus',
-            'name_de' => '',
+            'name_de' => 'Ringeltaube',
             'name_fr' => 'Pigeon ramier',
             'name_it' => 'Colombaccio',
             'gender_de' => 'W',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> plus grand que le pigeon biset domestique. Tache blanche typique au cu00f4té du cou et, en vol, barre alaire blanche bien visible.r<br /><br /><strong>Voix:</strong> roucoulement doux et étouffé «houh-hrou». En parade, chant pentasyllabique «rouh-rou,ro-ro...rou».r<br /><br /><strong>Distribution:</strong> jusqu&rsquo;à environ 1000 m, dans les forêts et les parcs. S&rsquo;aventure de plus en plus dans les villes. Hiverne dans le sud de l\'Europe, quelques individus passent l&rsquo;hiver chez nous.r<br /><br /><strong>Nourriture:</strong> diverses graines et céréales.r<br /><br /><strong>Nidification:</strong> 2 u0153ufs sont couvés dans un nid simple construit dans un arbre à 3-15 m de hauteur.',
+            'description_de' => '<strong>Kennzeichen:</strong> Grösser als Strassentaube. Typisch sind der weisse Halsfleck und die im Flug gut sichtbare weisse Flügelbinde.<br /><br /><strong>Stimme:</strong> Ruft heiser gedämpft &bdquo;huh-hruhh&ldquo;. Balzrufe bilden fünfsilbiges &bdquo;dudu-do-do du&ldquo;.<br /><br /><strong>Vorkommen:</strong> Bis ca. 1000 m ü. M. in Wäldern und Parkanlagen anzutreffen. Vermehrter Kulturfolger auch in städtischen Gebieten. Überwintert im südlicheren Europa, einige bleiben als Wintergäste bei uns.<br /><br /><strong>Nahrung:</strong> Sämereien und Getreide aller Art.<br /><br /><strong>Brut:</strong> 2 Eier werden in schlichten Nestern auf Bäumen in 3-15 m Höhe ausgebrütet.',
+            'description_fr' => '<strong>Caractéristiques:</strong> plus grand que le pigeon biset domestique. Tache blanche typique au côté du cou et, en vol, barre alaire blanche bien visible<br /><br /><strong>Voix:</strong> roucoulement doux et étouffé «houh-hrou». En parade, chant pentasyllabique «rouh-rou,ro-ro..ou»<br /><br /><strong>Distribution:</strong> jusqu&rsquo;à environ 1000 m, dans les forêts et les parcs. S&rsquo;aventure de plus en plus dans les villes. Hiverne dans le sud de l\'Europe, quelques individus passent l&rsquo;hiver chez nous<br /><br /><strong>Nourriture:</strong> diverses graines et céréales<br /><br /><strong>Nidification:</strong> 2 œufs sont couvés dans un nid simple construit dans un arbre à 3-15 m de hauteur.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 136242,
         ] );
 
         $bird106->pictures()->save($ringeltaube_1);
@@ -6718,16 +6886,17 @@ class BirdsTableSeeder extends Seeder
         $bird106->sizes()->attach($taube_stockente);
         $bird106->save();
 
-        $bird107 = Bird::create( [
+        $bird107 = Bird::firstOrCreate( [
             'name' => 'Streptopelia decaocto',
-            'name_de' => '',
+            'name_de' => 'Türkentaube',
             'name_fr' => 'Tourterelle turque',
             'name_it' => 'Tortora dal collare',
             'gender_de' => 'W',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> tourterelle de couleur gris-u00adbrunu00e2tre clair, demi-collier noir bordé de blanc sur l&rsquo;arrière du cou.r<br /><br /><strong>Voix:</strong> roucoulement trisyllabique «dou-dou-do» avec accentuation de la deuxième syllabe. r<br /><br /><strong>Distribution:</strong> depuis les années 1930, a colonisé l&rsquo;Europe centrale à partir des Balkans jusqu&rsquo;en Islande et en Espagne. Vit toute l&rsquo;année chez nous, à proximité des habitations humaines, dans les jardins et les parcs. r<br /><br /><strong>Nourriture:</strong> diverses graines, déchets, fruits.r<br /><br /><strong>Nidification:</strong> monogame, toute la vie avec le même partenaire, une nichée annuelle avec 2 u0153ufs, nid dans un arbre (de préférence sur un conifère).',
+            'description_de' => '<strong>Kennzeichen:</strong> Helle, staubbraune Taube mit schwarzem Nackenband.<br /><br /><strong>Stimme:</strong> Monoton dreisilbig &bdquo;du-duu-du&ldquo; mit deutlicher Betonung auf der zweiten Silbe.<br /><br /><strong>Vorkommen:</strong> Sie hat sich seit den 1930er Jahren vom Balkan her über ganz Mitteleuropa bis nach Island und Spanien ausgebreitet. Sie lebt als typischer Kulturfolger in Siedlungsnähe, Gärten und Parks das ganze Jahr über bei uns.<br /><br /><strong>Nahrung:</strong> Sämereien aller Art, Abfall, Früchte.<br /><br /><strong>Brut:</strong> Lebt lebenslänglich in monogamer Ehe und brütet jährlich 2 Eier in Baumnestern (vorzugsweise auf Nadelbäumen) aus.',
+            'description_fr' => '<strong>Caractéristiques:</strong> tourterelle de couleur gris-u00adbrunâtre clair, demi-collier noir bordé de blanc sur l&rsquo;arrière du cou<br /><br /><strong>Voix:</strong> roucoulement trisyllabique «dou-dou-do» avec accentuation de la deuxième syllabe. r<br /><br /><strong>Distribution:</strong> depuis les années 1930, a colonisé l&rsquo;Europe centrale à partir des Balkans jusqu&rsquo;en Islande et en Espagne. Vit toute l&rsquo;année chez nous, à proximité des habitations humaines, dans les jardins et les parcs. r<br /><br /><strong>Nourriture:</strong> diverses graines, déchets, fruits<br /><br /><strong>Nidification:</strong> monogame, toute la vie avec le même partenaire, une nichée annuelle avec 2 œufs, nid dans un arbre (de préférence sur un conifère).',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 211916,
         ] );
 
         $bird107->pictures()->save($tuerkentaube_1);
@@ -6750,9 +6919,9 @@ class BirdsTableSeeder extends Seeder
         $bird107->sizes()->attach($amsel_taube);
         $bird107->save();
 
-        $bird108 = Bird::create( [
+        $bird108 = Bird::firstOrCreate( [
             'name' => 'Streptopelia turtur',
-            'name_de' => '',
+            'name_de' => 'Turteltaube',
             'name_fr' => 'Tourterelle des bois',
             'name_it' => 'Tortora selvatica',
             'gender_de' => 'W',
@@ -6760,6 +6929,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 181391,
         ] );
 
         $bird108->pictures()->save($turteltaube_1);
@@ -6783,9 +6953,9 @@ class BirdsTableSeeder extends Seeder
         $bird108->sizes()->attach($amsel_taube);
         $bird108->save();
 
-        $bird109 = Bird::create( [
+        $bird109 = Bird::firstOrCreate( [
             'name' => 'Cuculus canorus',
-            'name_de' => '',
+            'name_de' => 'Kuckuck',
             'name_fr' => 'Coucou gris',
             'name_it' => 'Cuculo',
             'gender_de' => 'M',
@@ -6793,6 +6963,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 133067,
         ] );
 
         $bird109->pictures()->save($kuckuck_1);
@@ -6819,9 +6990,9 @@ class BirdsTableSeeder extends Seeder
         $bird109->sizes()->attach($taube_stockente);
         $bird109->save();
 
-        $bird110 = Bird::create( [
+        $bird110 = Bird::firstOrCreate( [
             'name' => 'Tyto alba',
-            'name_de' => '',
+            'name_de' => 'Schleiereule',
             'name_fr' => 'Effraie des clochers',
             'name_it' => 'Barbagianni',
             'gender_de' => 'W',
@@ -6829,6 +7000,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 199259,
         ] );
 
         $bird110->habitats()->attach($aecker_und_feldflur);
@@ -6849,9 +7021,9 @@ class BirdsTableSeeder extends Seeder
         $bird110->sizes()->attach($taube_stockente);
         $bird110->save();
 
-        $bird111 = Bird::create( [
+        $bird111 = Bird::firstOrCreate( [
             'name' => 'Bubo bubo',
-            'name_de' => '',
+            'name_de' => 'Uhu',
             'name_fr' => 'Grand-duc d`Europe',
             'name_it' => 'Gufo reale',
             'gender_de' => 'M',
@@ -6859,6 +7031,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 149889,
         ] );
 
         $bird111->habitats()->attach($gebirge);
@@ -6875,9 +7048,9 @@ class BirdsTableSeeder extends Seeder
         $bird111->sizes()->attach($stockente_);
         $bird111->save();
 
-        $bird112 = Bird::create( [
+        $bird112 = Bird::firstOrCreate( [
             'name' => 'Asio otus',
-            'name_de' => '',
+            'name_de' => 'Waldohreule',
             'name_fr' => 'Hibou moyen-duc',
             'name_it' => 'Gufo comune',
             'gender_de' => 'W',
@@ -6885,6 +7058,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 59712,
         ] );
 
         $bird112->pictures()->save($waldohreule_1);
@@ -6903,9 +7077,9 @@ class BirdsTableSeeder extends Seeder
         $bird112->sizes()->attach($taube_stockente);
         $bird112->save();
 
-        $bird113 = Bird::create( [
+        $bird113 = Bird::firstOrCreate( [
             'name' => 'Otus scops',
-            'name_de' => '',
+            'name_de' => 'Zwergohreule',
             'name_fr' => 'Petit-duc scops',
             'name_it' => 'Assiolo',
             'gender_de' => 'W',
@@ -6913,6 +7087,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 177734,
         ] );
 
         $bird113->habitats()->attach($aecker_und_feldflur);
@@ -6932,9 +7107,9 @@ class BirdsTableSeeder extends Seeder
         $bird113->sizes()->attach($spatz_amsel);
         $bird113->save();
 
-        $bird114 = Bird::create( [
+        $bird114 = Bird::firstOrCreate( [
             'name' => 'Strix aluco',
-            'name_de' => '',
+            'name_de' => 'Waldkauz',
             'name_fr' => 'Chouette hulotte ',
             'name_it' => 'Allocco',
             'gender_de' => 'M',
@@ -6942,6 +7117,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 216171,
         ] );
 
         $bird114->pictures()->save($waldkauz_1);
@@ -6963,9 +7139,9 @@ class BirdsTableSeeder extends Seeder
         $bird114->sizes()->attach($stockente_);
         $bird114->save();
 
-        $bird115 = Bird::create( [
+        $bird115 = Bird::firstOrCreate( [
             'name' => 'Athene noctua',
-            'name_de' => '',
+            'name_de' => 'Steinkauz',
             'name_fr' => 'Chevêche d`Athéna',
             'name_it' => 'Civetta',
             'gender_de' => 'M',
@@ -6973,6 +7149,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 174066,
         ] );
 
         $bird115->pictures()->save($steinkauz_1);
@@ -6993,9 +7170,9 @@ class BirdsTableSeeder extends Seeder
         $bird115->sizes()->attach($amsel_taube);
         $bird115->save();
 
-        $bird116 = Bird::create( [
+        $bird116 = Bird::firstOrCreate( [
             'name' => 'Aegolius funereus',
-            'name_de' => '',
+            'name_de' => 'Raufusskauz',
             'name_fr' => 'Chouette de Tengmalm ',
             'name_it' => 'Civetta capogrosso',
             'gender_de' => 'M',
@@ -7003,6 +7180,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 171599,
         ] );
 
         $bird116->habitats()->attach($wald);
@@ -7019,9 +7197,9 @@ class BirdsTableSeeder extends Seeder
         $bird116->sizes()->attach($taube_stockente);
         $bird116->save();
 
-        $bird117 = Bird::create( [
+        $bird117 = Bird::firstOrCreate( [
             'name' => 'Glaucidium passerinum',
-            'name_de' => '',
+            'name_de' => 'Sperlingskauz',
             'name_fr' => 'Chevêchette d\'Europe ',
             'name_it' => 'Civetta nana',
             'gender_de' => 'M',
@@ -7029,6 +7207,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 232834,
         ] );
 
         $bird117->habitats()->attach($wald);
@@ -7045,9 +7224,9 @@ class BirdsTableSeeder extends Seeder
         $bird117->sizes()->attach($spatz_amsel);
         $bird117->save();
 
-        $bird118 = Bird::create( [
+        $bird118 = Bird::firstOrCreate( [
             'name' => 'Caprimulgus europaeus',
-            'name_de' => '',
+            'name_de' => 'Ziegenmelker',
             'name_fr' => 'Engoulevent d\'Europe ',
             'name_it' => 'Succiacapre',
             'gender_de' => 'M',
@@ -7055,6 +7234,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 216982,
         ] );
 
         $bird118->pictures()->save($ziegenmelker_1);
@@ -7073,16 +7253,17 @@ class BirdsTableSeeder extends Seeder
         $bird118->sizes()->attach($amsel_taube);
         $bird118->save();
 
-        $bird119 = Bird::create( [
+        $bird119 = Bird::firstOrCreate( [
             'name' => 'Apus apus',
-            'name_de' => '',
+            'name_de' => 'Mauersegler',
             'name_fr' => 'Martinet noir',
             'name_it' => 'Rondone comune',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> observable seulement en vol, il passe plus de 70% de sa vie dans l\'air, aussi pour dormir. Ses longues ailes falciformes le différencient des hirondelles. Depuis dessous parau00eet en grande partie noir.<br /><br /><strong>Voix:</strong> cris peru00e7ants «sriiii».<br /><br /><strong>Distribution:</strong> colonies de nidification dans les anfractuosités de hauts bu00e2timents. Quitte la Suisse fin juillet déjà pour hiverner en Afrique centrale et du Sud.<br /><br /><strong>Nourriture:</strong> insectes attrapés en vol. Un couple qui nourrit ses jeunes peut leur apporter jusqu\'à 20&rsquo;000 insectes par jour.<br /><br /><strong>Nidification:</strong> dans une anfractuosité sous le toit, nid avec 2-3, rarement 4 u0153ufs.',
+            'description_de' => '<strong>Kennzeichen:</strong> Nur fliegend zu beobachten, mehr als 70% des Lebens verbringt er in der Luft, wo er auch schläft. Lange sichelförmige Flügel unterscheiden ihn von den Schwalben. Wirkt von unten mehrheitlich dunkel.<br /><br /><strong>Stimme:</strong> Hohes &bdquo;sriiii&ldquo;, staccatoartig&bdquo;sisisisi…&ldquo;.<br /><br /><strong>Vorkommen:</strong> Brutkolonien in Nischen an hohen Gebäuden. Fliegt als Langstreckenzieher bereits Ende Juli weg zum Überwintern in Zentral- und Südafrika.<br /><br /><strong>Nahrung:</strong> Insekten, die er im Flug fängt. Ein fütterndes Brutpaar kann bis zu 20‘000 Insekten pro Tag heranschaffen.<br /><br /><strong>Brut:</strong> In Nischen unter Hausdächern werden 2-3, selten 4 Eier ausgebrütet.',
+            'description_fr' => '<strong>Caractéristiques:</strong> observable seulement en vol, il passe plus de 70% de sa vie dans l\'air, aussi pour dormir. Ses longues ailes falciformes le différencient des hirondelles. Depuis dessous parau00eet en grande partie noir.<br /><br /><strong>Voix:</strong> cris peru00e7ants «sriiii».<br /><br /><strong>Distribution:</strong> colonies de nidification dans les anfractuosités de hauts bâtiments. Quitte la Suisse fin juillet déjà pour hiverner en Afrique centrale et du Sud.<br /><br /><strong>Nourriture:</strong> insectes attrapés en vol. Un couple qui nourrit ses jeunes peut leur apporter jusqu\'à 20&rsquo;000 insectes par jour.<br /><br /><strong>Nidification:</strong> dans une anfractuosité sous le toit, nid avec 2-3, rarement 4 œufs.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 184145,
         ] );
 
         $bird119->pictures()->save($mauersegler_1);
@@ -7102,9 +7283,9 @@ class BirdsTableSeeder extends Seeder
         $bird119->sizes()->attach($spatz_amsel);
         $bird119->save();
 
-        $bird120 = Bird::create( [
+        $bird120 = Bird::firstOrCreate( [
             'name' => 'Apus pallidus',
-            'name_de' => '',
+            'name_de' => 'Fahlsegler',
             'name_fr' => 'Martinet pu00e2le',
             'name_it' => 'Rondone pallido',
             'gender_de' => 'M',
@@ -7112,6 +7293,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 164171,
         ] );
 
         $bird120->pictures()->save($fahlsegler_1);
@@ -7132,16 +7314,17 @@ class BirdsTableSeeder extends Seeder
         $bird120->sizes()->attach($spatz_amsel);
         $bird120->save();
 
-        $bird121 = Bird::create( [
+        $bird121 = Bird::firstOrCreate( [
             'name' => 'Tachymarptis melba',
-            'name_de' => '',
+            'name_de' => 'Alpensegler',
             'name_fr' => 'Martinet à ventre blanc',
             'name_it' => 'Rondone maggiore',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> plus grand que le martinet noir, dessous blanc.<br /><br /><strong>Voix:</strong> trilles lents, s&rsquo;accélérant puis s\'étirant.<br /><br /><strong>Distribution:</strong> colonies dans de hauts bu00e2timents en ville. Les plus grandes colonies (>100 couples) à Berne, Soleure et Zurich. Dans les Alpes, dans les parois rocheuses. Passent plus de 7 mois par année en l\'air, y compris pour dormir. Hivernent en Afrique tropicale. En tant qu\'espèce potentiellement menacée, le martinet à ventre blanc a besoin de la mise à disposition de sites de nidification adéquats.<br /><br /><strong>Nourriture:</strong> comme le martinet noir.<br /><br /><strong>Nidification:</strong> sous les toits, 1-3, rarement 4 jeunes.',
+            'description_de' => '<strong>Kennzeichen:</strong> Grösser als Mauersegler mit leuchtend weisser Unterseite.<br /><strong>Stimme:</strong> An- und absteigende laute Triller.<br /><strong>Vorkommen:</strong> Brutkolonien in höheren Gebäuden von Städten. Grösste Kolonien mit über 100 Paaren in Bern, Solothurn und Zürich. In den Alpen in Nischen an steilen Felswänden. Verbringen über 7 Monate im Jahr in der Luft, wo sie auch schlafen. Überwintern im tropischen Afrika. Als potenziell gefährdete Art der Roten Liste ist der Alpensegler auf Schutzmassnahmen wie die Bereitstellung geeigneter Nisthilfen angewiesen.<br /><strong>Nahrung:</strong> Wie Mauersegler. <br /><strong>Brut:</strong> In Hohlräumen unter dem Dach werden 1-3, selten auch 4 Jungvögel gross gezogen.',
+            'description_fr' => '<strong>Caractéristiques:</strong> plus grand que le martinet noir, dessous blanc.<br /><br /><strong>Voix:</strong> trilles lents, s&rsquo;accélérant puis s\'étirant.<br /><br /><strong>Distribution:</strong> colonies dans de hauts bâtiments en ville. Les plus grandes colonies (>100 couples) à Berne, Soleure et Zurich. Dans les Alpes, dans les parois rocheuses. Passent plus de 7 mois par année en l\'air, y compris pour dormir. Hivernent en Afrique tropicale. En tant qu\'espèce potentiellement menacée, le martinet à ventre blanc a besoin de la mise à disposition de sites de nidification adéquats.<br /><br /><strong>Nourriture:</strong> comme le martinet noir.<br /><br /><strong>Nidification:</strong> sous les toits, 1-3, rarement 4 jeunes.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 187985,
         ] );
 
         $bird121->pictures()->save($alpensegler_1);
@@ -7162,9 +7345,9 @@ class BirdsTableSeeder extends Seeder
         $bird121->sizes()->attach($spatz_amsel);
         $bird121->save();
 
-        $bird122 = Bird::create( [
+        $bird122 = Bird::firstOrCreate( [
             'name' => 'Upupa epops',
-            'name_de' => '',
+            'name_de' => 'Wiedehopf',
             'name_fr' => 'huppe fasciée',
             'name_it' => 'Upupa',
             'gender_de' => 'M',
@@ -7172,6 +7355,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 140212,
         ] );
 
         $bird122->pictures()->save($wiedehopf_1);
@@ -7192,9 +7376,9 @@ class BirdsTableSeeder extends Seeder
         $bird122->sizes()->attach($amsel_taube);
         $bird122->save();
 
-        $bird123 = Bird::create( [
+        $bird123 = Bird::firstOrCreate( [
             'name' => 'Alcedo atthis',
-            'name_de' => '',
+            'name_de' => 'Eisvogel',
             'name_fr' => 'Martin-pêcheur d`Europe',
             'name_it' => 'Martin pescatore',
             'gender_de' => 'M',
@@ -7202,6 +7386,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 146485,
         ] );
 
         $bird123->pictures()->save($eisvogel_1);
@@ -7222,9 +7407,9 @@ class BirdsTableSeeder extends Seeder
         $bird123->sizes()->attach($spatz_amsel);
         $bird123->save();
 
-        $bird124 = Bird::create( [
+        $bird124 = Bird::firstOrCreate( [
             'name' => 'Merops apiaster',
-            'name_de' => '',
+            'name_de' => 'Bienenfresser',
             'name_fr' => 'Guêpier d\'Europe ',
             'name_it' => 'Gruccione',
             'gender_de' => 'M',
@@ -7232,6 +7417,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 116937,
         ] );
 
         $bird124->pictures()->save($bienenfresser_1);
@@ -7256,9 +7442,9 @@ class BirdsTableSeeder extends Seeder
         $bird124->sizes()->attach($amsel_taube);
         $bird124->save();
 
-        $bird125 = Bird::create( [
+        $bird125 = Bird::firstOrCreate( [
             'name' => 'Dryocopus martius',
-            'name_de' => '',
+            'name_de' => 'Schwarzspecht',
             'name_fr' => 'Pic noir',
             'name_it' => 'Picchio nero',
             'gender_de' => 'M',
@@ -7266,6 +7452,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 215614,
         ] );
 
         $bird125->pictures()->save($schwarzspecht_1);
@@ -7283,16 +7470,17 @@ class BirdsTableSeeder extends Seeder
         $bird125->sizes()->attach($taube_stockente);
         $bird125->save();
 
-        $bird126 = Bird::create( [
+        $bird126 = Bird::firstOrCreate( [
             'name' => 'Picus viridis',
-            'name_de' => '',
+            'name_de' => 'Grünspecht',
             'name_fr' => 'Pic vert',
             'name_it' => 'Picchio verde',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> plus petit qu&rsquo;une corneille. Dessus vert avec calotte rouge, la femelle est plus grisu00e2tre et finement mouchetée. Vol onduleux comme tous les pics.r<br /><br /><strong>Voix:</strong> u201ericanementu201c un peu accéléré à la fin «kluh-kluh-kluh-kluh». Tambourine rarement.r<br /><br /><strong>Distribution:</strong> préfère les terrains semi-u00adouverts, les parcs, les vergers. Cherche fréquemment sa nourriture au sol. En montagne, on le trouve jusqu\'à la limite supérieure des arbres, aussi dans les forêts de conifères.r<br /><br /><strong>Nourriture:</strong> surtout fourmis, parfois d\'autres insectes. r<br /><br /><strong>Nidification:</strong> 5-7 u0153ufs. Loge sans litière comme chez tous les pics.r<br />',
+            'description_de' => '<strong>Kennzeichen:</strong> Kleiner als Krähe. Auffällig olivgrün gefärbt mit rotem Scheitel, das Weibchen ein wenig schlichter und fein gesprenkelt. Flug wie alle Spechte wellenförmig.<br /><br /><strong>Stimme:</strong> Schallendes &bdquo;Lachen&ldquo; oder &bdquo;Wiehern&ldquo;, &bdquo;glückglückglück...&ldquo;. Trommelt selten.<br /><br /><strong>Vorkommen:</strong> Bevorzugt halboffenes Gelände, Parkanlagen, Obstgärten, wo er häufig am Boden nach Nahrung sucht. Im Gebirge lebt er bis zur Baumgrenze auch in Nadelwäldern.<br /><br /><strong>Nahrung:</strong> Vorwiegend Ameisen. Manchmal auch andere Insekten.<br /><br /><strong>Brut:</strong> 5-7 Eier. Wie bei allen Spechten Höhle ohne Nistmaterial.',
+            'description_fr' => '<strong>Caractéristiques:</strong> plus petit qu&rsquo;une corneille. Dessus vert avec calotte rouge, la femelle est plus grisâtre et finement mouchetée. Vol onduleux comme tous les pics<br /><br /><strong>Voix:</strong> u201ericanementu201c un peu accéléré à la fin «kluh-kluh-kluh-kluh». Tambourine rarement<br /><br /><strong>Distribution:</strong> préfère les terrains semi-u00adouverts, les parcs, les vergers. Cherche fréquemment sa nourriture au sol. En montagne, on le trouve jusqu\'à la limite supérieure des arbres, aussi dans les forêts de conifères<br /><br /><strong>Nourriture:</strong> surtout fourmis, parfois d\'autres insectes. r<br /><br /><strong>Nidification:</strong> 5-7 œufs. Loge sans litière comme chez tous les pics<br />',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 176278,
         ] );
 
         $bird126->pictures()->save($gruenspecht_1);
@@ -7316,9 +7504,9 @@ class BirdsTableSeeder extends Seeder
         $bird126->sizes()->attach($taube_stockente);
         $bird126->save();
 
-        $bird127 = Bird::create( [
+        $bird127 = Bird::firstOrCreate( [
             'name' => 'Picus canus',
-            'name_de' => '',
+            'name_de' => 'Grauspecht',
             'name_fr' => 'Pic cendré',
             'name_it' => 'Picchio cenerino',
             'gender_de' => 'M',
@@ -7326,6 +7514,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 52345,
         ] );
 
         $bird127->habitats()->attach($aecker_und_feldflur);
@@ -7345,16 +7534,17 @@ class BirdsTableSeeder extends Seeder
         $bird127->sizes()->attach($amsel_taube);
         $bird127->save();
 
-        $bird128 = Bird::create( [
+        $bird128 = Bird::firstOrCreate( [
             'name' => 'Dendrocopos major',
-            'name_de' => '',
+            'name_de' => 'Buntspecht',
             'name_fr' => 'Pic épeiche',
             'name_it' => 'Picchio rosso maggiore',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> taille du merle. Seul le mu00e2le  a une nuque rouge, juvéniles  avec calotte rouge. Sous-caudales rouges.r<br /><br /><strong>Voix:</strong> le cri est un «kik» bref et net. Tambourinage au printemps pour délimiter le territoire, parfois sur des tu00f4les ou des poteaux de téléphone. r<br /><br /><strong>Distribution:</strong> partout ou00f9 il y a des arbres, parcs, forêt. Grimpe toujours vers le haut sur les troncs, comme tous les pics. Toute l&rsquo;année chez nous, jusqu&rsquo;à la limite supérieure des arbres. r<br /><br /><strong>Nourriture:</strong> insectes et leurs larves qu&rsquo;il extrait du bois avec sa longue langue.r<br /><br /><strong>Nidification:</strong> dépose 4-7 u0153ufs dans une loge qu&rsquo;il a construit lui-même, pas de litière.',
+            'description_de' => '<strong>Kennzeichen:</strong> Grösse wie Amsel. Nur das Männchen  hat einen roten Nacken, Jungvögel  mit rotem Scheitel. Rote Unterschwanzdecken.<br /><br /><strong>Stimme:</strong> Laute &bdquo;kick&ldquo;-Rufe. Trommelt oft zur Revierabgrenzung im Frühjahr, manchmal auch auf Blechabdeckungen von Telefonmasten.<br /><br /><strong>Vorkommen:</strong> Überall, wo es Bäume hat, Parkanlagen, Wald. Klettert an Baumstämmen wie alle Spechte immer aufwärts. Lebt bis zur Baumgrenze das ganze Jahr über bei uns.<br /><br /><strong>Nahrung:</strong> Insekten und deren Larven, die er mit der langen Zunge aus dem Holz hervorholt.<br /><br /><strong>Brut:</strong> Legt 4-7 Eier, die er in seiner selbst gemeisselten Höhle ohne Nistmaterial ausbrütet.',
+            'description_fr' => '<strong>Caractéristiques:</strong> taille du merle. Seul le mâle  a une nuque rouge, juvéniles  avec calotte rouge. Sous-caudales rouges<br /><br /><strong>Voix:</strong> le cri est un «kik» bref et net. Tambourinage au printemps pour délimiter le territoire, parfois sur des tôles ou des poteaux de téléphone. r<br /><br /><strong>Distribution:</strong> partout où il y a des arbres, parcs, forêt. Grimpe toujours vers le haut sur les troncs, comme tous les pics. Toute l&rsquo;année chez nous, jusqu&rsquo;à la limite supérieure des arbres. r<br /><br /><strong>Nourriture:</strong> insectes et leurs larves qu&rsquo;il extrait du bois avec sa longue langue<br /><br /><strong>Nidification:</strong> dépose 4-7 œufs dans une loge qu&rsquo;il a construit lui-même, pas de litière.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 129590,
         ] );
 
         $bird128->pictures()->save($buntspecht_1);
@@ -7375,9 +7565,9 @@ class BirdsTableSeeder extends Seeder
         $bird128->sizes()->attach($amsel_taube);
         $bird128->save();
 
-        $bird129 = Bird::create( [
+        $bird129 = Bird::firstOrCreate( [
             'name' => 'Dendrocopos medius',
-            'name_de' => '',
+            'name_de' => 'Mittelspecht',
             'name_fr' => 'Pic mar',
             'name_it' => 'Picchio rosso mezzano',
             'gender_de' => 'M',
@@ -7385,6 +7575,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 113891,
         ] );
 
         $bird129->pictures()->save($mittelspecht_1);
@@ -7399,13 +7590,13 @@ class BirdsTableSeeder extends Seeder
         $bird129->legsColors()->save($grau);
         $bird129->beakColors()->save($schwarz);
         $bird129->beakColors()->save($grau);
-        $bird129->beakShapes()->attach($meisselfoermig );
+        $bird129->beakShapes()->attach($meisselfoermig);
         $bird129->sizes()->attach($spatz_amsel);
         $bird129->save();
 
-        $bird130 = Bird::create( [
+        $bird130 = Bird::firstOrCreate( [
             'name' => 'Dendrocopos minor',
-            'name_de' => '',
+            'name_de' => 'Kleinspecht',
             'name_fr' => 'Pic épeichette',
             'name_it' => 'Picchio rosso minore',
             'gender_de' => 'M',
@@ -7413,6 +7604,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 150519,
         ] );
 
         $bird130->pictures()->save($kleinspecht_1);
@@ -7430,9 +7622,9 @@ class BirdsTableSeeder extends Seeder
         $bird130->sizes()->attach($spatz_amsel);
         $bird130->save();
 
-        $bird131 = Bird::create( [
+        $bird131 = Bird::firstOrCreate( [
             'name' => 'Dendrocopos leucotos',
-            'name_de' => '',
+            'name_de' => 'Weissrückenspecht',
             'name_fr' => 'Pic à dos blanc',
             'name_it' => 'Picchio dorsobianco',
             'gender_de' => 'M',
@@ -7440,6 +7632,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 178892,
         ] );
 
         $bird131->habitats()->attach($gebirge);
@@ -7458,9 +7651,9 @@ class BirdsTableSeeder extends Seeder
         $bird131->sizes()->attach($amsel_taube);
         $bird131->save();
 
-        $bird132 = Bird::create( [
+        $bird132 = Bird::firstOrCreate( [
             'name' => 'Picoides tridactylus',
-            'name_de' => '',
+            'name_de' => 'Dreizehenspecht',
             'name_fr' => 'Pic tridactyle',
             'name_it' => 'Picchio tridattilo',
             'gender_de' => 'M',
@@ -7468,6 +7661,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 30196,
         ] );
 
         $bird132->pictures()->save($dreizehenspecht_1);
@@ -7486,9 +7680,9 @@ class BirdsTableSeeder extends Seeder
         $bird132->sizes()->attach($spatz_amsel);
         $bird132->save();
 
-        $bird133 = Bird::create( [
+        $bird133 = Bird::firstOrCreate( [
             'name' => 'Jynx torquilla',
-            'name_de' => '',
+            'name_de' => 'Wendehals',
             'name_fr' => 'Torcol fourmilier',
             'name_it' => 'Torcicollo',
             'gender_de' => 'M',
@@ -7496,6 +7690,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 162663,
         ] );
 
         $bird133->pictures()->save($wendehals_1);
@@ -7515,9 +7710,9 @@ class BirdsTableSeeder extends Seeder
         $bird133->sizes()->attach($spatz_amsel);
         $bird133->save();
 
-        $bird134 = Bird::create( [
+        $bird134 = Bird::firstOrCreate( [
             'name' => 'Alauda arvensis',
-            'name_de' => '',
+            'name_de' => 'Feldlerche',
             'name_fr' => 'Alouette des champs',
             'name_it' => 'Allodola',
             'gender_de' => 'W',
@@ -7525,6 +7720,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 52385,
         ] );
 
         $bird134->pictures()->save($feldlerche_1);
@@ -7544,9 +7740,9 @@ class BirdsTableSeeder extends Seeder
         $bird134->sizes()->attach($spatz_amsel);
         $bird134->save();
 
-        $bird135 = Bird::create( [
+        $bird135 = Bird::firstOrCreate( [
             'name' => 'Lullula arborea',
-            'name_de' => '',
+            'name_de' => 'Heidelerche',
             'name_fr' => 'Alouette lulu',
             'name_it' => 'Tottavilla',
             'gender_de' => 'W',
@@ -7554,6 +7750,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 177609,
         ] );
 
         $bird135->pictures()->save($heidelerche_1);
@@ -7571,9 +7768,9 @@ class BirdsTableSeeder extends Seeder
         $bird135->sizes()->attach($spatz_amsel);
         $bird135->save();
 
-        $bird136 = Bird::create( [
+        $bird136 = Bird::firstOrCreate( [
             'name' => 'Riparia riparia',
-            'name_de' => '',
+            'name_de' => 'Uferschwalbe',
             'name_fr' => 'Hirondelle de rivage',
             'name_it' => 'Topino',
             'gender_de' => 'W',
@@ -7581,6 +7778,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 195303,
         ] );
 
         $bird136->pictures()->save($uferschwalbe_1);
@@ -7599,9 +7797,9 @@ class BirdsTableSeeder extends Seeder
         $bird136->sizes()->attach($_spatz);
         $bird136->save();
 
-        $bird137 = Bird::create( [
+        $bird137 = Bird::firstOrCreate( [
             'name' => 'Ptyonoprogne rupestris',
-            'name_de' => '',
+            'name_de' => 'Felsenschwalbe',
             'name_fr' => 'Hirondelle de rochers',
             'name_it' => 'Rondine montana',
             'gender_de' => 'W',
@@ -7609,6 +7807,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 148491,
         ] );
 
         $bird137->pictures()->save($felsenschwalbe_1);
@@ -7629,16 +7828,17 @@ class BirdsTableSeeder extends Seeder
         $bird137->sizes()->attach($spatz_amsel);
         $bird137->save();
 
-        $bird138 = Bird::create( [
+        $bird138 = Bird::firstOrCreate( [
             'name' => 'Hirundo rustica',
-            'name_de' => '',
+            'name_de' => 'Rauchschwalbe',
             'name_fr' => 'Hirondelle rustique',
             'name_it' => 'Rondine',
             'gender_de' => 'W',
-            'description_de' => '',
+            'description_de' => '<strong>Kennzeichen:</strong> Langschwänzige Schwalbe mit weisser Unterseite mit schwarz-rostroter Kehle und metallisch blauschwarz glänzender Oberseite. Ihr Name rührt daher, dass sie früher häufig Rauchabzüge als Einfluglöcher in das Gebäude benutzt hat.<br /><br /><strong>Stimme:</strong> Muntere, schneidende &bdquo;witt&ldquo; Rufe. Der Gesang ist plaudernd und zwitschernd.<br /><br /><strong>Vorkommen:</strong> Offenes Kulturland und Dörfer. Zugverhalten wie Mehlschwalbe.<br /><br /><strong>Nahrung:</strong> Insekten, die im Flug gefangen werden, aber auch Spinnen.<br /><br /><strong>Brut:</strong> Brütet vorzugsweise im Innern von Scheunen und Ställen. Für die kunstvollen Lehmbauten werden über 1000 Lehmbällchen verarbeitet. 4-6  Jungvögel werden jährlich grossgezogen.',
             'description_fr' => '<strong>Caractéristiques:</strong> hirondelle à longue queue, dessous blanc avec gorge et front rouge brique, collier pectoral noir, dessus bleu-noir métallisé.<br /><br /><strong>Voix:</strong> le cri est un «tsivitt». Chant: long gazouillis cristallin entrecoupé d\'imitations et de trilles.<br /><br /><strong>Distribution:</strong> milieu cultivé ouvert et villages. Comportement migratoire comme hirondelle de fenêtre.<br /><br /><strong>Nourriture:</strong> insectes attrapés en vol mais également araignées.<br /><br /><strong>Nidification:</strong> niche à l\'intérieur de granges et d\'étables. Le nid est constitué de plus de 1000 boulettes de boue. 4-6  juvéniles sont élevés chaque année.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 208241,
         ] );
 
         $bird138->pictures()->save($rauchschwalbe_1);
@@ -7662,16 +7862,17 @@ class BirdsTableSeeder extends Seeder
         $bird138->sizes()->attach($spatz_amsel);
         $bird138->save();
 
-        $bird139 = Bird::create( [
+        $bird139 = Bird::firstOrCreate( [
             'name' => 'Delichon urbicum',
-            'name_de' => '',
+            'name_de' => 'Mehlschwalbe',
             'name_fr' => 'Hirondelle de fenêtre',
             'name_it' => 'Balestruccio',
             'gender_de' => 'W',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> hirondelle à queue courte, ventre blanc, croupion blanc et dessus bleu-noir métallisé.<br /><br /><strong>Voix:</strong> le cri est un «trrit» clair et roulé, le chant un gazouillis.<br /><br /><strong>Distribution:</strong> niche en colonies sur des bu00e2timents dans les villes et les villages. Se rassemblent en troupes nombreuses en automne et passent l\'hiver en Afrique centrale et du Sud.<br /><br /><strong>Nourriture:</strong> divers insectes attrapés en vol.<br /><br /><strong>Nidification:</strong> 2-6 u0153ufs sont couvés dans un nid de boue fixé sous un avant-toit. L\'installation de planchettes à fientes évite la salissure des fau00e7ades.',
+            'description_de' => '<strong>Kennzeichen:</strong> Kurzschwänzige Schwalbe mit weisser Unterseite, weissem Bürzel und metallisch blauschwarz glänzender Oberseite.<br /><br /><strong>Stimme:</strong> Ruffreudig zwitschernd &bdquo;priit&ldquo;. Ihr Gesang ist leise zwitschernd, schwatzhaft.<br /><br /><strong>Vorkommen:</strong> Bewohnt Kolonien an Gebäuden in Städten und Dörfern. Sammelt sich im Herbst zu Schwärmen und überwintert als Langstreckenzieher im mittleren und südlichen Afrika.<br /><br /><strong>Nahrung:</strong> Insekten aller Art, die im Flug gefangen werden.<br /><br /><strong>Brut:</strong> In kunstvollen Lehmnestern unter Dächern werden 2-6 Eier ausgebrütet. Kotbretter vermindern eine allfällige Fassadenverschmutzung.',
+            'description_fr' => '<strong>Caractéristiques:</strong> hirondelle à queue courte, ventre blanc, croupion blanc et dessus bleu-noir métallisé.<br /><br /><strong>Voix:</strong> le cri est un «trrit» clair et roulé, le chant un gazouillis.<br /><br /><strong>Distribution:</strong> niche en colonies sur des bâtiments dans les villes et les villages. Se rassemblent en troupes nombreuses en automne et passent l\'hiver en Afrique centrale et du Sud.<br /><br /><strong>Nourriture:</strong> divers insectes attrapés en vol.<br /><br /><strong>Nidification:</strong> 2-6 œufs sont couvés dans un nid de boue fixé sous un avant-toit. L\'installation de planchettes à fientes évite la salissure des fau00e7ades.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 193481,
         ] );
 
         $bird139->pictures()->save($mehlschwalbe_1);
@@ -7693,9 +7894,9 @@ class BirdsTableSeeder extends Seeder
         $bird139->sizes()->attach($_spatz);
         $bird139->save();
 
-        $bird140 = Bird::create( [
+        $bird140 = Bird::firstOrCreate( [
             'name' => 'Anthus campestris',
-            'name_de' => '',
+            'name_de' => 'Brachpieper',
             'name_fr' => 'Pipit rousseline',
             'name_it' => 'Calandro',
             'gender_de' => 'M',
@@ -7703,6 +7904,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 90992,
         ] );
 
         $bird140->pictures()->save($brachpieper_1);
@@ -7723,9 +7925,9 @@ class BirdsTableSeeder extends Seeder
         $bird140->sizes()->attach($spatz_amsel);
         $bird140->save();
 
-        $bird141 = Bird::create( [
+        $bird141 = Bird::firstOrCreate( [
             'name' => 'Anthus spinoletta',
-            'name_de' => '',
+            'name_de' => 'Bergpieper',
             'name_fr' => 'Pipit spioncelle ',
             'name_it' => 'Spioncello',
             'gender_de' => 'M',
@@ -7733,6 +7935,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 181342,
         ] );
 
         $bird141->pictures()->save($bergpieper_1);
@@ -7755,9 +7958,9 @@ class BirdsTableSeeder extends Seeder
         $bird141->sizes()->attach($spatz_amsel);
         $bird141->save();
 
-        $bird142 = Bird::create( [
+        $bird142 = Bird::firstOrCreate( [
             'name' => 'Anthus pratensis',
-            'name_de' => '',
+            'name_de' => 'Wiesenpieper',
             'name_fr' => 'Pipit farlouse',
             'name_it' => 'Pispola',
             'gender_de' => 'M',
@@ -7765,6 +7968,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 208508,
         ] );
 
         $bird142->pictures()->save($wiesenpieper_1);
@@ -7788,9 +7992,9 @@ class BirdsTableSeeder extends Seeder
         $bird142->sizes()->attach($spatz_amsel);
         $bird142->save();
 
-        $bird143 = Bird::create( [
+        $bird143 = Bird::firstOrCreate( [
             'name' => 'Anthus trivialis',
-            'name_de' => '',
+            'name_de' => 'Baumpieper',
             'name_fr' => 'Pipit des arbres',
             'name_it' => 'Prispolone',
             'gender_de' => 'M',
@@ -7798,6 +8002,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 178556,
         ] );
 
         $bird143->pictures()->save($baumpieper_1);
@@ -7819,16 +8024,17 @@ class BirdsTableSeeder extends Seeder
         $bird143->sizes()->attach($spatz_amsel);
         $bird143->save();
 
-        $bird144 = Bird::create( [
+        $bird144 = Bird::firstOrCreate( [
             'name' => 'Motacilla alba',
-            'name_de' => '',
+            'name_de' => 'Bachstelze',
             'name_fr' => 'Bergeronnette grise',
             'name_it' => 'Ballerina bianca',
             'gender_de' => 'W',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> oiseau noir-gris-blanc à longue queue, impossible à confondre, de la taille d\'un pinson. Juvénile  gris plus uniforme.<br /><br /><strong>Voix:</strong> le cri est un «tchiri» ou «tsilip».<br /><br /><strong>Distribution:</strong> dans divers milieux ouverts, souvent à proximité de l\'eau ou des habitations. Hiverne en partie chez nous, mais la plupart des bergeronnettes grises partent en Europe du Sud-Ouest ou en Afrique du Nord.<br /><br /><strong>Nourriture:</strong> chasse les insectes et les araignées au sol en terrain ouvert.<br /><br /><strong>Nidification:</strong> niche souvent dans une anfractuosité de mur, sur un bord de fenêtre ou une poutre. Les sites de nidification naturels sont les bords de fossés et les talus. Nid avec 5-7 u0153ufs.',
+            'description_de' => '<strong>Kennzeichen:</strong> Unverwechselbarer, buchfinkengrosser schwarz-grau-weisser Vogel mit langem Schwanz. Jungvogel  unscheinbarer.<br /><br /><strong>Stimme:</strong> Ruft &bdquo;zilipp&ldquo; oder einsilbig &bdquo;zipp&ldquo;.<br /><br /><strong>Vorkommen:</strong> In allen möglichen offenen Geländen, gerne in Gewässer- oder Siedlungsnähe anzutreffen. Überwintert teilweise bei uns, die meisten Bachstelzen ziehen jedoch nach Südwesteuropa und Nordafrika.<br /><br /><strong>Nahrung:</strong> Jagt Insekten und Spinnen im freien Gelände am Boden.<br /><br /><strong>Brut:</strong> Brütet oft in Mauernischen, auf Fensterbänken oder im Dachgebälk. Natürliche Niststandorte sind u.a. Grabenränder und Böschungen, wo 5-7 Eier ausgebrütet werden.',
+            'description_fr' => '<strong>Caractéristiques:</strong> oiseau noir-gris-blanc à longue queue, impossible à confondre, de la taille d\'un pinson. Juvénile  gris plus uniforme.<br /><br /><strong>Voix:</strong> le cri est un «tchiri» ou «tsilip».<br /><br /><strong>Distribution:</strong> dans divers milieux ouverts, souvent à proximité de l\'eau ou des habitations. Hiverne en partie chez nous, mais la plupart des bergeronnettes grises partent en Europe du Sud-Ouest ou en Afrique du Nord.<br /><br /><strong>Nourriture:</strong> chasse les insectes et les araignées au sol en terrain ouvert.<br /><br /><strong>Nidification:</strong> niche souvent dans une anfractuosité de mur, sur un bord de fenêtre ou une poutre. Les sites de nidification naturels sont les bords de fossés et les talus. Nid avec 5-7 œufs.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 127305,
         ] );
 
         $bird144->pictures()->save($bachstelze_1);
@@ -7853,9 +8059,9 @@ class BirdsTableSeeder extends Seeder
         $bird144->sizes()->attach($spatz_amsel);
         $bird144->save();
 
-        $bird145 = Bird::create( [
+        $bird145 = Bird::firstOrCreate( [
             'name' => 'Motacilla flava',
-            'name_de' => '',
+            'name_de' => 'Schafstelze',
             'name_fr' => 'Bergeronnette printanière',
             'name_it' => 'Cutrettola',
             'gender_de' => 'W',
@@ -7863,6 +8069,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 187550,
         ] );
 
         $bird145->pictures()->save($schafstelze_1);
@@ -7887,9 +8094,9 @@ class BirdsTableSeeder extends Seeder
         $bird145->sizes()->attach($spatz_amsel);
         $bird145->save();
 
-        $bird146 = Bird::create( [
+        $bird146 = Bird::firstOrCreate( [
             'name' => 'Motacilla cinerea',
-            'name_de' => '',
+            'name_de' => 'Gebirgsstelze',
             'name_fr' => 'Bergeronnette des ruisseaux',
             'name_it' => 'Ballerina gialla',
             'gender_de' => 'W',
@@ -7897,6 +8104,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 203980,
         ] );
 
         $bird146->pictures()->save($gebirgsstelze);
@@ -7918,16 +8126,17 @@ class BirdsTableSeeder extends Seeder
         $bird146->sizes()->attach($spatz_amsel);
         $bird146->save();
 
-        $bird147 = Bird::create( [
+        $bird147 = Bird::firstOrCreate( [
             'name' => 'Troglodytes troglodytes',
-            'name_de' => '',
+            'name_de' => 'Zaunkönig',
             'name_fr' => 'Troglodyte mignon',
             'name_it' => 'Scricciolo',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> l\'un des oiseaux les plus petits, mais aussi les plus bruyants de notre pays. Oiseau brun-roux rayé, corps rondelet et queue souvent dressée. En cas d\'inquiétude, fait des mouvements brusques, parau00eet nerveux.<br /><br /><strong>Voix:</strong> chant puissant et prolongé composé de trilles aigus. Cri: «trr trr trr».<br /><br /><strong>Distribution:</strong> vit toute l\'année chez nous, dans les boisements denses et les buissons, généralement à proximité du sol. Souvent proche des cours d\'eau. Défend son territoire en chantant, également pendant l\'hiver.<br /><br /><strong>Nourriture:</strong> insectes, araignées.<br /><br /><strong>Nidification:</strong> 5-7 u0153ufs sont déposés dans un nid élaboré en forme de boule, à proximité du sol.',
+            'description_de' => '<strong>Kennzeichen:</strong> Einer der kleinsten, aber lautesten Vögel bei uns. Braun gestrichelter, rundlich wirkender Vogel mit oftmals aufgestelltem Schwanz. Bei Erregung macht er zackige, knicksende Bewegungen, wirkt nervös.<br /><br /><strong>Stimme:</strong> Gesang laut schmetternd mit harten Trillern. Ruft &bdquo;tick-tick-tick&ldquo;.<br /><br /><strong>Vorkommen:</strong> Lebt in dichten Gehölzen und Büschen aller Art, meist in Bodennähe, das ganze Jahr bei uns. Er hält sich gerne an Gewässern auf. Verteidigt auch im Winter singend ein Nahrungsrevier.<br /><br /><strong>Nahrung:</strong> Insekten, Spinnen.<br /><br /><strong>Brut:</strong> 5-7 Eier werden in einem in Bodennähe kunstvoll gefertigten Rundnest ausgebrütet.',
+            'description_fr' => '<strong>Caractéristiques:</strong> l\'un des oiseaux les plus petits, mais aussi les plus bruyants de notre pays. Oiseau brun-roux rayé, corps rondelet et queue souvent dressée. En cas d\'inquiétude, fait des mouvements brusques, parau00eet nerveux.<br /><br /><strong>Voix:</strong> chant puissant et prolongé composé de trilles aigus. Cri: «trr trr trr».<br /><br /><strong>Distribution:</strong> vit toute l\'année chez nous, dans les boisements denses et les buissons, généralement à proximité du sol. Souvent proche des cours d\'eau. Défend son territoire en chantant, également pendant l\'hiver.<br /><br /><strong>Nourriture:</strong> insectes, araignées.<br /><br /><strong>Nidification:</strong> 5-7 œufs sont déposés dans un nid élaboré en forme de boule, à proximité du sol.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 173493,
         ] );
 
         $bird147->pictures()->save($zaunkoenig_1);
@@ -7947,9 +8156,9 @@ class BirdsTableSeeder extends Seeder
         $bird147->sizes()->attach($_spatz);
         $bird147->save();
 
-        $bird148 = Bird::create( [
+        $bird148 = Bird::firstOrCreate( [
             'name' => 'Cinclus cinclus',
-            'name_de' => '',
+            'name_de' => 'Wasseramsel',
             'name_fr' => 'Cincle plogeur',
             'name_it' => 'Merlo acquaiolo',
             'gender_de' => 'W',
@@ -7957,6 +8166,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 212395,
         ] );
 
         $bird148->pictures()->save($wasseramsel_1);
@@ -7975,9 +8185,9 @@ class BirdsTableSeeder extends Seeder
         $bird148->sizes()->attach($spatz_amsel);
         $bird148->save();
 
-        $bird149 = Bird::create( [
+        $bird149 = Bird::firstOrCreate( [
             'name' => 'Bombycilla garrulus',
-            'name_de' => '',
+            'name_de' => 'Seidenschwanz',
             'name_fr' => 'Jaseur boréal',
             'name_it' => 'Beccofrusone',
             'gender_de' => 'M',
@@ -7985,6 +8195,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 198118,
         ] );
 
         $bird149->pictures()->save($seidenschwanz_1);
@@ -8006,9 +8217,9 @@ class BirdsTableSeeder extends Seeder
         $bird149->sizes()->attach($spatz_amsel);
         $bird149->save();
 
-        $bird150 = Bird::create( [
+        $bird150 = Bird::firstOrCreate( [
             'name' => 'Prunella modularis',
-            'name_de' => '',
+            'name_de' => 'Heckenbraunelle',
             'name_fr' => 'Accenteur mouchet',
             'name_it' => 'Passera scopaiola',
             'gender_de' => 'W',
@@ -8016,6 +8227,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 213375,
         ] );
 
         $bird150->pictures()->save($heckenbraunelle_1);
@@ -8036,9 +8248,9 @@ class BirdsTableSeeder extends Seeder
         $bird150->sizes()->attach($_spatz);
         $bird150->save();
 
-        $bird151 = Bird::create( [
+        $bird151 = Bird::firstOrCreate( [
             'name' => 'Prunella collaris',
-            'name_de' => '',
+            'name_de' => 'Alpenbraunelle',
             'name_fr' => 'Accenteur alpin',
             'name_it' => 'Sordone',
             'gender_de' => 'W',
@@ -8046,6 +8258,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 143516,
         ] );
 
         $bird151->pictures()->save($alpenbraunelle_1);
@@ -8068,16 +8281,17 @@ class BirdsTableSeeder extends Seeder
         $bird151->sizes()->attach($spatz_amsel);
         $bird151->save();
 
-        $bird152 = Bird::create( [
+        $bird152 = Bird::firstOrCreate( [
             'name' => 'Erithacus rubecula',
-            'name_de' => '',
+            'name_de' => 'Rotkehlchen',
             'name_fr' => 'Rougegorge familier',
             'name_it' => 'Pettirosso',
             'gender_de' => 'S',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> plumage brunu00e2tre avec plastron orange couvrant la poitrine et la face jusqu&rsquo;au front, le rendant  impossible à confondre. <br /><br /><strong>Voix:</strong> chant variable, débutant par des sons élevés fins, puis strophe mélodieuse, mélancolique plus grave. Chante souvent à l&rsquo;aube et au crépuscule, aussi en automne et en hiver. Cris: rapides séries de «tik-ik-ik-ik...».<br /><br /><strong>Distribution:</strong> présent toute l&rsquo;année dans toutes les forêts, mais aussi parcs et jardins.<br /><br /><strong>Nourriture:</strong> insectes, araignées, baies. Fréquente souvent les mangeoires en hiver. <br /><br /><strong>Nidification:</strong> niche au sol (75% des nids) ou dans un buisson ou un mur à proximité du sol.',
+            'description_de' => '<strong>Kennzeichen:</strong> Die orangefarbene Stirn, Kehle und Brust machen den sonst unscheinbaren braunen Vogel unverkennbar.<br /><br /><strong>Stimme:</strong> Gesang von hohen gepressten Tönen zu melodischen, wehmütig klingenden Trillern abfallend. Singt oft in der Morgen- und Abenddämmerung, auch im Herbst und Winter. Ruft schnell &bdquo;zik-zik-zik-…&ldquo;.<br /><br /><strong>Vorkommen:</strong> Jahresvogel in allen Wäldern, aber auch in Gärten und Parks.<br /><br /><strong>Nahrung:</strong> Insekten, Spinnen, Beeren. Im Winter häufig an Futterhäuschen.<br /><br /><strong>Brut:</strong> Brütet am Boden (75% der Nester) oder in Büschen oder Mauern in Bodennähe.',
+            'description_fr' => '<strong>Caractéristiques:</strong> plumage brunâtre avec plastron orange couvrant la poitrine et la face jusqu&rsquo;au front, le rendant  impossible à confondre. <br /><br /><strong>Voix:</strong> chant variable, débutant par des sons élevés fins, puis strophe mélodieuse, mélancolique plus grave. Chante souvent à l&rsquo;aube et au crépuscule, aussi en automne et en hiver. Cris: rapides séries de «tik-ik-ik-ik...».<br /><br /><strong>Distribution:</strong> présent toute l&rsquo;année dans toutes les forêts, mais aussi parcs et jardins.<br /><br /><strong>Nourriture:</strong> insectes, araignées, baies. Fréquente souvent les mangeoires en hiver. <br /><br /><strong>Nidification:</strong> niche au sol (75% des nids) ou dans un buisson ou un mur à proximité du sol.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 173649,
         ] );
 
         $bird152->pictures()->save($rotkehlchen_1);
@@ -8099,9 +8313,9 @@ class BirdsTableSeeder extends Seeder
         $bird152->sizes()->attach($_spatz);
         $bird152->save();
 
-        $bird153 = Bird::create( [
+        $bird153 = Bird::firstOrCreate( [
             'name' => 'Luscinia megarhynchos',
-            'name_de' => '',
+            'name_de' => 'Nachtigall',
             'name_fr' => 'Rossignol philomèle',
             'name_it' => 'Usignolo',
             'gender_de' => 'W',
@@ -8109,6 +8323,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 56250,
         ] );
 
         $bird153->pictures()->save($nachtigall_1);
@@ -8127,9 +8342,9 @@ class BirdsTableSeeder extends Seeder
         $bird153->sizes()->attach($spatz_amsel);
         $bird153->save();
 
-        $bird154 = Bird::create( [
+        $bird154 = Bird::firstOrCreate( [
             'name' => 'Luscinia svecica',
-            'name_de' => '',
+            'name_de' => 'Blaukehlchen',
             'name_fr' => 'Gorgebleue à miroir',
             'name_it' => 'Pettazzurro',
             'gender_de' => 'S',
@@ -8137,6 +8352,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 225362,
         ] );
 
         $bird154->pictures()->save($blaukehlchen_1);
@@ -8160,16 +8376,17 @@ class BirdsTableSeeder extends Seeder
         $bird154->sizes()->attach($_spatz);
         $bird154->save();
 
-        $bird155 = Bird::create( [
+        $bird155 = Bird::firstOrCreate( [
             'name' => 'Phoenicurus phoenicurus',
-            'name_de' => '',
+            'name_de' => 'Gartenrotschwanz',
             'name_fr' => 'Rougequeue à front blanc',
             'name_it' => 'Codirosso comune',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> oiseau de la taille d&rsquo;un pinson, mu00e2le  aux couleurs contrastées avec haut du front blanc et poitrine orangée. La femelle est brunu00e2tre, plus claire que la femelle du rougequeue noir, queue rousse.r<br /><br /><strong>Voix:</strong> chant doux et mélancolique.r<br /><br /><strong>Distribution:</strong> migrateur au long cours qui hiverne dans la zone du Sahel. Habite les paysages semi-ouverts, les vergers, les parcs. Se tient volontiers sur un poste exposé, un poteau ou une branche qui dépasse. Est devenu très rare en milieu construit.r<br /><br /><strong>Nourriture:</strong> insectes, araignées.r<br /><br /><strong>Nidification:</strong> couvée avec 3-9 u0153ufs, dans une cavité plus ou moins fermée ou un nichoir.',
+            'description_de' => '<strong>Kennzeichen:</strong> Das Männchen  des buchfinkengrossen Vogels ist sehr kontrastreich gefärbt. Auffällig ist v.a. der weisse Überaugenstreif. Das Weibchen ist heller bräunlich gefärbt als das Hausrotschwanzweibchen und hat ebenfalls einen rostroten Schwanz.<br /><br /><strong>Stimme:</strong> Melodischer, wehmütiger Gesang.<br /><br /><strong>Vorkommen:</strong> Langstreckenzieher, der in der Sahelzone überwintert. Bewohnt halboffenes Gelände, Obstgärten, Parks. Sitzt gerne an exponierten Stellen, auf Pfosten oder hervorstehenden Ästen. Im Siedlungsraum sehr selten geworden.<br /><br /><strong>Nahrung:</strong> Insekten, Spinnen.<br /><br /><strong>Brut:</strong> Das Gelege mit 3-9 Eiern findet man in Höhlen, Halbhöhlen oder Nisthilfen.',
+            'description_fr' => '<strong>Caractéristiques:</strong> oiseau de la taille d&rsquo;un pinson, mâle  aux couleurs contrastées avec haut du front blanc et poitrine orangée. La femelle est brunâtre, plus claire que la femelle du rougequeue noir, queue rousse<br /><br /><strong>Voix:</strong> chant doux et mélancolique<br /><br /><strong>Distribution:</strong> migrateur au long cours qui hiverne dans la zone du Sahel. Habite les paysages semi-ouverts, les vergers, les parcs. Se tient volontiers sur un poste exposé, un poteau ou une branche qui dépasse. Est devenu très rare en milieu construit<br /><br /><strong>Nourriture:</strong> insectes, araignées<br /><br /><strong>Nidification:</strong> couvée avec 3-9 œufs, dans une cavité plus ou moins fermée ou un nichoir.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 29700,
         ] );
 
         $bird155->pictures()->save($gartenrotschwanz_1);
@@ -8192,16 +8409,17 @@ class BirdsTableSeeder extends Seeder
         $bird155->sizes()->attach($_spatz);
         $bird155->save();
 
-        $bird156 = Bird::create( [
+        $bird156 = Bird::firstOrCreate( [
             'name' => 'Phoenicurus ochruros',
-            'name_de' => '',
+            'name_de' => 'Hausrotschwanz',
             'name_fr' => 'Rougequeue noir',
             'name_it' => 'Codirosso spazzacamino',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> se tient souvent droit, sur un poste élevé, un fau00eete de toit par exemple, d&rsquo;ou00f9 il chante et chasse les insectes volants. Mu00e2le  gris noiru00e2tre avec nette tache alaire blanche, femelle  gris brunu00e2tre sale.<br /><br /><strong>Voix:</strong> en cas d&rsquo;inquiétude cris répétés «vist-tk-tk-tk». Chant sonore comprenant deux phases de sifflements entrecoupées d&rsquo;un «bruit de verre pilé». <br /><br /><strong>Distribution:</strong> en montagne sur les pentes rocheuses ou dans les villes et villages à basse altitude. Hiverne en région méditerranéenne.<br /><br /><strong>Nourriture:</strong> divers insectes.<br /><br /><strong>Nidification:</strong> nid dans une anfractuosité de rocher ou une niche de bu00e2timent.',
+            'description_de' => '<strong>Kennzeichen:</strong> Sitzt gerne aufrecht auf hohen Warten, z.B. Dachgiebeln, von wo aus er singt und auch Fluginsekten jagt. Männchen  grauschwarz und deutlichem weissem Flügelfeld, Weibchen  unscheinbarer braun.<br /><br /><strong>Stimme:</strong> Ruft in Erregung schnalzend &bdquo;fist tk-tk-tk&ldquo;. Der Gesang beinhaltet einen merkwürdig kratzenden Ton, dem einige kurze Pfeiftöne &bdquo;si-srü-til-il-il&ldquo; folgen. <br /><br /><strong>Vorkommen:</strong> Lebt einerseits in der alpinen Zone oberhalb der Baumgrenze, andererseits als Kulturfolger in menschlichen Siedlungen, Gärten, Dörfern. Überwintert im Mittelmeerraum.<br /><br /><strong>Nahrung:</strong> Insekten aller Art.<br /><br /><strong>Brut:</strong> Nest in Felsspalten, Mauernischen.',
+            'description_fr' => '<strong>Caractéristiques:</strong> se tient souvent droit, sur un poste élevé, un fau00eete de toit par exemple, d&rsquo;où il chante et chasse les insectes volants. Mâle  gris noirâtre avec nette tache alaire blanche, femelle  gris brunâtre sale.<br /><br /><strong>Voix:</strong> en cas d&rsquo;inquiétude cris répétés «vist-tk-tk-tk». Chant sonore comprenant deux phases de sifflements entrecoupées d&rsquo;un «bruit de verre pilé». <br /><br /><strong>Distribution:</strong> en montagne sur les pentes rocheuses ou dans les villes et villages à basse altitude. Hiverne en région méditerranéenne.<br /><br /><strong>Nourriture:</strong> divers insectes.<br /><br /><strong>Nidification:</strong> nid dans une anfractuosité de rocher ou une niche de bâtiment.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 171486,
         ] );
 
         $bird156->pictures()->save($hausrotschwanz_1);
@@ -8223,9 +8441,9 @@ class BirdsTableSeeder extends Seeder
         $bird156->sizes()->attach($_spatz);
         $bird156->save();
 
-        $bird157 = Bird::create( [
+        $bird157 = Bird::firstOrCreate( [
             'name' => 'Oenanthe oenanthe',
-            'name_de' => '',
+            'name_de' => 'Steinschmätzer',
             'name_fr' => 'Traquet motteux',
             'name_it' => 'Culbianco',
             'gender_de' => 'M',
@@ -8233,6 +8451,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 214212,
         ] );
 
         $bird157->pictures()->save($steinschmaetzer_1);
@@ -8256,9 +8475,9 @@ class BirdsTableSeeder extends Seeder
         $bird157->sizes()->attach($spatz_amsel);
         $bird157->save();
 
-        $bird158 = Bird::create( [
+        $bird158 = Bird::firstOrCreate( [
             'name' => 'Saxicola rubetra',
-            'name_de' => '',
+            'name_de' => 'Braunkehlchen',
             'name_fr' => 'Tarier des prés',
             'name_it' => 'Stiaccino',
             'gender_de' => 'S',
@@ -8266,6 +8485,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 183080,
         ] );
 
         $bird158->pictures()->save($braunkehlchen_1);
@@ -8287,9 +8507,9 @@ class BirdsTableSeeder extends Seeder
         $bird158->sizes()->attach($_spatz);
         $bird158->save();
 
-        $bird159 = Bird::create( [
+        $bird159 = Bird::firstOrCreate( [
             'name' => 'Saxicola rubicola',
-            'name_de' => '',
+            'name_de' => 'Schwarzkehlchen',
             'name_fr' => 'Tarier pu00e2tre',
             'name_it' => 'Saltimpalo',
             'gender_de' => 'S',
@@ -8297,6 +8517,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 134945,
         ] );
 
         $bird159->pictures()->save($schwarzkehlchen_1);
@@ -8318,9 +8539,9 @@ class BirdsTableSeeder extends Seeder
         $bird159->sizes()->attach($_spatz);
         $bird159->save();
 
-        $bird160 = Bird::create( [
+        $bird160 = Bird::firstOrCreate( [
             'name' => 'Monticola solitarius',
-            'name_de' => '',
+            'name_de' => 'Blaumerle',
             'name_fr' => 'Monticole bleu',
             'name_it' => 'Passero solitario',
             'gender_de' => 'W',
@@ -8328,6 +8549,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 99691,
         ] );
 
         $bird160->pictures()->save($blaumerle_1);
@@ -8346,9 +8568,9 @@ class BirdsTableSeeder extends Seeder
         $bird160->sizes()->attach($spatz_amsel);
         $bird160->save();
 
-        $bird161 = Bird::create( [
+        $bird161 = Bird::firstOrCreate( [
             'name' => 'Monticola saxatilis',
-            'name_de' => '',
+            'name_de' => 'Steinrötel',
             'name_fr' => 'Monticole de roche',
             'name_it' => 'Codirossone',
             'gender_de' => 'M',
@@ -8356,6 +8578,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 178849,
         ] );
 
         $bird161->pictures()->save($steinroetel_1);
@@ -8374,16 +8597,17 @@ class BirdsTableSeeder extends Seeder
         $bird161->sizes()->attach($spatz_amsel);
         $bird161->save();
 
-        $bird162 = Bird::create( [
+        $bird162 = Bird::firstOrCreate( [
             'name' => 'Turdus philomelos',
-            'name_de' => '',
+            'name_de' => 'Singdrossel',
             'name_fr' => 'Grive musicienne',
             'name_it' => 'Tordo bottaccio',
             'gender_de' => 'W',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> petite grive brune avec poitrine mouchetée régulièrement. <br /><br /><strong>Voix:</strong> chant varié avec notes douces et flu00fbtées, chaque phrase est répétée 2-4 fois. Cris d\'alarme pénétrant «tixtixtix», cri fin «tsip».<br /><br /><strong>Distribution:</strong> forêts, parcs et jardins munis d\'arbres. Migrateur à courte distance, hiverne en région méditerranéenne, en plaine parfois aussi chez nous.<br /><br /><strong>Nourriture:</strong> vers, escargots et insectes.<br /><br /><strong>Nidification:</strong> nid bien camouflé dans les boisements avec 3-5 u0153ufs. A l\'intérieur, le nid est tapissé de bois décomposé et d\'argile.',
+            'description_de' => '<strong>Kennzeichen:</strong> Braune, kleinere Drosselart mit regelmässig gesprenkelter Brust.<br /><br /><strong>Stimme:</strong> Lauter und sehr abwechslungsreicher, melodischer, flötender Gesang mit deutlich abgesetzten Motiven, die 2-4 mal wiederholt werden. Warnruf ist durchdringend und zeternd &bdquo;tix-ix-ix-...&ldquo;, ruft fein &bdquo;zit&ldquo;.<br /><br /><strong>Vorkommen:</strong> Wälder, Parks und Gärten mit Baumbestand. Als Kurzstreckenzieher überwintert sie im Mittelmeerraum, im Flachland teilweise sogar bei uns.<br /><br /><strong>Nahrung:</strong> Würmer, Schnecken und Insekten.<br /><br /><strong>Brut:</strong> Gut verstecktes Nest mit 3-5 Eiern in Gehölzen, das Nest wird innen mit Holzmulm und Lehm verkleidet.',
+            'description_fr' => '<strong>Caractéristiques:</strong> petite grive brune avec poitrine mouchetée régulièrement. <br /><br /><strong>Voix:</strong> chant varié avec notes douces et flu00fbtées, chaque phrase est répétée 2-4 fois. Cris d\'alarme pénétrant «tixtixtix», cri fin «tsip».<br /><br /><strong>Distribution:</strong> forêts, parcs et jardins munis d\'arbres. Migrateur à courte distance, hiverne en région méditerranéenne, en plaine parfois aussi chez nous.<br /><br /><strong>Nourriture:</strong> vers, escargots et insectes.<br /><br /><strong>Nidification:</strong> nid bien camouflé dans les boisements avec 3-5 œufs. A l\'intérieur, le nid est tapissé de bois décomposé et d\'argile.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 174903,
         ] );
 
         $bird162->pictures()->save($singdrossel_1);
@@ -8404,9 +8628,9 @@ class BirdsTableSeeder extends Seeder
         $bird162->sizes()->attach($spatz_amsel);
         $bird162->save();
 
-        $bird163 = Bird::create( [
+        $bird163 = Bird::firstOrCreate( [
             'name' => 'Turdus iliacus',
-            'name_de' => '',
+            'name_de' => 'Rotdrossel',
             'name_fr' => 'Grive mauvis ',
             'name_it' => 'Tordo sassello',
             'gender_de' => 'W',
@@ -8414,6 +8638,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 211862,
         ] );
 
         $bird163->pictures()->save($rotdrossel_1);
@@ -8432,9 +8657,9 @@ class BirdsTableSeeder extends Seeder
         $bird163->sizes()->attach($spatz_amsel);
         $bird163->save();
 
-        $bird164 = Bird::create( [
+        $bird164 = Bird::firstOrCreate( [
             'name' => 'Turdus viscivorus',
-            'name_de' => '',
+            'name_de' => 'Misteldrossel',
             'name_fr' => 'Grive draine',
             'name_it' => 'Tordela',
             'gender_de' => 'W',
@@ -8442,6 +8667,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 169317,
         ] );
 
         $bird164->pictures()->save($misteldrossel_1);
@@ -8461,16 +8687,17 @@ class BirdsTableSeeder extends Seeder
         $bird164->sizes()->attach($amsel_taube);
         $bird164->save();
 
-        $bird165 = Bird::create( [
+        $bird165 = Bird::firstOrCreate( [
             'name' => 'Turdus pilaris',
-            'name_de' => '',
+            'name_de' => 'Wacholderdrossel',
             'name_fr' => 'Grive litorne',
             'name_it' => 'Cesena',
             'gender_de' => 'W',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> grande grive à longue queue, dessus de la tête, nuque et croupion gris. Dessous tacheté.<br /><br /><strong>Voix:</strong> cri «tchac-tchac-tchac», le chant est un babil peu sonore souvent émis en vol nuptial.<br /><br /><strong>Distribution:</strong> forêts feuillues et mixtes ouvertes, bosquets, parcs et jardins. Généralement en petites colonies. Chasse les prédateurs comme les rapaces de fau00e7on véhémente. Cette grive a immigré en Europe centrale depuis la Sibérie au début du 20ème siècle, en diminution marquée en Suisse.<br /><br /><strong>Nourriture:</strong> vers, insectes, baies.<br /><br /><strong>Nidification:</strong> nichée avec 5-6 u0153ufs, nid dans un arbre.',
+            'description_de' => '<strong>Kennzeichen:</strong> Grosse, langschwänzige Drossel mit auffallender grauer Kopfoberseite, grauem Nacken und Bürzel. Unterseite gefleckt.<br /><br /><strong>Stimme:</strong> Ruft rau &bdquo;tschack-tschack-tschack-...&ldquo;. Der Gesang ist einfach, besteht aus schwatzenden Tönen und wird oft im Singflug vorgetragen.<br /><br /><strong>Vorkommen:</strong> Offene Laub- und Mischwälder, Feldgehölze, Parks, Gärten. Lebt meist in kleinen Kolonien und vertreibt Feinde wie Greifvögel sehr vehement. Diese Drossel ist zu Beginn des 20. Jahrhunderts aus Sibirien in Mitteleuropa eingewandert und mittlerweilen weit verbreitet.<br /><br /><strong>Nahrung:</strong> Würmer, Insekten, Beeren.<br /><br /><strong>Brut:</strong> Gelege mit 5-6 Eiern werden in Baumnestern ausgebrütet.',
+            'description_fr' => '<strong>Caractéristiques:</strong> grande grive à longue queue, dessus de la tête, nuque et croupion gris. Dessous tacheté.<br /><br /><strong>Voix:</strong> cri «tchac-tchac-tchac», le chant est un babil peu sonore souvent émis en vol nuptial.<br /><br /><strong>Distribution:</strong> forêts feuillues et mixtes ouvertes, bosquets, parcs et jardins. Généralement en petites colonies. Chasse les prédateurs comme les rapaces de fau00e7on véhémente. Cette grive a immigré en Europe centrale depuis la Sibérie au début du 20ème siècle, en diminution marquée en Suisse.<br /><br /><strong>Nourriture:</strong> vers, insectes, baies.<br /><br /><strong>Nidification:</strong> nichée avec 5-6 œufs, nid dans un arbre.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 214216,
         ] );
 
         $bird165->pictures()->save($wacholderdrossel_1);
@@ -8494,16 +8721,17 @@ class BirdsTableSeeder extends Seeder
         $bird165->sizes()->attach($amsel_taube);
         $bird165->save();
 
-        $bird166 = Bird::create( [
+        $bird166 = Bird::firstOrCreate( [
             'name' => 'Turdus merula',
-            'name_de' => '',
+            'name_de' => 'Amsel',
             'name_fr' => 'Merle noir',
             'name_it' => 'Merlo',
             'gender_de' => 'W',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> mu00e2le  noir avec bec jaune, femelle  d\'un brun discret.<br /><br /><strong>Voix:</strong> chant mélodieux avec sons flu00fbtés et sonores, souvent émis depuis un poste élevé à l\'aube et au crépuscule. Cri «poc» bas, cri d\'alarme «tixtixtixtixtix».<br /><br /><strong>Distribution:</strong> présent toute l\'année, largement répandu jusqu\'à la limite supérieure des arbres. Vit en forêt, dans les jardins et les parcs. Autrefois oiseau farouche des forêts, a pénétré en milieu urbain il y a une centaine d\'années.<br /><br /><strong>Nourriture:</strong> insectes, vers, fruits, baies.<br /><br /><strong>Nidification:</strong> nid avec 3-5 u0153ufs dans les buissons, les espaliers, sur les poutres du toit ou même dans les bacs à fleurs.',
+            'description_de' => '<strong>Kennzeichen:</strong> Männchen  schwarz mit gelbem Schnabel, Weibchen  unscheinbar braun.<br /><br /><strong>Stimme:</strong> Sehr schöner, melodischer Gesang mit lauten Flötentönen, der gerne von einer Warte aus in frühen Morgen- oder späten Abendstunden vorgetragen wird. Ruft tief &bdquo;pok&ldquo;, warnt mit lautem &bdquo;tjack-ack-...&ldquo;.<br /><br /><strong>Vorkommen:</strong> Weit verbreiteter Jahresvogel bis zur Baumgrenze. Lebt im Wald, Gärten, Parks. Als ehemals scheuer Waldvogel ist sie als Kulturfolger erst in den letzten 100 Jahren in den Siedlungsraum vorgedrungen.<br /><br /><strong>Nahrung:</strong> Insekten, Würmer, Früchte, Beeren.<br /><br /><strong>Brut:</strong> Bebrütet 3-5 Eier im Gebüsch, in Spalieren, unter Dachbalken und sogar in Blumenkästen.',
+            'description_fr' => '<strong>Caractéristiques:</strong> mâle  noir avec bec jaune, femelle  d\'un brun discret.<br /><br /><strong>Voix:</strong> chant mélodieux avec sons flu00fbtés et sonores, souvent émis depuis un poste élevé à l\'aube et au crépuscule. Cri «poc» bas, cri d\'alarme «tixtixtixtixtix».<br /><br /><strong>Distribution:</strong> présent toute l\'année, largement répandu jusqu\'à la limite supérieure des arbres. Vit en forêt, dans les jardins et les parcs. Autrefois oiseau farouche des forêts, a pénétré en milieu urbain il y a une centaine d\'années.<br /><br /><strong>Nourriture:</strong> insectes, vers, fruits, baies.<br /><br /><strong>Nidification:</strong> nid avec 3-5 œufs dans les buissons, les espaliers, sur les poutres du toit ou même dans les bacs à fleurs.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 30191,
         ] );
 
         $bird166->pictures()->save($amsel_1);
@@ -8525,9 +8753,9 @@ class BirdsTableSeeder extends Seeder
         $bird166->sizes()->attach($spatz_amsel);
         $bird166->save();
 
-        $bird167 = Bird::create( [
+        $bird167 = Bird::firstOrCreate( [
             'name' => 'Turdus torquatus',
-            'name_de' => '',
+            'name_de' => 'Ringdrossel',
             'name_fr' => 'Merle à plastron',
             'name_it' => 'Merlo dal collare',
             'gender_de' => 'W',
@@ -8535,6 +8763,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 178560,
         ] );
 
         $bird167->pictures()->save($ringdrossel_1);
@@ -8554,9 +8783,9 @@ class BirdsTableSeeder extends Seeder
         $bird167->sizes()->attach($amsel_taube);
         $bird167->save();
 
-        $bird168 = Bird::create( [
+        $bird168 = Bird::firstOrCreate( [
             'name' => 'Sylvia borin',
-            'name_de' => '',
+            'name_de' => 'Gartengrasmücke',
             'name_fr' => 'Fauvette des jardins',
             'name_it' => 'Beccafico',
             'gender_de' => 'W',
@@ -8564,6 +8793,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 180817,
         ] );
 
         $bird168->pictures()->save($gartengrasmuecke_1);
@@ -8583,9 +8813,9 @@ class BirdsTableSeeder extends Seeder
         $bird168->sizes()->attach($_spatz);
         $bird168->save();
 
-        $bird169 = Bird::create( [
+        $bird169 = Bird::firstOrCreate( [
             'name' => 'Sylvia nisoria',
-            'name_de' => '',
+            'name_de' => 'Sperbergrasmücke',
             'name_fr' => 'Fauvette épervière',
             'name_it' => 'Bigia padovana',
             'gender_de' => 'W',
@@ -8593,6 +8823,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 28015,
         ] );
 
         $bird169->pictures()->save($sperbergrasmuecke_1);
@@ -8613,16 +8844,17 @@ class BirdsTableSeeder extends Seeder
         $bird169->sizes()->attach($spatz_amsel);
         $bird169->save();
 
-        $bird170 = Bird::create( [
+        $bird170 = Bird::firstOrCreate( [
             'name' => 'Sylvia atricapilla',
-            'name_de' => '',
+            'name_de' => 'Mönchsgrasmücke',
             'name_fr' => 'Fauvette à tête noire',
             'name_it' => 'Capinera',
             'gender_de' => 'W',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> oiseau gris-brun peu coloré, taille d&rsquo;un pinson. Dessus de la tête noir chez le mu00e2le , brun-roux chez la femelle . <br /><br /><strong>Voix:</strong> chant flu00fbté gazouillant avec fin typique «u2026die-die-die». Cris d&rsquo;alarme claquants p. ex. «tèk», répétés en série en cas d&rsquo;inquiétude. <br /><br /><strong>Distribution:</strong> vit dans les forêts, les parcs et les grands jardins. Hiverne généralement en région méditerranéenne, une partie migre en direction du nord-ouest vers la Mer du Nord et l&rsquo;Angleterre.<br /><br /><strong>Nourriture:</strong> insectes, baies et fruits.<br /><br /><strong>Nidification:</strong> le nid est construit à l&rsquo;abri d&rsquo;épais buissons, 3-6 jeunes par nichée s&rsquo;envolant après moins de deux semaines déjà.',
+            'description_de' => '<strong>Kennzeichen:</strong> Graubrauner, unscheinbarer, finkengrosser Vogel. Männchen  mit schwarzer, Weibchen  mit rötlichbrauner Kopfoberseite.<br /><br /><strong>Stimme:</strong> Zwitschernder melodischer Gesang mit typischem Ende &bdquo;…diä-diä-diä&ldquo;. Warnt laut, z.B. &bdquo;tschäck&ldquo;. <br /><br /><strong>Vorkommen:</strong> Bewohnt Wälder, Parks und grössere Gärten. Überwintert meist im Mittelmeerraum, ein Teil der Vögel zieht in nordwestlicher Richtung zur Nordsee und nach England.<br /><br /><strong>Nahrung:</strong> Insekten, Beeren und Früchte.<br /><br /><strong>Brut:</strong> Das Nest wird in dichtem Gebüsch gebaut, dort werden 3-6 Jungvögel gross gezogen, die bereits nach weniger als 2 Wochen ausfliegen.',
+            'description_fr' => '<strong>Caractéristiques:</strong> oiseau gris-brun peu coloré, taille d&rsquo;un pinson. Dessus de la tête noir chez le mâle , brun-roux chez la femelle . <br /><br /><strong>Voix:</strong> chant flu00fbté gazouillant avec fin typique «u2026die-die-die». Cris d&rsquo;alarme claquants p. ex. «tèk», répétés en série en cas d&rsquo;inquiétude. <br /><br /><strong>Distribution:</strong> vit dans les forêts, les parcs et les grands jardins. Hiverne généralement en région méditerranéenne, une partie migre en direction du nord-ouest vers la Mer du Nord et l&rsquo;Angleterre.<br /><br /><strong>Nourriture:</strong> insectes, baies et fruits.<br /><br /><strong>Nidification:</strong> le nid est construit à l&rsquo;abri d&rsquo;épais buissons, 3-6 jeunes par nichée s&rsquo;envolant après moins de deux semaines déjà.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 187165,
         ] );
 
         $bird170->pictures()->save($moenchsgrasmuecke_1);
@@ -8645,9 +8877,9 @@ class BirdsTableSeeder extends Seeder
         $bird170->sizes()->attach($_spatz);
         $bird170->save();
 
-        $bird171 = Bird::create( [
+        $bird171 = Bird::firstOrCreate( [
             'name' => 'Sylvia curruca',
-            'name_de' => '',
+            'name_de' => 'Klappergrasmücke',
             'name_fr' => 'Fauvette babillarde',
             'name_it' => 'Bigiarella',
             'gender_de' => 'W',
@@ -8655,6 +8887,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 214219,
         ] );
 
         $bird171->pictures()->save($klappergrasmuecke_1);
@@ -8677,9 +8910,9 @@ class BirdsTableSeeder extends Seeder
         $bird171->sizes()->attach($_spatz);
         $bird171->save();
 
-        $bird172 = Bird::create( [
+        $bird172 = Bird::firstOrCreate( [
             'name' => 'Sylvia communis',
-            'name_de' => '',
+            'name_de' => 'Dorngrasmücke',
             'name_fr' => 'Fauvette grisette',
             'name_it' => 'Sterpazzola',
             'gender_de' => 'W',
@@ -8687,6 +8920,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 218680,
         ] );
 
         $bird172->pictures()->save($dorngrasmuecke_1);
@@ -8708,9 +8942,9 @@ class BirdsTableSeeder extends Seeder
         $bird172->sizes()->attach($_spatz);
         $bird172->save();
 
-        $bird173 = Bird::create( [
+        $bird173 = Bird::firstOrCreate( [
             'name' => 'Acrocephalus schoenobaenus',
-            'name_de' => '',
+            'name_de' => 'Schilfrohrsänger',
             'name_fr' => 'Phragmite des joncs',
             'name_it' => 'Forapaglie comune',
             'gender_de' => 'M',
@@ -8718,6 +8952,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 218683,
         ] );
 
         $bird173->pictures()->save($schilfrohrsaenger_1);
@@ -8736,9 +8971,9 @@ class BirdsTableSeeder extends Seeder
         $bird173->sizes()->attach($_spatz);
         $bird173->save();
 
-        $bird174 = Bird::create( [
+        $bird174 = Bird::firstOrCreate( [
             'name' => 'Acrocephalus scirpaceus',
-            'name_de' => '',
+            'name_de' => 'Teichrohrsänger',
             'name_fr' => 'Rousserolle effarvatte',
             'name_it' => 'Cannaiola comune',
             'gender_de' => 'M',
@@ -8746,6 +8981,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 184140,
         ] );
 
         $bird174->pictures()->save($teichrohrsaenger_1);
@@ -8763,9 +8999,9 @@ class BirdsTableSeeder extends Seeder
         $bird174->sizes()->attach($_spatz);
         $bird174->save();
 
-        $bird175 = Bird::create( [
+        $bird175 = Bird::firstOrCreate( [
             'name' => 'Acrocephalus palustris',
-            'name_de' => '',
+            'name_de' => 'Sumpfrohrsänger',
             'name_fr' => 'Rousserolle verderolle',
             'name_it' => 'Cannaiola verdognola',
             'gender_de' => 'M',
@@ -8773,6 +9009,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 82571,
         ] );
 
         $bird175->pictures()->save($sumpfrohrsaenger_1);
@@ -8794,9 +9031,9 @@ class BirdsTableSeeder extends Seeder
         $bird175->sizes()->attach($_spatz);
         $bird175->save();
 
-        $bird176 = Bird::create( [
+        $bird176 = Bird::firstOrCreate( [
             'name' => 'Acrocephalus arundinaceus',
-            'name_de' => '',
+            'name_de' => 'Drosselrohrsänger',
             'name_fr' => 'Rousserolle turdou00efde',
             'name_it' => 'Cannareccione',
             'gender_de' => 'M',
@@ -8804,6 +9041,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 180809,
         ] );
 
         $bird176->pictures()->save($drosselrohrsaenger_1);
@@ -8819,9 +9057,9 @@ class BirdsTableSeeder extends Seeder
         $bird176->sizes()->attach($spatz_amsel);
         $bird176->save();
 
-        $bird177 = Bird::create( [
+        $bird177 = Bird::firstOrCreate( [
             'name' => 'Locustella naevia',
-            'name_de' => '',
+            'name_de' => 'Feldschwirl',
             'name_fr' => 'Locustelle tachetée',
             'name_it' => 'Forapaglie macchiettato',
             'gender_de' => 'M',
@@ -8829,6 +9067,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 56795,
         ] );
 
         $bird177->pictures()->save($feldschwirl_1);
@@ -8847,9 +9086,9 @@ class BirdsTableSeeder extends Seeder
         $bird177->sizes()->attach($_spatz);
         $bird177->save();
 
-        $bird178 = Bird::create( [
+        $bird178 = Bird::firstOrCreate( [
             'name' => 'Locustella luscinioides',
-            'name_de' => '',
+            'name_de' => 'Rohrschwirl',
             'name_fr' => 'Locustelle lusciniou00efde',
             'name_it' => 'Salciaiola',
             'gender_de' => 'M',
@@ -8857,6 +9096,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 134068,
         ] );
 
         $bird178->pictures()->save($rohrschwirl_1);
@@ -8872,9 +9112,9 @@ class BirdsTableSeeder extends Seeder
         $bird178->sizes()->attach($_spatz);
         $bird178->save();
 
-        $bird179 = Bird::create( [
+        $bird179 = Bird::firstOrCreate( [
             'name' => 'Hippolais icterina',
-            'name_de' => '',
+            'name_de' => 'Gelbspötter',
             'name_fr' => 'Hypolau00efs ictérine',
             'name_it' => 'Canapino maggiore',
             'gender_de' => 'M',
@@ -8882,6 +9122,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 210473,
         ] );
 
         $bird179->pictures()->save($gelbspoetter_1);
@@ -8900,9 +9141,9 @@ class BirdsTableSeeder extends Seeder
         $bird179->sizes()->attach($_spatz);
         $bird179->save();
 
-        $bird180 = Bird::create( [
+        $bird180 = Bird::firstOrCreate( [
             'name' => 'Hippolais polyglotta',
-            'name_de' => '',
+            'name_de' => 'Orpheusspötter',
             'name_fr' => 'Hypolau00efs polyglotte',
             'name_it' => 'Canapino comune',
             'gender_de' => 'M',
@@ -8910,6 +9151,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 193640,
         ] );
 
         $bird180->pictures()->save($orpheusspoetter_1);
@@ -8929,9 +9171,9 @@ class BirdsTableSeeder extends Seeder
         $bird180->sizes()->attach($_spatz);
         $bird180->save();
 
-        $bird181 = Bird::create( [
+        $bird181 = Bird::firstOrCreate( [
             'name' => 'Phylloscopus trochilus',
-            'name_de' => '',
+            'name_de' => 'Fitis',
             'name_fr' => 'Pouillot fitis',
             'name_it' => 'Luu00ec grosso',
             'gender_de' => 'M',
@@ -8939,6 +9181,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 172563,
         ] );
 
         $bird181->pictures()->save($fitis_1);
@@ -8958,9 +9201,9 @@ class BirdsTableSeeder extends Seeder
         $bird181->sizes()->attach($_spatz);
         $bird181->save();
 
-        $bird182 = Bird::create( [
+        $bird182 = Bird::firstOrCreate( [
             'name' => 'Phylloscopus sibilatrix',
-            'name_de' => '',
+            'name_de' => 'Waldlaubsänger',
             'name_fr' => 'Pouillot siffleur',
             'name_it' => 'Luu00ec verde',
             'gender_de' => 'M',
@@ -8968,6 +9211,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 212561,
         ] );
 
         $bird182->pictures()->save($waldlaubsaenger_1);
@@ -8987,9 +9231,9 @@ class BirdsTableSeeder extends Seeder
         $bird182->sizes()->attach($_spatz);
         $bird182->save();
 
-        $bird183 = Bird::create( [
+        $bird183 = Bird::firstOrCreate( [
             'name' => 'Phylloscopus bonelli',
-            'name_de' => '',
+            'name_de' => 'Berglaubsänger',
             'name_fr' => 'Pouillot de Bronelli',
             'name_it' => 'Luu00ec bianco',
             'gender_de' => 'M',
@@ -8997,6 +9241,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 133201,
         ] );
 
         $bird183->pictures()->save($berglaubsaenger_1);
@@ -9017,16 +9262,17 @@ class BirdsTableSeeder extends Seeder
         $bird183->sizes()->attach($_spatz);
         $bird183->save();
 
-        $bird184 = Bird::create( [
+        $bird184 = Bird::firstOrCreate( [
             'name' => 'Phylloscopus collybita',
-            'name_de' => '',
+            'name_de' => 'Zilpzalp',
             'name_fr' => 'Pouillot véloce',
             'name_it' => 'Luu00ec piccolo',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> petit oiseau brunu00e2tre, peu coloré. Est le plus facile à reconnau00eetre à son chant.r<br /><br /><strong>Voix:</strong> chant typique composé d\'une série de sons sur 2 ou 3 tons «tsip tsap tsip tsap tsup tsip».r<br /><br /><strong>Distribution:</strong> vit dans les forêts au sous-bois dense, dans les buissons, aussi dans les villes et les villages.r<br /><br /><strong>Nourriture:</strong> insectes et araignées, en automne parfois des baies.r<br /><br /><strong>Nidification:</strong> nid couvert avec entrée latérale, posé au sol ou à faible hauteur dans la végétation. 5-7 oeufs.',
+            'description_de' => '<strong>Kennzeichen:</strong> Kleiner, unscheinbar bräunlicher Vogel, der am leichtesten am Gesang zu erkennen ist.<br /><br /><strong>Stimme:</strong> Charakteristischer, namensgebender Gesang, der aus zwei unterschiedlich hohen Tönen besteht: „Zilp-zalp-zilp-zilp-zalp-zilp“.<br /><br /><strong>Vorkommen:</strong> Bewohnt Wälder mit dichtem Unterholz sowie verschiedene Buschbestände, auch im Siedlungsraum.<br /><br /><strong>Nahrung:</strong> Insekten und Spinnen, im Herbst manchmal Beeren.<br /><br /><strong>Brut:</strong> In das überdachte Nest mit seitlichem Eingang, welches auf dem Boden oder in geringer Höhe gebaut wird, legt das Weibchen 5-7 Eier.<br />',
+            'description_fr' => '<strong>Caractéristiques:</strong> petit oiseau brunâtre, peu coloré. Est le plus facile à reconnau00eetre à son chant<br /><br /><strong>Voix:</strong> chant typique composé d\'une série de sons sur 2 ou 3 tons «tsip tsap tsip tsap tsup tsip»<br /><br /><strong>Distribution:</strong> vit dans les forêts au sous-bois dense, dans les buissons, aussi dans les villes et les villages<br /><br /><strong>Nourriture:</strong> insectes et araignées, en automne parfois des baies<br /><br /><strong>Nidification:</strong> nid couvert avec entrée latérale, posé au sol ou à faible hauteur dans la végétation. 5-7 oeufs.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 171441,
         ] );
 
         $bird184->pictures()->save($zilpzalp_1);
@@ -9046,16 +9292,17 @@ class BirdsTableSeeder extends Seeder
         $bird184->sizes()->attach($_spatz);
         $bird184->save();
 
-        $bird185 = Bird::create( [
+        $bird185 = Bird::firstOrCreate( [
             'name' => 'Regulus regulus',
-            'name_de' => '',
+            'name_de' => 'Wintergoldhähnchen',
             'name_fr' => 'Roitelet huppé',
             'name_it' => 'Regolo',
             'gender_de' => 'S',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> le plus petit oiseau indigène. Plumage verdu00e2tre avec bande jaune ou orange sur la tête, entourée de bandes noires de chaque cu00f4té.r<br /><br /><strong>Voix:</strong> le chant est un motif aigu montant et descendant, répété 4 à 6 fois «Siseri-siseri-siseri-siseri-si».r<br /><br /><strong>Distribution:</strong> vit dans les forêts de conifères et les forêts mixtes, ainsi que dans les jardins et les parcs avec conifères. Reste généralement toute l\'année chez nous.r<br /><br /><strong>Nourriture:</strong> petits insectes et araignées.r<br /><br /><strong>Nidification:</strong> le nid est généralement fixé sous une branche d\'épicéa. 8-11 oeufs.',
+            'description_de' => '<strong>Kennzeichen:</strong> Der kleinste einheimische Vogel. Unauffällig grünlich mit gelbem oder orangem, schwarz eingefasstem Scheitel.<br /><br /><strong>Stimme:</strong> Sehr hoher, feiner, rhythmisch auf- und absteigender Gesang: „Siseri-siseri-siseri-siseri-si“.<br /><br /><strong>Vorkommen:</strong> Lebt in Nadel- und Mischwäldern sowie in Gärten und Parks mit einzelnen Nadelbäumen. Bleibt meist das ganze Jahr über bei uns.<br /><br /><strong>Nahrung:</strong> Kleine Insekten und Spinnen.<br /><br /><strong>Brut:</strong> In das Nest, welches an der Unterseite von Fichtenästen in die Zweige geflochten wird, legt das Weibchen 8-11 Eier.',
+            'description_fr' => '<strong>Caractéristiques:</strong> le plus petit oiseau indigène. Plumage verdâtre avec bande jaune ou orange sur la tête, entourée de bandes noires de chaque côté<br /><br /><strong>Voix:</strong> le chant est un motif aigu montant et descendant, répété 4 à 6 fois «Siseri-siseri-siseri-siseri-si»<br /><br /><strong>Distribution:</strong> vit dans les forêts de conifères et les forêts mixtes, ainsi que dans les jardins et les parcs avec conifères. Reste généralement toute l\'année chez nous<br /><br /><strong>Nourriture:</strong> petits insectes et araignées<br /><br /><strong>Nidification:</strong> le nid est généralement fixé sous une branche d\'épicéa. 8-11 oeufs.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 172613,
         ] );
 
         $bird185->pictures()->save($wintergoldhaehnchen_1);
@@ -9078,16 +9325,17 @@ class BirdsTableSeeder extends Seeder
         $bird185->sizes()->attach($_spatz);
         $bird185->save();
 
-        $bird186 = Bird::create( [
+        $bird186 = Bird::firstOrCreate( [
             'name' => 'Regulus ignicapillus',
-            'name_de' => '',
+            'name_de' => 'Sommergoldhähnchen',
             'name_fr' => 'Roitelet à triple bandeau',
             'name_it' => 'Fiorrancino',
             'gender_de' => 'S',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> très petit oiseau, toujours en activité. Dessus verdu00e2tre, tête rayée et bande jaune à orange sur la calotte.r<br /><br /><strong>Voix:</strong> chant fin et haut, montant et s\'accélérant vers la fin « i si-si-si-sirrr».r<br /><br /><strong>Distribution:</strong> forêts mixtes, jardins et parcs avec arbres (conifères). La plupart des roitelets triple bandeau quittent la Suisse en hiver.r<br /><br /><strong>Nourriture:</strong> petits insectes et araignées.r<br /><br /><strong>Nidification:</strong> le nid est généralement fixé sous une branche d\'épicéa. 7-11 oeufs.',
+            'description_de' => '<strong>Kennzeichen:</strong> Sehr kleiner, unruhiger Vogel mit grünlicher Oberseite, gestreiftem Kopf und gelbem bis orangem Scheitelstreif.<br /><br /><strong>Stimme:</strong> Sehr hoher, feiner, gegen Ende etwas höher und schneller werdender Gesang: „Si si-si-si-sirrr“.<br /><br /><strong>Vorkommen:</strong> Mischwälder sowie Garten- und Parkanlagen mit (Nadel-)Bäumen. Die meisten Sommergoldhähnchen ziehen im Winter weg.<br /><br /><strong>Nahrung:</strong> Kleine Insekten und Spinnen.<br /><br /><strong>Brut:</strong> In das Nest, welches meist an der Unterseite von Fichtenästen in die Zweige geflochten wird, legt das Weibchen 7-11 Eier.',
+            'description_fr' => '<strong>Caractéristiques:</strong> très petit oiseau, toujours en activité. Dessus verdâtre, tête rayée et bande jaune à orange sur la calotte<br /><br /><strong>Voix:</strong> chant fin et haut, montant et s\'accélérant vers la fin « i si-si-si-sirrr»<br /><br /><strong>Distribution:</strong> forêts mixtes, jardins et parcs avec arbres (conifères). La plupart des roitelets triple bandeau quittent la Suisse en hiver<br /><br /><strong>Nourriture:</strong> petits insectes et araignées<br /><br /><strong>Nidification:</strong> le nid est généralement fixé sous une branche d\'épicéa. 7-11 oeufs.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 169315,
         ] );
 
         $bird186->pictures()->save($sommergoldhaehnchen_1);
@@ -9110,16 +9358,17 @@ class BirdsTableSeeder extends Seeder
         $bird186->sizes()->attach($_spatz);
         $bird186->save();
 
-        $bird187 = Bird::create( [
+        $bird187 = Bird::firstOrCreate( [
             'name' => 'Muscicapa striata',
-            'name_de' => '',
+            'name_de' => 'Grauschnäpper',
             'name_fr' => 'Gobemouche gris',
             'name_it' => 'Pigliamosche',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> oiseau brun-gris de la taille d\'un pinson avec poitrine rayée.  <br /><br /><strong>Voix:</strong> le cri est un «tsit» fin, le chant insignifiant consiste en quelques notes inspirées des cris.<br /><br /><strong>Distribution:</strong> dans les jardins, les parcs et les forêts ouvertes. Se tient souvent dressé sur un perchoir dégagé, duquel il part à la chasse aux insectes volants. Hiverne au sud du Sahara.<br /><br /><strong>Nourriture:</strong> divers insectes, parfois des baies.<br /><br /><strong>Nidification:</strong> nid avec 2-6 u0153ufs dans une semi-cavité: trou d\'arbre ou de mur, poutraison des toits, bacs à fleur.',
+            'description_de' => '<strong>Kennzeichen:</strong> Mehrheitlich graubrauner, finkengrosser Vogel mit gestrichelter Brust. <br /><br /><strong>Stimme:</strong> Ruft kurz und scharf &bdquo;zri&ldquo;. Der Gesang besteht aus einer Reihe von leisen, gepressten Tönen.<br /><br /><strong>Vorkommen:</strong> Lebt in Gärten, Parks und offenen Wäldern. Sitzt häufig aufrecht auf Warten, von wo aus er Insekten im Flug jagt. Überwintert als Langstreckenzieher südlich der Sahara.<br /><br /><strong>Nahrung:</strong> Insekten aller Art, gelegentlich Beeren.<br /><br /><strong>Brut:</strong> Gelege mit 2-6 Eiern in halbhöhlenförmigen Nestern: Astlöcher, Mauerlöcher, Dachgebälk, Blumenkästen.',
+            'description_fr' => '<strong>Caractéristiques:</strong> oiseau brun-gris de la taille d\'un pinson avec poitrine rayée.  <br /><br /><strong>Voix:</strong> le cri est un «tsit» fin, le chant insignifiant consiste en quelques notes inspirées des cris.<br /><br /><strong>Distribution:</strong> dans les jardins, les parcs et les forêts ouvertes. Se tient souvent dressé sur un perchoir dégagé, duquel il part à la chasse aux insectes volants. Hiverne au sud du Sahara.<br /><br /><strong>Nourriture:</strong> divers insectes, parfois des baies.<br /><br /><strong>Nidification:</strong> nid avec 2-6 œufs dans une semi-cavité: trou d\'arbre ou de mur, poutraison des toits, bacs à fleur.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 139372,
         ] );
 
         $bird187->pictures()->save($grauschnaepper_1);
@@ -9138,16 +9387,17 @@ class BirdsTableSeeder extends Seeder
         $bird187->sizes()->attach($_spatz);
         $bird187->save();
 
-        $bird188 = Bird::create( [
+        $bird188 = Bird::firstOrCreate( [
             'name' => 'Ficedula hypoleuca',
-            'name_de' => '',
+            'name_de' => 'Trauerschnäpper',
             'name_fr' => 'Gobemouche noir',
             'name_it' => 'Balia nera',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> mu00e2le  en plumage nuptial noir-gris sur le dessus, blanc dessous, grande tache alaire blanche. Femelle  et mu00e2le en plumage d\'éclipse d\'un brun discret, mais aussi tache alaire blanche.<br /><br /><strong>Voix:</strong> phrase métallique un peu mélancolique de 2 secondes «titi-tu-titi» répété, cri «pitt» ou «tic» claquant.<br /><br /><strong>Distribution:</strong> parcs et forêts feuillues et mixtes ouvertes. Hiverne au sud du Sahara.<br /><br /><strong>Nourriture:</strong> chasse les insectes en vol.<br /><br /><strong>Nidification:</strong> les 5-8 u0153ufs sont couvés dans un trou d\'arbre ou un nichoir.',
+            'description_de' => '<strong>Kennzeichen:</strong> Im Brutkleid ist das Männchen  auf der Unterseite weiss und auf der Oberseite schwarzgrau mit grossem weissem Flügelfleck gefärbt. Weibchen  sowie Männchen im Schlichtkleid sind unauffällig bräunlich gefärbt, aber ebenfalls mit einem weissen Flügelfeld.<br /><br /><strong>Stimme:</strong> Laute, rhythmische ca. 2 Sekunden dauernde Strophe etwa &bdquo;tsiWRITsüWRITsüWRITsü tsu tsu tjü-WI tjü-WI tsi tsi tsi&ldquo;. Ruft schnalzend &bdquo;tett&ldquo; oder &bdquo;pik&ldquo;.<br /><br /><strong>Vorkommen:</strong> Parks, offene Laub- und Mischwälder. Überwintert südlich der Sahara.<br /><br /><strong>Nahrung:</strong> Jagt Insekten im Flug.<br /><br /><strong>Brut:</strong> Die 5-8 Eier werden in Baumhöhlen und Nistkästen ausgebrütet.',
+            'description_fr' => '<strong>Caractéristiques:</strong> mâle  en plumage nuptial noir-gris sur le dessus, blanc dessous, grande tache alaire blanche. Femelle  et mâle en plumage d\'éclipse d\'un brun discret, mais aussi tache alaire blanche.<br /><br /><strong>Voix:</strong> phrase métallique un peu mélancolique de 2 secondes «titi-tu-titi» répété, cri «pitt» ou «tic» claquant.<br /><br /><strong>Distribution:</strong> parcs et forêts feuillues et mixtes ouvertes. Hiverne au sud du Sahara.<br /><br /><strong>Nourriture:</strong> chasse les insectes en vol.<br /><br /><strong>Nidification:</strong> les 5-8 œufs sont couvés dans un trou d\'arbre ou un nichoir.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 218152,
         ] );
 
         $bird188->pictures()->save($trauerschnaepper_1);
@@ -9168,9 +9418,9 @@ class BirdsTableSeeder extends Seeder
         $bird188->sizes()->attach($_spatz);
         $bird188->save();
 
-        $bird189 = Bird::create( [
+        $bird189 = Bird::firstOrCreate( [
             'name' => 'Ficedula albicollis',
-            'name_de' => '',
+            'name_de' => 'Halsbandschnäpper',
             'name_fr' => 'Gobemouche à collier',
             'name_it' => 'Balia dal collare',
             'gender_de' => 'M',
@@ -9178,6 +9428,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 129458,
         ] );
 
         $bird189->pictures()->save($halsbandschnaepper_1);
@@ -9194,16 +9445,17 @@ class BirdsTableSeeder extends Seeder
         $bird189->sizes()->attach($_spatz);
         $bird189->save();
 
-        $bird190 = Bird::create( [
+        $bird190 = Bird::firstOrCreate( [
             'name' => 'Parus major',
-            'name_de' => '',
+            'name_de' => 'Kohlmeise',
             'name_fr' => 'Mésange charbonnière',
             'name_it' => 'Cinciallegra',
             'gender_de' => 'W',
-            'description_de' => '',
+            'description_de' => '<strong>Kennzeichen:</strong> Grosse Meise mit schwarz-weissem Kopf und schwarzem Längsband am gelben Bauch. Beide Geschlechter fast gleich gefärbt.<br /><br /><strong>Stimme:</strong> Sehr vielfältige Rufe und Gesangsstrophen, u.a. kurzes &bdquo;pink-pink&ldquo;, zeternd &bdquo;tschärr-tschärr&ldquo; und laut &bdquo;zizibäh&ldquo;. Die Motive werden oft bis zu zehnmal wiederholt.<br /><br /><strong>Vorkommen:</strong> Sie kommt ganzjährig überall bis zur Baumgrenze vor und ist wegen ihrer Anpassungsfähigkeit einer der häufigsten Brutvögel der Schweiz. Im Winter häufig am Futterhäuschen.<br /><br /><strong>Nahrung:</strong> Wenig wählerisch, Insekten und Sämereien.<br /><br /><strong>Brut:</strong> In der Bruthöhle, oft in Nistkästen, werden 6-12 Jungvögel aufgezogen. ',
             'description_fr' => '<strong>Caractéristiques:</strong> grande mésange à tête noire et blanche, ventre jaune avec bande médiane noire. Les deux sexes ont un plumage presque identique.<br /><br /><strong>Voix:</strong> grande variété de cris et de strophes, notamment «pink-pink», «si yutti yutti» ou «ti-ta ti-ta ti-ta...». Les motifs sont souvent répétés.<br /><br /><strong>Distribution:</strong> présente toute l&rsquo;année partout jusqu&rsquo;à la limite supérieure des forêts. L&rsquo;un des oiseaux nicheurs les plus fréquents de Suisse en raison de ses fortes capacités d&rsquo;adaptation. Fréquente aux mangeoires en hiver.<br /><br /><strong>Nourriture:</strong> insectes et graines.<br /><br /><strong>Nidification:</strong> dans une cavité, souvent un nichoir, 6-12 jeunes par nichée.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 170185,
         ] );
 
         $bird190->pictures()->save($kohlmeise_1);
@@ -9224,9 +9476,9 @@ class BirdsTableSeeder extends Seeder
         $bird190->sizes()->attach($_spatz);
         $bird190->save();
 
-        $bird191 = Bird::create( [
+        $bird191 = Bird::firstOrCreate( [
             'name' => 'Parus ater',
-            'name_de' => '',
+            'name_de' => 'Tannenmeise',
             'name_fr' => 'Mésange noire',
             'name_it' => 'Cincia mora',
             'gender_de' => 'W',
@@ -9234,6 +9486,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 189253,
         ] );
 
         $bird191->pictures()->save($tannenmeise_1);
@@ -9254,16 +9507,17 @@ class BirdsTableSeeder extends Seeder
         $bird191->sizes()->attach($_spatz);
         $bird191->save();
 
-        $bird192 = Bird::create( [
+        $bird192 = Bird::firstOrCreate( [
             'name' => 'Cyanistes caeruleus',
-            'name_de' => '',
+            'name_de' => 'Blaumeise',
             'name_fr' => 'Mésange bleue',
             'name_it' => 'Cinciarella',
             'gender_de' => 'W',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> petit passereau bleu et jaune. Mu00e2le et femelle ont un plumage identique dans le spectre des rayons visibles, mais différences dans les UV, visibles pour les mésanges.<br /><br /><strong>Voix:</strong> «sississi» fin ou «kèr&rsquo;r&rsquo;r&rsquo;r&rsquo;r&rsquo;èk-èk-èk» irrité.  Chant avec 3-8 types de strophes, p. ex. un «si-si-suyrrr» aigu.<br /><br /><strong>Distribution:</strong> toute l&rsquo;année dans les forêts de feuillus et mixtes, les parcs et les jardins. Fréquente aux boules de graines en hiver.<br /><br /><strong>Nourriture:</strong> insectes et araignées, aussi graines en dehors de la saison de reproduction.<br /><br /><strong>Nidification:</strong> nid en mousse plus élaboré que celui de la mésange charbonnière, souvent en nichoir, 6-12 jeunes par nichée.',
+            'description_de' => '<strong>Kennzeichen:</strong> Kleiner blau-gelber Singvogel. Im sichtbaren Licht sind Männchen und Weibchen gleich gefärbt, nicht aber in dem für die Meisen offenbar erkennbaren UV-Bereich.<br /><br /><strong>Stimme:</strong> Feines &bdquo;sisi&ldquo; und zeternd &bdquo;zerretetet&ldquo;. Der Gesang beinhaltet 3-8 Strophentypen, <br />z.B. ein hohes &bdquo;zizi-zirrr&ldquo;.<br /><br /><strong>Vorkommen:</strong> Ist ganzjährig in Laub- und Mischwäldern, Parkanlagen und Gärten anzutreffen. Im Winter gerne an Futtersäckchen.<br /><br /><strong>Nahrung:</strong> Insekten und Spinnen, ausserhalb der Brutzeit auch Sämereien.<br /><br /><strong>Brut:</strong> Nest aus Moos, aufwändiger als das der Kohlmeise, gerne in Nistkästen, wo 6-12 Jungvögel gross gezogen werden.<br />',
+            'description_fr' => '<strong>Caractéristiques:</strong> petit passereau bleu et jaune. Mâle et femelle ont un plumage identique dans le spectre des rayons visibles, mais différences dans les UV, visibles pour les mésanges.<br /><br /><strong>Voix:</strong> «sississi» fin ou «kèr&rsquo;r&rsquo;r&rsquo;r&rsquo;r&rsquo;èk-èk-èk» irrité.  Chant avec 3-8 types de strophes, p. ex. un «si-si-suyrrr» aigu.<br /><br /><strong>Distribution:</strong> toute l&rsquo;année dans les forêts de feuillus et mixtes, les parcs et les jardins. Fréquente aux boules de graines en hiver.<br /><br /><strong>Nourriture:</strong> insectes et araignées, aussi graines en dehors de la saison de reproduction.<br /><br /><strong>Nidification:</strong> nid en mousse plus élaboré que celui de la mésange charbonnière, souvent en nichoir, 6-12 jeunes par nichée.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 211910,
         ] );
 
         $bird192->pictures()->save($blaumeise_1);
@@ -9285,9 +9539,9 @@ class BirdsTableSeeder extends Seeder
         $bird192->sizes()->attach($_spatz);
         $bird192->save();
 
-        $bird193 = Bird::create( [
+        $bird193 = Bird::firstOrCreate( [
             'name' => 'Lophophanes cristatus',
-            'name_de' => '',
+            'name_de' => 'Haubenmeise',
             'name_fr' => 'Mésange huppée',
             'name_it' => 'Cincia dal ciuffo',
             'gender_de' => 'W',
@@ -9295,6 +9549,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 29549,
         ] );
 
         $bird193->pictures()->save($haubenmeise_1);
@@ -9315,9 +9570,9 @@ class BirdsTableSeeder extends Seeder
         $bird193->sizes()->attach($_spatz);
         $bird193->save();
 
-        $bird194 = Bird::create( [
+        $bird194 = Bird::firstOrCreate( [
             'name' => 'Parus montanus',
-            'name_de' => '',
+            'name_de' => 'Weidenmeise',
             'name_fr' => 'Mésange boréale',
             'name_it' => 'Cincia bigia alpestre',
             'gender_de' => 'W',
@@ -9325,6 +9580,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 190504,
         ] );
 
         $bird194->pictures()->save($weidenmeise_1);
@@ -9346,16 +9602,17 @@ class BirdsTableSeeder extends Seeder
         $bird194->sizes()->attach($_spatz);
         $bird194->save();
 
-        $bird195 = Bird::create( [
+        $bird195 = Bird::firstOrCreate( [
             'name' => 'Poecile palustris',
-            'name_de' => '',
+            'name_de' => 'Sumpfmeise',
             'name_fr' => 'Mésange nonnette',
             'name_it' => 'Cincia bigia',
             'gender_de' => 'W',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> petite mésange gris-brun avec joues blanches, calotte noire et petite bavette noire.r<br /><br /><strong>Voix:</strong> chant monotone composé d\'une seule note répétée «tchuu00efp tchuu00efp tchuu00efp», le cri est un «pitchè» explosif.r<br /><br /><strong>Distribution:</strong> dans les forêts feuillues et mixtes avec vieux arbres et bois mort, forêts alluviales et riveraines, surfaces vertes avec arbres dans les villes et les villages.r<br /><br /><strong>Nourriture:</strong> insectes, araignées et petites graines. Fréquente souvent les mangeoires en hiver.r<br /><br /><strong>Nidification:</strong> pond 7-10 oeufs dans un trou d\'arbre ou un nichoir.',
+            'description_de' => '<strong>Kennzeichen:</strong> Kleine, graubraune Meise mit weissen Wangen, schwarzer Kappe und kleinem schwarzem Kinnfleck.<br /><br /><strong>Stimme:</strong> Der Gesang ist eine Serie monotoner Töne, z.B. „Didu-didu-didu-...“. Ruf u.a. kurz „pistjä“.<br /><br /><strong>Vorkommen:</strong> Bewohnt Laub- und Mischwälder mit Alt- und Totholz, Auenwälder und Ufergehölze sowie baum- und buschbestandene Grünflächen im Siedlungsraum.<br /><br /><strong>Nahrung:</strong> Insekten, Spinnen und kleine Samen, erscheint im Winter oft am Futterhäuschen.<br /><br /><strong>Brut:</strong> Legt 7-10 Eier in eine ausgepolsterten Baumhöhle oder einen Nistkasten.',
+            'description_fr' => '<strong>Caractéristiques:</strong> petite mésange gris-brun avec joues blanches, calotte noire et petite bavette noire<br /><br /><strong>Voix:</strong> chant monotone composé d\'une seule note répétée «tchuu00efp tchuu00efp tchuu00efp», le cri est un «pitchè» explosif<br /><br /><strong>Distribution:</strong> dans les forêts feuillues et mixtes avec vieux arbres et bois mort, forêts alluviales et riveraines, surfaces vertes avec arbres dans les villes et les villages<br /><br /><strong>Nourriture:</strong> insectes, araignées et petites graines. Fréquente souvent les mangeoires en hiver<br /><br /><strong>Nidification:</strong> pond 7-10 oeufs dans un trou d\'arbre ou un nichoir.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 206804,
         ] );
 
         $bird195->pictures()->save($sumpfmeise_1);
@@ -9376,16 +9633,17 @@ class BirdsTableSeeder extends Seeder
         $bird195->sizes()->attach($_spatz);
         $bird195->save();
 
-        $bird196 = Bird::create( [
+        $bird196 = Bird::firstOrCreate( [
             'name' => 'Aegithalos caudatus',
-            'name_de' => '',
+            'name_de' => 'Schwanzmeise',
             'name_fr' => 'Mésange à longue queue',
             'name_it' => 'Codibugnolo',
             'gender_de' => 'W',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> petit oiseau rond avec queue très longue. Le plumage est blanc, noir et rose.r<br /><br /><strong>Voix:</strong> «srih-srih-sriht» peru00e7ants et «tzèrrrr» bourdonnant.r<br /><br /><strong>Distribution:</strong> vit dans les forêts clairsemées riches en buissons et dans les jardins et zones humides avec nombreux buissons et arbres.r<br /><br /><strong>Nourriture:</strong> petits insectes et araignées, récoltés sur les branches et les feuilles.r<br /><br /><strong>Nidification:</strong> nid élaboré en forme de boule avec entrée latérale, composé de mousses et de lichens et garni de plumes à l\'intérieur. Il est construit dans les arbres à proximité du tronc. Pond 6-12 oeufs.',
+            'description_de' => '<strong>Kennzeichen:</strong> Kleiner, rundlicher Vogel mit auffällig langem Schwanz. Das Gefieder ist weiss, schwarz und rosa.<br /><br /><strong>Stimme:</strong> Leise, surrende Töne wie „tsrr“ oder dreiteilig „sri-sri-sri“.<br /><br /><strong>Vorkommen:</strong> Lebt in gebüschreichen, lichten Wäldern und in Gärten und Feuchtgebieten mit Büschen und Bäumen.<br /><br /><strong>Nahrung:</strong> Kleine Insekten und Spinnen, die an Zweigen und Blättern abgelesen werden.<br /><br /><strong>Brut:</strong> Kunstvolles, kugelförmiges Nest mit seitlichem Eingang, welches aus Moos und Flechten in Bäumen nahe am Stamm gebaut und mit Federn gepolstert wird. Legt 6-12 Eier.',
+            'description_fr' => '<strong>Caractéristiques:</strong> petit oiseau rond avec queue très longue. Le plumage est blanc, noir et rose<br /><br /><strong>Voix:</strong> «srih-srih-sriht» peru00e7ants et «tzèrrrr» bourdonnant<br /><br /><strong>Distribution:</strong> vit dans les forêts clairsemées riches en buissons et dans les jardins et zones humides avec nombreux buissons et arbres<br /><br /><strong>Nourriture:</strong> petits insectes et araignées, récoltés sur les branches et les feuilles<br /><br /><strong>Nidification:</strong> nid élaboré en forme de boule avec entrée latérale, composé de mousses et de lichens et garni de plumes à l\'intérieur. Il est construit dans les arbres à proximité du tronc. Pond 6-12 oeufs.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 215028,
         ] );
 
         $bird196->pictures()->save($schwanzmeise_1);
@@ -9406,9 +9664,9 @@ class BirdsTableSeeder extends Seeder
         $bird196->sizes()->attach($_spatz);
         $bird196->save();
 
-        $bird197 = Bird::create( [
+        $bird197 = Bird::firstOrCreate( [
             'name' => 'Remiz pendulinus',
-            'name_de' => '',
+            'name_de' => 'Beutelmeise',
             'name_fr' => 'Rémiz penduline',
             'name_it' => 'Pendolino',
             'gender_de' => 'W',
@@ -9416,6 +9674,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 131129,
         ] );
 
         $bird197->pictures()->save($beutelmeise_1);
@@ -9435,9 +9694,9 @@ class BirdsTableSeeder extends Seeder
         $bird197->sizes()->attach($_spatz);
         $bird197->save();
 
-        $bird198 = Bird::create( [
+        $bird198 = Bird::firstOrCreate( [
             'name' => 'Panurus biarmicus',
-            'name_de' => '',
+            'name_de' => 'Bartmeise',
             'name_fr' => 'Panure à moustaches',
             'name_it' => 'Basettino',
             'gender_de' => 'W',
@@ -9445,6 +9704,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 134732,
         ] );
 
         $bird198->pictures()->save($bartmeise_1);
@@ -9467,16 +9727,17 @@ class BirdsTableSeeder extends Seeder
         $bird198->sizes()->attach($spatz_amsel);
         $bird198->save();
 
-        $bird199 = Bird::create( [
+        $bird199 = Bird::firstOrCreate( [
             'name' => 'Sitta europaea',
-            'name_de' => '',
+            'name_de' => 'Kleiber',
             'name_fr' => 'Sittelle torchepot',
             'name_it' => 'Picchio muratore',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> oiseau de la taille d\'un moineau, dessus bleu-gris, dessous chamois roussu00e2tre, bandeau noir sur les yeux. Seul oiseau pouvant descendre un tronc la tête en bas.<br /><br /><strong>Voix:</strong> cris sonores sifflés «tuit-tuit», chant «tuu00ee-tuu00ee-tuu00ee» sonore ou trille plus rapide.<br /><br /><strong>Distribution:</strong> toute l\'année dans les forêts, les parcs et les jardins, jusqu\'à la limite supérieure des arbres. Les oiseaux des montagnes descendent en plaine en hiver.<br /><br /><strong>Nourriture:</strong> graines et noix qu\'elle coince dans l\'écorce pour les ouvrir avec son bec puissant.<br /><br /><strong>Nidification:</strong> trous d\'arbre et nichoirs. Les ouvertures trop grandes sont rétrécies avec de l\'argile.',
+            'description_de' => '<strong>Kennzeichen:</strong> Sperlingsgrosser Vogel mit blaugrauer Oberseite und oranger Unterseite und deutlichem schwarzen Augenstreif. Einziger Vogel, der kopfüber abwärts klettern kann.<br /><br /><strong>Stimme:</strong> Lautes metallisches &bdquo;twiht-twiht-...&ldquo;. Gesang wie ein trillerndes &bdquo;quiquiqui…&ldquo;.<br /><br /><strong>Vorkommen:</strong> Das ganze Jahr über in Wäldern, Parkanlagen und Gärten bis zur Baumgrenze anzutreffen. Gebirgsvögel ziehen als Teilzieher im Winter ins Flachland.<br /><br /><strong>Nahrung:</strong> Samen und Nüsse klemmt er in Baumrinden, wo er die harten Schalen mit seinem starken Schnabel zerhackt.<br /><br /><strong>Brut:</strong> In Baumhöhlen und Brutkästen. Zu grosse Eingänge verklebt er mit Lehm.',
+            'description_fr' => '<strong>Caractéristiques:</strong> oiseau de la taille d\'un moineau, dessus bleu-gris, dessous chamois roussâtre, bandeau noir sur les yeux. Seul oiseau pouvant descendre un tronc la tête en bas.<br /><br /><strong>Voix:</strong> cris sonores sifflés «tuit-tuit», chant «tuu00ee-tuu00ee-tuu00ee» sonore ou trille plus rapide.<br /><br /><strong>Distribution:</strong> toute l\'année dans les forêts, les parcs et les jardins, jusqu\'à la limite supérieure des arbres. Les oiseaux des montagnes descendent en plaine en hiver.<br /><br /><strong>Nourriture:</strong> graines et noix qu\'elle coince dans l\'écorce pour les ouvrir avec son bec puissant.<br /><br /><strong>Nidification:</strong> trous d\'arbre et nichoirs. Les ouvertures trop grandes sont rétrécies avec de l\'argile.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 170179,
         ] );
 
         $bird199->pictures()->save($kleiber_1);
@@ -9497,9 +9758,9 @@ class BirdsTableSeeder extends Seeder
         $bird199->sizes()->attach($_spatz);
         $bird199->save();
 
-        $bird200 = Bird::create( [
+        $bird200 = Bird::firstOrCreate( [
             'name' => 'Tichodroma muraria',
-            'name_de' => '',
+            'name_de' => 'Mauerläufer',
             'name_fr' => 'Tichodrome échelette',
             'name_it' => 'Picchio muraiolo',
             'gender_de' => 'M',
@@ -9507,6 +9768,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 111056,
         ] );
 
         $bird200->pictures()->save($mauerlaeufer_1);
@@ -9524,9 +9786,9 @@ class BirdsTableSeeder extends Seeder
         $bird200->sizes()->attach($spatz_amsel);
         $bird200->save();
 
-        $bird201 = Bird::create( [
+        $bird201 = Bird::firstOrCreate( [
             'name' => 'Certhia familiaris',
-            'name_de' => '',
+            'name_de' => 'Waldbaumläufer',
             'name_fr' => 'Grimpereau des bois',
             'name_it' => 'Rampichino alpestre',
             'gender_de' => 'M',
@@ -9534,6 +9796,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 214359,
         ] );
 
         $bird201->pictures()->save($waldbaumlaeufer_1);
@@ -9551,16 +9814,17 @@ class BirdsTableSeeder extends Seeder
         $bird201->sizes()->attach($_spatz);
         $bird201->save();
 
-        $bird202 = Bird::create( [
+        $bird202 = Bird::firstOrCreate( [
             'name' => 'Certhia brachydactyla',
-            'name_de' => '',
+            'name_de' => 'Gartenbaumläufer',
             'name_fr' => 'Grimpereau des jardins',
             'name_it' => 'Rampichino comune',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> petit oiseau strié de brun, dessous clair, long bec recourbé. Grimpe en spirale le long des troncs d\'arbre, arrivé en haut vole de nouveau vers le bas et recommence sa recherche de nourriture dans les crevasses de l\'écorce.<br /><br /><strong>Voix:</strong> le cri est un «ti» aigu, chant en ritournelle aigu00fce «tit-tit-titirou00ef-itit».<br /><br /><strong>Distribution:</strong> toute l\'année dans les forêts feuillues, les parcs et les jardins. Recherche les arbres aux écorces crevassées.<br /><br /><strong>Nourriture:</strong> insectes, araignées et larves qu\'il extrait de l\'écorce. En hiver surtout semences.<br /><br /><strong>Nidification:</strong> 5-6 u0153ufs dans une cavité d\'arbre.',
+            'description_de' => '<strong>Kennzeichen:</strong> Kleiner, braun gestrichelter Vogel mit heller Unterseite und langem, gebogenem Schnabel. Klettert spiralförmig an Baumstämmen aufwärts, oben angekommen, fliegt er wieder nach unten und sucht von neuem in den Rindenzwischenräumen nach Nahrung.<br /><br /><strong>Stimme:</strong> Kräftiges hohes &bdquo;ti&ldquo;. Gesang ist ein hohes &bdquo;ti-ti-zir-lui-ti&ldquo;.<br /><br /><strong>Vorkommen:</strong> Lebt ganzjährig in Laubwäldern, Parkanlagen, Gärten. Hält sich gerne auf borkigen Rinden auf.<br /><br /><strong>Nahrung:</strong> Insekten, Spinnen und Larven, die er  aus der Baumrinde hervorpickt, im Winter ernährt er sich vorwiegend von Samen.<br /><br /><strong>Brut:</strong> Bebrütet in Baumhöhlen 5-6 Eier.',
+            'description_fr' => '<strong>Caractéristiques:</strong> petit oiseau strié de brun, dessous clair, long bec recourbé. Grimpe en spirale le long des troncs d\'arbre, arrivé en haut vole de nouveau vers le bas et recommence sa recherche de nourriture dans les crevasses de l\'écorce.<br /><br /><strong>Voix:</strong> le cri est un «ti» aigu, chant en ritournelle aigu00fce «tit-tit-titirou00ef-itit».<br /><br /><strong>Distribution:</strong> toute l\'année dans les forêts feuillues, les parcs et les jardins. Recherche les arbres aux écorces crevassées.<br /><br /><strong>Nourriture:</strong> insectes, araignées et larves qu\'il extrait de l\'écorce. En hiver surtout semences.<br /><br /><strong>Nidification:</strong> 5-6 œufs dans une cavité d\'arbre.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 165232,
         ] );
 
         $bird202->pictures()->save($gartenbaumlaeufer_1);
@@ -9577,9 +9841,9 @@ class BirdsTableSeeder extends Seeder
         $bird202->sizes()->attach($_spatz);
         $bird202->save();
 
-        $bird203 = Bird::create( [
+        $bird203 = Bird::firstOrCreate( [
             'name' => 'Lanius collurio',
-            'name_de' => '',
+            'name_de' => 'Neuntöter',
             'name_fr' => 'Pie-grièche écorcheur',
             'name_it' => 'Averla piccola',
             'gender_de' => 'M',
@@ -9587,6 +9851,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 77966,
         ] );
 
         $bird203->pictures()->save($neuntoeter_1);
@@ -9614,9 +9879,9 @@ class BirdsTableSeeder extends Seeder
         $bird203->sizes()->attach($spatz_amsel);
         $bird203->save();
 
-        $bird204 = Bird::create( [
+        $bird204 = Bird::firstOrCreate( [
             'name' => 'Lanius senator',
-            'name_de' => '',
+            'name_de' => 'Rotkopfwürger',
             'name_fr' => 'Pie-grièche à tête rousse',
             'name_it' => 'Averla capirossa',
             'gender_de' => 'M',
@@ -9624,6 +9889,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 178461,
         ] );
 
         $bird204->pictures()->save($rotkopfwuerger_1);
@@ -9643,9 +9909,9 @@ class BirdsTableSeeder extends Seeder
         $bird204->sizes()->attach($spatz_amsel);
         $bird204->save();
 
-        $bird205 = Bird::create( [
+        $bird205 = Bird::firstOrCreate( [
             'name' => 'Lanius excubitor',
-            'name_de' => '',
+            'name_de' => 'Raubwürger',
             'name_fr' => 'Pie-grièche grise',
             'name_it' => 'Averla maggiore',
             'gender_de' => 'M',
@@ -9653,6 +9919,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 198014,
         ] );
 
         $bird205->pictures()->save($raubwuerger_1);
@@ -9672,16 +9939,17 @@ class BirdsTableSeeder extends Seeder
         $bird205->sizes()->attach($spatz_amsel);
         $bird205->save();
 
-        $bird206 = Bird::create( [
+        $bird206 = Bird::firstOrCreate( [
             'name' => 'Pica pica',
-            'name_de' => '',
+            'name_de' => 'Elster',
             'name_fr' => 'Pie bavarde',
             'name_it' => 'Gazza',
             'gender_de' => 'W',
-            'description_de' => '',
+            'description_de' => '<strong>Kennzeichen:</strong> Langschwänziger schwarz-weisser Rabenvogel. Eine der intelligentesten Vogelarten, sie kann z.B. ihr Spiegelbild erkennen. Sie wird in Europa seit dem Mittelalter als Begleiterin der Todesgöttin Hel mit Unheil verknüpft, in Asien hingegen gilt sie als Glücksbringerin. <br /><br /><strong>Stimme:</strong> Laute &bdquo;tschäk-tschäk-…&ldquo;-Rufe.<br /><br /><strong>Vorkommen:</strong> Ausser im dichten Wald ist sie das ganze Jahr über bis zur Baumgrenze weit verbreitet. Lebt gerne in Siedlungen.<br /><br /><strong>Nahrung:</strong> 95% der Nahrung sind Tiere bis Mäusegrösse. <br /><br /><strong>Brut:</strong> Im charakteristischen Rundnest mit geschlossenem Dach und seitlichem Eingang werden 4-7 Jungvögel gross gezogen.',
             'description_fr' => '<strong>Caractéristiques:</strong> corvidé noir et blanc à longue queue. Une des espèces d&rsquo;oiseaux les plus intelligentes, peut p. ex. reconnau00eetre son reflet dans un miroir. Depuis le Moyen-Age, associée à la déesse de la mort et donc au malheur. En Asie, elle est considérée comme porte-bonheur. <br /><br /><strong>Voix:</strong> cris sonores «tché-tché-tché-tché...».<br /><br /><strong>Distribution:</strong> toute l&rsquo;année, partout jusqu&rsquo;à la limite supérieure des arbres, sauf dans les forêts denses. Volontiers dans les villes et villages.<br /><br /><strong>Nourriture:</strong> 95% de la nourriture est constitué d&rsquo;animaux pouvant atteindre la taille d&rsquo;une souris. <br /><br /><strong>Nidification:</strong> nid rond caractéristique avec toit fermé et entrée latérale, 4-7 jeunes.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 184168,
         ] );
 
         $bird206->pictures()->save($elster_1);
@@ -9703,16 +9971,17 @@ class BirdsTableSeeder extends Seeder
         $bird206->sizes()->attach($taube_stockente);
         $bird206->save();
 
-        $bird207 = Bird::create( [
+        $bird207 = Bird::firstOrCreate( [
             'name' => 'Garrulus glandarius',
-            'name_de' => '',
+            'name_de' => 'Eichelhäher',
             'name_fr' => 'Geai des chênes',
             'name_it' => 'Ghiandaia',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> en vol, reconnaissable à ses courtes ailes rondes avec plumes bleues et son croupion blanc. r<br /><br /><strong>Voix:</strong> le cri est un «kchèèch!» sonore, imite les cris d&rsquo;autres oiseaux, p. ex. le «piuyèh» plaintif de la buse. Chant composé d&rsquo;un mélange de sons, portant peu.r<br /><br /><strong>Distribution:</strong> toute l&rsquo;année dans les forêts mixtes, les bosquets et les parcs, jusqu&rsquo;à environ 1500 m d&rsquo;altitude. Certains hivers invasions d&rsquo;individus venus du nord-est de l&rsquo;Europe.r<br /><br /><strong>Nourriture:</strong> en été surtout animaux (insectes, oisillons, u0153ufs, souris). Cache des glands, noisettes et chu00e2taignes pour l&rsquo;hiver.r<br /><br /><strong>Nidification:</strong> nid ouvert sur un arbre, 5-6 u0153ufs.',
+            'description_de' => '<strong>Kennzeichen:</strong> Fällt im Flug durch seine runden, kurzen Flügel mit blauen Federn und seinen weissen Bürzel auf.<br /><br /><strong>Stimme:</strong> Ruft laut &bdquo;kschrääh&ldquo; und imitiert die Rufe anderer Vögel, z.B. das &bdquo;pijäh&ldquo; des Mäusebussards. Leiser und unscheinbarer Gesang.<br /><br /><strong>Vorkommen:</strong> Ist in Mischwäldern, Feldgehölzen und Parkanlagen ganzjährig bis ca.1500 m ü. M. anzutreffen. Im Winter in manchen Jahren ein invasionsartiges Auftreten aus Nordosteuropa.<br /><br /><strong>Nahrung:</strong> In den Sommermonaten meist tierische <br /><strong>Nahrung:</strong> Insekten, aber auch Jungvögel, Eier und Mäuse. Für die Wintermonate werden Eicheln, Nüsse und Kastanien versteckt.<br /><br /><strong>Brut:</strong> Offenes Baumnest mit 5-6 Jungvögeln',
+            'description_fr' => '<strong>Caractéristiques:</strong> en vol, reconnaissable à ses courtes ailes rondes avec plumes bleues et son croupion blanc. r<br /><br /><strong>Voix:</strong> le cri est un «kchèèch!» sonore, imite les cris d&rsquo;autres oiseaux, p. ex. le «piuyèh» plaintif de la buse. Chant composé d&rsquo;un mélange de sons, portant peu<br /><br /><strong>Distribution:</strong> toute l&rsquo;année dans les forêts mixtes, les bosquets et les parcs, jusqu&rsquo;à environ 1500 m d&rsquo;altitude. Certains hivers invasions d&rsquo;individus venus du nord-est de l&rsquo;Europe<br /><br /><strong>Nourriture:</strong> en été surtout animaux (insectes, oisillons, œufs, souris). Cache des glands, noisettes et châtaignes pour l&rsquo;hiver<br /><br /><strong>Nidification:</strong> nid ouvert sur un arbre, 5-6 œufs.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 168268,
         ] );
 
         $bird207->pictures()->save($eichelhaeher_1);
@@ -9736,9 +10005,9 @@ class BirdsTableSeeder extends Seeder
         $bird207->sizes()->attach($taube_stockente);
         $bird207->save();
 
-        $bird208 = Bird::create( [
+        $bird208 = Bird::firstOrCreate( [
             'name' => 'Nucifraga caryocatactes',
-            'name_de' => '',
+            'name_de' => 'Tannenhäher',
             'name_fr' => 'Cassenoix moucheté',
             'name_it' => 'Nocciolaia',
             'gender_de' => 'M',
@@ -9746,6 +10015,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 211442,
         ] );
 
         $bird208->pictures()->save($tannenhaeher_1);
@@ -9766,9 +10036,9 @@ class BirdsTableSeeder extends Seeder
         $bird208->sizes()->attach($amsel_taube);
         $bird208->save();
 
-        $bird209 = Bird::create( [
+        $bird209 = Bird::firstOrCreate( [
             'name' => 'Pyrrhocorax pyrrhocorax',
-            'name_de' => '',
+            'name_de' => 'Alpenkrähe',
             'name_fr' => 'Crave à bec rouge',
             'name_it' => 'Gracchio corallino',
             'gender_de' => 'W',
@@ -9776,6 +10046,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 201849,
         ] );
 
         $bird209->pictures()->save($alpenkraehe_1);
@@ -9793,16 +10064,17 @@ class BirdsTableSeeder extends Seeder
         $bird209->sizes()->attach($amsel_taube);
         $bird209->save();
 
-        $bird210 = Bird::create( [
+        $bird210 = Bird::firstOrCreate( [
             'name' => 'Pyrrhocorax graculus',
-            'name_de' => '',
+            'name_de' => 'Alpendohle',
             'name_fr' => 'Chocard à bec jaune',
             'name_it' => 'Gracchio alpino',
             'gender_de' => 'W',
-            'description_de' => '',
+            'description_de' => '<strong>Kennzeichen:</strong> kleiner als Rabenkrähe mit vollkommen schwarzen Gefieder und gelbem Schnabel',
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 144587,
         ] );
 
         $bird210->pictures()->save($alpendohle_1);
@@ -9820,16 +10092,17 @@ class BirdsTableSeeder extends Seeder
         $bird210->sizes()->attach($amsel_taube);
         $bird210->save();
 
-        $bird211 = Bird::create( [
+        $bird211 = Bird::firstOrCreate( [
             'name' => 'Corvus monedula',
-            'name_de' => '',
+            'name_de' => 'Dohle',
             'name_fr' => 'Choucas des tours',
             'name_it' => 'Taccola',
             'gender_de' => 'W',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> petit corvidé à la nuque grise et aux yeux pu00e2les. Oiseau grégaire, vols acrobatiques au printemps. <br /><br /><strong>Voix:</strong> bruyants, «kya», souvent répété en série ou «kyak!» plus dur.<br /><br /><strong>Distribution:</strong> toute l&rsquo;année dans les forêts feuillues, les zones construites, les jardins, les parcs, parfois en plein milieu des villes. Forme des groupes assez importants en automne.<br /><br /><strong>Nourriture:</strong> omnivore, aussi déchets.<br /><br /><strong>Nidification:</strong> vit en colonies, partenaires réunis pour la vie. Niche dans d&rsquo;anciennes loges de pic noir dans les forêts feuillues, mais également dans les bu00e2timents, les clochers d&rsquo;église et les anfractuosités de rochers. 3-6 jeunes par année.',
+            'description_de' => '<strong>Kennzeichen:</strong> Kleiner Rabenvogel mit grauem Nacken. Im Unterschied zur bekannten Alpendohle hat sie keinen gelben Schnabel. Geselliger Vogel mit imposanten Flugspielen im Frühjahr.<br /><br /><strong>Stimme:</strong> Lautes wiederholtes &bdquo;kjah&ldquo; oder ein scharfes &bdquo;kjack&ldquo;.<br /><br /><strong>Vorkommen:</strong> Ganzjährig in Laubwäldern, Siedlungen, Gärten, Parks, auch mitten in Städten. Bildet im Herbst grössere Schwärme.<br /><br /><strong>Nahrung:</strong> Allesfresser, auch Abfälle.<br /><br /><strong>Brut:</strong> Lebt in Kolonien in lebenslanger Ehe. Brütet einerseits in Laubwäldern in verlassenen Schwarzspechthöhlen, andererseits in Gebäuden, Kirchtürmen, Felsnischen. Jährlich werden 3-6 Jungvögel gross gezogen.',
+            'description_fr' => '<strong>Caractéristiques:</strong> petit corvidé à la nuque grise et aux yeux pâles. Oiseau grégaire, vols acrobatiques au printemps. <br /><br /><strong>Voix:</strong> bruyants, «kya», souvent répété en série ou «kyak!» plus dur.<br /><br /><strong>Distribution:</strong> toute l&rsquo;année dans les forêts feuillues, les zones construites, les jardins, les parcs, parfois en plein milieu des villes. Forme des groupes assez importants en automne.<br /><br /><strong>Nourriture:</strong> omnivore, aussi déchets.<br /><br /><strong>Nidification:</strong> vit en colonies, partenaires réunis pour la vie. Niche dans d&rsquo;anciennes loges de pic noir dans les forêts feuillues, mais également dans les bâtiments, les clochers d&rsquo;église et les anfractuosités de rochers. 3-6 jeunes par année.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 135822,
         ] );
 
         $bird211->pictures()->save($dohle_1);
@@ -9850,9 +10123,9 @@ class BirdsTableSeeder extends Seeder
         $bird211->sizes()->attach($taube_stockente);
         $bird211->save();
 
-        $bird212 = Bird::create( [
+        $bird212 = Bird::firstOrCreate( [
             'name' => 'Corvus frugilegus',
-            'name_de' => '',
+            'name_de' => 'Saatkrähe',
             'name_fr' => 'Corbeau freux',
             'name_it' => 'Corvo comune',
             'gender_de' => 'W',
@@ -9860,6 +10133,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 162707,
         ] );
 
         $bird212->pictures()->save($saatkraehe_1);
@@ -9879,16 +10153,17 @@ class BirdsTableSeeder extends Seeder
         $bird212->sizes()->attach($taube_stockente);
         $bird212->save();
 
-        $bird213 = Bird::create( [
+        $bird213 = Bird::firstOrCreate( [
             'name' => 'Corvus corone',
-            'name_de' => '',
+            'name_de' => 'Rabenkrähe',
             'name_fr' => 'Corneille noire',
             'name_it' => 'Cornacchia nera',
             'gender_de' => 'W',
-            'description_de' => '',
+            'description_de' => '<strong>Kennzeichen:</strong> Einfarbig z.T. schillernd schwarz.Das Erfolgsrezept dieses intelligenten Vogels heisst Anpassung und Lernfähigkeit. Als guter Flieger und Läufer ist die Rabenkrähe anderen Vögeln im grossflächigen Kulturland überlegen.<br /><br /><strong>Stimme:</strong> Lautes &bdquo;krahh&ldquo; oder &bdquo;kräh&ldquo;. <br /><br /><strong>Vorkommen:</strong> Weit verbreiteter Jahresvogel vom Mittelland bis zur Baumgrenze.<br /><br /><strong>Nahrung:</strong> Allesfresser: Tiere bis Mäusegrösse, Aas, Früchte, Abfälle, Getreide, Sämereien.<br /><br /><strong>Brut:</strong> Das Nest wird sorgfältig in Astgabeln hoher Bäume von beiden Partnern errichtet und zur Aufzucht von 4-5 Jungvögeln benutzt. Da nicht alle Krähen ein Brutrevier finden, bilden diese Nichtbrüter umherziehende Trupps.',
             'description_fr' => '<strong>Caractéristiques:</strong> noire, vagues reflets métalliques. Oiseau intelligent, capable de s&rsquo;adapter et d&rsquo;apprendre. Vol habile et bon marcheur, domine les autres oiseaux dans les paysages cultivés. <br /><br /><strong>Voix:</strong> croassement rude «krra krra krra». <br /><br /><strong>Distribution:</strong> présente toute l&rsquo;année, largement répandue du Plateau suisse à la limite supérieure des arbres.<br /><br /><strong>Nourriture:</strong> omnivore: animaux jusqu&rsquo;à la taille d&rsquo;une souris, charognes, fruits, déchets, céréales, graines.<br /><br /><strong>Nidification:</strong> le nid est construit par les deux partenaires dans une fourche d\'un grand arbre, 4-5 jeunes par nichée. Les non-nicheurs sans territoire forment des troupes qui vagabondent.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 173494,
         ] );
 
         $bird213->pictures()->save($rabenkraehe_1);
@@ -9906,9 +10181,9 @@ class BirdsTableSeeder extends Seeder
         $bird213->sizes()->attach($taube_stockente);
         $bird213->save();
 
-        $bird214 = Bird::create( [
+        $bird214 = Bird::firstOrCreate( [
             'name' => 'Corvus cornix',
-            'name_de' => '',
+            'name_de' => 'Nebelkrähe',
             'name_fr' => 'Corneille mantelée',
             'name_it' => 'Cornacchia grigia',
             'gender_de' => 'W',
@@ -9916,6 +10191,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 217859,
         ] );
 
         $bird214->pictures()->save($nebelkraehe_1);
@@ -9934,9 +10210,9 @@ class BirdsTableSeeder extends Seeder
         $bird214->sizes()->attach($taube_stockente);
         $bird214->save();
 
-        $bird215 = Bird::create( [
+        $bird215 = Bird::firstOrCreate( [
             'name' => 'Corvus corax',
-            'name_de' => '',
+            'name_de' => 'Kolkrabe',
             'name_fr' => 'Grand Corbeau',
             'name_it' => 'Corvo imperiale',
             'gender_de' => 'M',
@@ -9944,6 +10220,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 218146,
         ] );
 
         $bird215->pictures()->save($kolkrabe_1);
@@ -9961,16 +10238,17 @@ class BirdsTableSeeder extends Seeder
         $bird215->sizes()->attach($stockente_);
         $bird215->save();
 
-        $bird216 = Bird::create( [
+        $bird216 = Bird::firstOrCreate( [
             'name' => 'Sturnus vulgaris',
-            'name_de' => '',
+            'name_de' => 'Star',
             'name_fr' => 'Etourneau sansonnet',
             'name_it' => 'Storno',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> oiseau noir avec bec jaune, facilement différenciable du merle en raison de son plumage aux teintes métalliques et des points blancs.<br /><br /><strong>Voix:</strong> grand répertoire de cris. Chant composé de grincements, babillages, cliquètements et sifflements. Imite volontiers d\'autres espèces (loriot, buse) ou des bruits tels que les sonneries de téléphones portables. <br /><br /><strong>Distribution:</strong> milieux cultivés ouverts, jardins, parcs. Après la reproduction, formation d\'immenses troupes hivernant en région méditerranéenne. <br /><br /><strong>Nourriture:</strong> graines, fruits, insectes.<br /><br /><strong>Nidification:</strong> 4-6 u0153ufs couvés dans un trou d\'arbre, une niche de bu00e2timent ou un nichoir.',
+            'description_de' => '<strong>Kennzeichen:</strong> Schwarzer Vogel mit gelbem Schnabel, jedoch leicht von der Amsel an seinen gelblich weissen Tupfen und seinem metallisch glänzenden Gefieder zu unterscheiden.<br /><br /><strong>Stimme:</strong> Breites Repertoir an Rufen. Gesang aus lauten, gedehnten Pfeiftönen mit klickenden und knirschenden Geräuschen. Imitiert gerne andere Vogelarten (Pirol, Bussard) oder ahmt Geräusche wie Klingeltöne von Mobiltelefonen nach. <br /><br /><strong>Vorkommen:</strong> Offenes Kulturland, Gärten, Parks. Nach der Brutzeit bilden sich riesige Schwärme, die im Mittelmeerraum überwintern.<br /><br /><strong>Nahrung:</strong> Allerlei Körner, Früchte und Insekten.<br /><br /><strong>Brut:</strong> 4-6 Eier werden in einer Baumhöhle, Gebäudenische oder einem Nistkasten bebrütet.',
+            'description_fr' => '<strong>Caractéristiques:</strong> oiseau noir avec bec jaune, facilement différenciable du merle en raison de son plumage aux teintes métalliques et des points blancs.<br /><br /><strong>Voix:</strong> grand répertoire de cris. Chant composé de grincements, babillages, cliquètements et sifflements. Imite volontiers d\'autres espèces (loriot, buse) ou des bruits tels que les sonneries de téléphones portables. <br /><br /><strong>Distribution:</strong> milieux cultivés ouverts, jardins, parcs. Après la reproduction, formation d\'immenses troupes hivernant en région méditerranéenne. <br /><br /><strong>Nourriture:</strong> graines, fruits, insectes.<br /><br /><strong>Nidification:</strong> 4-6 œufs couvés dans un trou d\'arbre, une niche de bâtiment ou un nichoir.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 214364,
         ] );
 
         $bird216->pictures()->save($star_1);
@@ -9993,9 +10271,9 @@ class BirdsTableSeeder extends Seeder
         $bird216->sizes()->attach($spatz_amsel);
         $bird216->save();
 
-        $bird217 = Bird::create( [
+        $bird217 = Bird::firstOrCreate( [
             'name' => 'Oriolus oriolus',
-            'name_de' => '',
+            'name_de' => 'Pirol',
             'name_fr' => 'Loriot d`Europe',
             'name_it' => 'Rigogolo',
             'gender_de' => 'M',
@@ -10003,6 +10281,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 101131,
         ] );
 
         $bird217->habitats()->attach($wald);
@@ -10020,16 +10299,17 @@ class BirdsTableSeeder extends Seeder
         $bird217->sizes()->attach($spatz_amsel);
         $bird217->save();
 
-        $bird218 = Bird::create( [
+        $bird218 = Bird::firstOrCreate( [
             'name' => 'Passer domesticus',
-            'name_de' => '',
+            'name_de' => 'Haussperling',
             'name_fr' => 'Moineau domestique',
             'name_it' => 'Passera oltremontana',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> mu00e2le  avec joues grises et plastron noir s&rsquo;étendant sur le ventre. Femelle  brun-gris sale avec dos rayé de noir.<br /><br /><strong>Voix:</strong> cris pépiants «tchip» variables, en séries.<br /><br /><strong>Distribution:</strong> vit presque exclusivement à proximité des habitations humaines, a suivi l&rsquo;homme jusque dans les vallées alpines.<br /><br /><strong>Nourriture:</strong> nourriture végétale diversifiée, graines, baies, restes de repas.<br /><br /><strong>Nidification:</strong> il construit son nid sous les tuiles des toits, dans des conduits d&rsquo;aération ou des nichoirs. 2-3 nichées annuelles de 4-6 jeunes chacune.',
+            'description_de' => '<strong>Kennzeichen:</strong> Männchen  mit grauer Wange und Schwarz in die Brust auslaufender Kehle. Weibchen  unscheinbar braun mit schwarzer Strichelung auf der Oberseite.<br /><br /><strong>Stimme:</strong> Eine Reihe variationenreicher aneinander gehängter &bdquo;tschilp&ldquo;-Töne.<br /><br /><strong>Vorkommen:</strong> Als typischer Kulturfolger lebt er fast ausschliesslich in menschlichen Siedlungen, denen er bis in die Alpentäler gefolgt ist.<br /><br /><strong>Nahrung:</strong> Allerlei vegetarische Kost, Sämereinen, Beeren, Nahrungsreste.<br /><br /><strong>Brut:</strong> Er baut sein Nest unter Dachziegeln, in Lüftungsschächten oder in Nistkästen, wo er in 2-3 Bruten je 4-6 Jungvögel gross zieht.',
+            'description_fr' => '<strong>Caractéristiques:</strong> mâle  avec joues grises et plastron noir s&rsquo;étendant sur le ventre. Femelle  brun-gris sale avec dos rayé de noir.<br /><br /><strong>Voix:</strong> cris pépiants «tchip» variables, en séries.<br /><br /><strong>Distribution:</strong> vit presque exclusivement à proximité des habitations humaines, a suivi l&rsquo;homme jusque dans les vallées alpines.<br /><br /><strong>Nourriture:</strong> nourriture végétale diversifiée, graines, baies, restes de repas.<br /><br /><strong>Nidification:</strong> il construit son nid sous les tuiles des toits, dans des conduits d&rsquo;aération ou des nichoirs. 2-3 nichées annuelles de 4-6 jeunes chacune.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 209059,
         ] );
 
         $bird218->pictures()->save($haussperling_1);
@@ -10051,9 +10331,9 @@ class BirdsTableSeeder extends Seeder
         $bird218->sizes()->attach($_spatz);
         $bird218->save();
 
-        $bird219 = Bird::create( [
+        $bird219 = Bird::firstOrCreate( [
             'name' => 'Passer (hispaniolensis) italiae',
-            'name_de' => '',
+            'name_de' => 'Italiensperling',
             'name_fr' => 'Moineau cisalpin',
             'name_it' => 'Passera d\'Italia',
             'gender_de' => 'M',
@@ -10061,6 +10341,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 177356,
         ] );
 
         $bird219->habitats()->attach($aecker_und_feldflur);
@@ -10080,16 +10361,17 @@ class BirdsTableSeeder extends Seeder
         $bird219->sizes()->attach($_spatz);
         $bird219->save();
 
-        $bird220 = Bird::create( [
+        $bird220 = Bird::firstOrCreate( [
             'name' => 'Passer montanus',
-            'name_de' => '',
+            'name_de' => 'Feldsperling',
             'name_fr' => 'Moineau friquet',
             'name_it' => 'Passera mattugia',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> facile à distinguer du moineau domestique gru00e2ce à la tache sombre sur la joue. Contrairement au moineau domestique, les moineaux friquets mu00e2les et femelles ont le même plumage.r<br /><br /><strong>Voix:</strong> le cri ressemble à celui du moineau domestique avec toutefois un «tsouvitt» typique. Chant: série rapide de «tsvit». r<br /><br /><strong>Distribution:</strong> grégaire, toute l&rsquo;année en petits groupes dans le paysage cultivé, les haies, les bosquets et les lisières.r<br /><br /><strong>Nourriture:</strong> graines de toutes sortes.r<br /><br /><strong>Nidification:</strong> ne défend pas de territoire. Les 4-6 u0153ufs sont couvés dans une cavité ou un nichoir.',
+            'description_de' => '<strong>Kennzeichen:</strong> Leicht vom Haussperling am schwarzen Wangenfleck zu unterscheiden. Männchen und Weibchen sind im Gegensatz zum Haussperling gleich gefärbt.<br /><br /><strong>Stimme:</strong> Der Ruf ähnelt dem des Haussperlings, jedoch mit typischem &bdquo;tsuWITT&ldquo;. Der Gesang ist eine schnelle Folge von &bdquo;zwitt&ldquo;. <br /><br /><strong>Vorkommen:</strong> Lebt als geselliger Vogel in kleinen Trupps ganzjährig im Kulturland, in Hecken und Kleingehölzen und an Waldrändern.<br /><br /><strong>Nahrung:</strong> Sämereien aller Art.<br /><br /><strong>Brut:</strong> Er beansprucht kein Revier. Die 4-6 Eier werden in Höhlen und Nistkästen ausgebrütet.',
+            'description_fr' => '<strong>Caractéristiques:</strong> facile à distinguer du moineau domestique grâce à la tache sombre sur la joue. Contrairement au moineau domestique, les moineaux friquets mâles et femelles ont le même plumage<br /><br /><strong>Voix:</strong> le cri ressemble à celui du moineau domestique avec toutefois un «tsouvitt» typique. Chant: série rapide de «tsvit». r<br /><br /><strong>Distribution:</strong> grégaire, toute l&rsquo;année en petits groupes dans le paysage cultivé, les haies, les bosquets et les lisières<br /><br /><strong>Nourriture:</strong> graines de toutes sortes<br /><br /><strong>Nidification:</strong> ne défend pas de territoire. Les 4-6 œufs sont couvés dans une cavité ou un nichoir.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 187047,
         ] );
 
         $bird220->pictures()->save($feldsperling_1);
@@ -10112,9 +10394,9 @@ class BirdsTableSeeder extends Seeder
         $bird220->sizes()->attach($_spatz);
         $bird220->save();
 
-        $bird221 = Bird::create( [
+        $bird221 = Bird::firstOrCreate( [
             'name' => 'Montifringilla nivalis',
-            'name_de' => '',
+            'name_de' => 'Schneesperling',
             'name_fr' => 'Niverolle alpine',
             'name_it' => 'Fringuello alpino',
             'gender_de' => 'M',
@@ -10122,6 +10404,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 186477,
         ] );
 
         $bird221->pictures()->save($schneesperling_1);
@@ -10139,16 +10422,17 @@ class BirdsTableSeeder extends Seeder
         $bird221->sizes()->attach($spatz_amsel);
         $bird221->save();
 
-        $bird222 = Bird::create( [
+        $bird222 = Bird::firstOrCreate( [
             'name' => 'Fringilla coelebs',
-            'name_de' => '',
+            'name_de' => 'Buchfink',
             'name_fr' => 'Pinson des arbres',
             'name_it' => 'Fringuello',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> mu00e2le  impossible à conu00adfonu00addre avec sa calotte gris-bleu et sa poitrine rougeu00e2tre. La femelle  aux couleurs plus discrètes est reconnaissable à ses barres alaires claires.<br /><br /><strong>Voix:</strong> divers cris dont un «huit» ascendant. Chant: trille s\'accélérant et terminé par une fioriture typique.<br /><br /><strong>Distribution:</strong> avec environ 1 million de couples nicheurs, oiseau le plus répandu de Suisse. Toute l\'année partout ou00f9 il y a des arbres.<br /><br /><strong>Nourriture:</strong> graines, baies et fruits.<br /><br /><strong>Nidification:</strong> 4-6 jeunes sont élevés dans un nid sur un arbre, souvent dans une fourche de branches.',
+            'description_de' => '<strong>Kennzeichen:</strong> Das Männchen  ist unverkennbar mit blau-grauem Scheitel und Nacken und rötlich gefärbter Brust. Das unscheinbarere Weibchen  ist  gut kenntlich an den hellen Flügelbinden.<br /><br /><strong>Stimme:</strong> Verschiedene Rufe, häufig ein aufwärts gezogener Pfiff &bdquo;hüiTT&ldquo;. Der Gesang besteht aus einer lauten, lebhaften Strophe mit charakteristischem Endschörkel.<br /><br /><strong>Vorkommen:</strong> Mit etwa 1 Million Brutpaaren ist er der häufigste Brutvogel der Schweiz. Er kommt  überall ganzjährig vor, wo es Bäume hat.<br /><br /><strong>Nahrung:</strong> Sämereien und Beeren, Früchte.<br /><br /><strong>Brut:</strong> 4-6 Jungvögel werden in Baumnestern, häufig in Astgabeln, gross gezogen.',
+            'description_fr' => '<strong>Caractéristiques:</strong> mâle  impossible à conu00adfonu00addre avec sa calotte gris-bleu et sa poitrine rougeâtre. La femelle  aux couleurs plus discrètes est reconnaissable à ses barres alaires claires.<br /><br /><strong>Voix:</strong> divers cris dont un «huit» ascendant. Chant: trille s\'accélérant et terminé par une fioriture typique.<br /><br /><strong>Distribution:</strong> avec environ 1 million de couples nicheurs, oiseau le plus répandu de Suisse. Toute l\'année partout où il y a des arbres.<br /><br /><strong>Nourriture:</strong> graines, baies et fruits.<br /><br /><strong>Nidification:</strong> 4-6 jeunes sont élevés dans un nid sur un arbre, souvent dans une fourche de branches.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 161519,
         ] );
 
         $bird222->pictures()->save($buchfink_1);
@@ -10181,9 +10465,9 @@ class BirdsTableSeeder extends Seeder
         $bird222->sizes()->attach($spatz_amsel);
         $bird222->save();
 
-        $bird223 = Bird::create( [
+        $bird223 = Bird::firstOrCreate( [
             'name' => 'Fringilla montifringilla',
-            'name_de' => '',
+            'name_de' => 'Bergfink',
             'name_fr' => 'Pinson du Nord',
             'name_it' => 'Peppola',
             'gender_de' => 'M',
@@ -10191,6 +10475,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 138973,
         ] );
 
         $bird223->pictures()->save($bergfink_1);
@@ -10215,16 +10500,17 @@ class BirdsTableSeeder extends Seeder
         $bird223->sizes()->attach($_spatz);
         $bird223->save();
 
-        $bird224 = Bird::create( [
+        $bird224 = Bird::firstOrCreate( [
             'name' => 'Carduelis carduelis',
-            'name_de' => '',
+            'name_de' => 'Stieglitz',
             'name_fr' => 'Chardonneret élégant ',
             'name_it' => 'Cardellino',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> oiseau très coloré avec une face rouge, une coloration noire et blanche de la tête, une tache alaire jaune sur fond noir. r<br /><br /><strong>Voix:</strong> cri un «tikélitt» sautillant. Chant constitué de rapides trilles et d&rsquo;éléments gazouillants.r<br /><br /><strong>Distribution:</strong> milieu cultivé avec haies, vergers, parcs, jardins. Présent toute l&rsquo;année, se rassemble en petites troupes en automne et hiver. r<br /><br /><strong>Nourriture:</strong> graines et semences, en été et automne se tient volontiers sur les fructifications des chardons (d\'ou00f9 son nom) pour en picorer les graines. r<br /><br /><strong>Nidification:</strong> dépose 4-6 u0153ufs dans un nid construit sur un arbre, un arbuste ou une plante grimpante.',
+            'description_de' => '<strong>Kennzeichen:</strong> Bunter Vogel mit rotem Gesicht, schwarz-weisser Kopffärbung, leuchtend gelben Flügelflecken auf schwarzem Grund.<br /><br /><strong>Stimme:</strong> Seinem Namen folgend ruft er oft auch im Flug dreisilbig &bdquo;ti-ge-litt&ldquo;. Gesang leise mit schnellen Trillern und zwitschernden Elementen.<br /><br /><strong>Vorkommen:</strong> Kulturland mit Hecken, Obstgärten, Parkanlagen, Gärten. Ganzjahresvogel, der sich im Herbst und Winter gerne zu kleinen Trupps zusammenschliesst.<br /><br /><strong>Nahrung:</strong> Allerlei Sämereien, sitzt im Sommer und Herbst gerne auf Disteln (daher sein Name), deren Samen er aus den Fruchtständen herauspickt.<br /><br /><strong>Brut:</strong> Legt seine 4-6 Eier in Nester in Bäumen, Sträuchern oder Kletterpflanzen.',
+            'description_fr' => '<strong>Caractéristiques:</strong> oiseau très coloré avec une face rouge, une coloration noire et blanche de la tête, une tache alaire jaune sur fond noir. r<br /><br /><strong>Voix:</strong> cri un «tikélitt» sautillant. Chant constitué de rapides trilles et d&rsquo;éléments gazouillants<br /><br /><strong>Distribution:</strong> milieu cultivé avec haies, vergers, parcs, jardins. Présent toute l&rsquo;année, se rassemble en petites troupes en automne et hiver. r<br /><br /><strong>Nourriture:</strong> graines et semences, en été et automne se tient volontiers sur les fructifications des chardons (d\'où son nom) pour en picorer les graines. r<br /><br /><strong>Nidification:</strong> dépose 4-6 œufs dans un nid construit sur un arbre, un arbuste ou une plante grimpante.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 180030,
         ] );
 
         $bird224->pictures()->save($stieglitz_1);
@@ -10248,16 +10534,17 @@ class BirdsTableSeeder extends Seeder
         $bird224->sizes()->attach($_spatz);
         $bird224->save();
 
-        $bird225 = Bird::create( [
+        $bird225 = Bird::firstOrCreate( [
             'name' => 'Carduelis chloris',
-            'name_de' => '',
+            'name_de' => 'Grünfink',
             'name_fr' => 'Verdier d\'Europe',
             'name_it' => 'Verdone',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> gros fringille avec barre jaune sur les ailes. Le mu00e2le  est vert olive intense, la femelle  est plus grisu00e2tre et a de fines stries sur le dos.<br /><br /><strong>Voix:</strong> le cri est un «dyip» bref et grinu00e7ant, souvent répété en rapides séries. Chant: deux formes différentes, un «djjjiiiiiii» vibrant ou un agréable chant composé de trilles et de sifflements.<br /><br /><strong>Distribution:</strong> toute l&rsquo;année en lisière de forêt, dans les parcs, les jardins aussi au milieu des villes. En hiver, souvent mélangé à d&rsquo;autres fringilles pour picorer les graines dans les jachères. <br /><br /><strong>Nourriture:</strong> semences, graines, baies.<br /><br /><strong>Nidification:</strong> 4-6 jeunes, nid sur un arbre.',
+            'description_de' => '<strong>Kennzeichen:</strong> Kräftiger Finkenvogel mit gelbem Flügelband. Das Männchen  ist kräftig olivgrün, das Weibchen  gräulicher gefärbt und auf dem Rücken fein gestrichelt.<br /><br /><strong>Stimme:</strong> Ruft kurz und kräftig &bdquo;jupp&ldquo; oder kurz trillerartig &bdquo;jüp-jüp-jüp-...&ldquo;. Zwei unterschiedliche Gesangstypen, ein unmusikalisches krächzendes &bdquo;dschrüüüüüüju&ldquo; oder ein melodischer, zwitschender Gesang mit Trillern und Pfiffen.<br /><br /><strong>Vorkommen:</strong> Er ist ganzjährig an Waldrändern, in Parks, Gärten, auch mitten in der Stadt anzutreffen. Im Winter hält er sich oft mit anderen Finken Körner pickend auf Brachfeldern auf.<br /><br /><strong>Nahrung:</strong> Samen, Körner, Beeren.<br /><br /><strong>Brut:</strong> 4-6 Jungvögel in Baumnest.',
+            'description_fr' => '<strong>Caractéristiques:</strong> gros fringille avec barre jaune sur les ailes. Le mâle  est vert olive intense, la femelle  est plus grisâtre et a de fines stries sur le dos.<br /><br /><strong>Voix:</strong> le cri est un «dyip» bref et grinu00e7ant, souvent répété en rapides séries. Chant: deux formes différentes, un «djjjiiiiiii» vibrant ou un agréable chant composé de trilles et de sifflements.<br /><br /><strong>Distribution:</strong> toute l&rsquo;année en lisière de forêt, dans les parcs, les jardins aussi au milieu des villes. En hiver, souvent mélangé à d&rsquo;autres fringilles pour picorer les graines dans les jachères. <br /><br /><strong>Nourriture:</strong> semences, graines, baies.<br /><br /><strong>Nidification:</strong> 4-6 jeunes, nid sur un arbre.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 129822,
         ] );
 
         $bird225->pictures()->save($gruenfink_1);
@@ -10286,9 +10573,9 @@ class BirdsTableSeeder extends Seeder
         $bird225->sizes()->attach($spatz_amsel);
         $bird225->save();
 
-        $bird226 = Bird::create( [
+        $bird226 = Bird::firstOrCreate( [
             'name' => 'Carduelis cannabina',
-            'name_de' => '',
+            'name_de' => 'Bluthänfling',
             'name_fr' => 'Linotte mélodieuse',
             'name_it' => 'Fanello',
             'gender_de' => 'M',
@@ -10296,6 +10583,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 181571,
         ] );
 
         $bird226->pictures()->save($bluthaenfling_1);
@@ -10322,9 +10610,9 @@ class BirdsTableSeeder extends Seeder
         $bird226->sizes()->attach($_spatz);
         $bird226->save();
 
-        $bird227 = Bird::create( [
+        $bird227 = Bird::firstOrCreate( [
             'name' => 'Carduelis spinus',
-            'name_de' => '',
+            'name_de' => 'Erlenzeisig',
             'name_fr' => 'Tarin des aulnes',
             'name_it' => 'Lucherino',
             'gender_de' => 'M',
@@ -10332,6 +10620,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 215719,
         ] );
 
         $bird227->pictures()->save($erlenzeisig_1);
@@ -10355,9 +10644,9 @@ class BirdsTableSeeder extends Seeder
         $bird227->sizes()->attach($_spatz);
         $bird227->save();
 
-        $bird228 = Bird::create( [
+        $bird228 = Bird::firstOrCreate( [
             'name' => 'Carduelis flammea',
-            'name_de' => '',
+            'name_de' => 'Birkenzeisig',
             'name_fr' => 'Sizerin flammé',
             'name_it' => 'Organetto minore',
             'gender_de' => 'M',
@@ -10365,6 +10654,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 55413,
         ] );
 
         $bird228->pictures()->save($birkenzeisig_1);
@@ -10387,9 +10677,9 @@ class BirdsTableSeeder extends Seeder
         $bird228->sizes()->attach($_spatz);
         $bird228->save();
 
-        $bird229 = Bird::create( [
+        $bird229 = Bird::firstOrCreate( [
             'name' => 'Carduelis citrinella',
-            'name_de' => '',
+            'name_de' => 'Zitronenzeisig',
             'name_fr' => 'Venturon montagnard',
             'name_it' => 'Venturone alpino',
             'gender_de' => 'M',
@@ -10397,6 +10687,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 178564,
         ] );
 
         $bird229->pictures()->save($zitronenzeisig_1);
@@ -10418,16 +10709,17 @@ class BirdsTableSeeder extends Seeder
         $bird229->sizes()->attach($_spatz);
         $bird229->save();
 
-        $bird230 = Bird::create( [
+        $bird230 = Bird::firstOrCreate( [
             'name' => 'Serinus serinus',
-            'name_de' => '',
+            'name_de' => 'Girlitz',
             'name_fr' => 'Serin cini',
             'name_it' => 'Verzellino',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> petit fringille jaune à stries noires. Se tient volontiers sur la cime des arbres ou sur des lignes électriques. La femelle est un peu plus pu00e2le que le mu00e2le.r<br /><br /><strong>Voix:</strong> chant: babil de sons frémissants, grinu00e7ants, sur un ton uniforme, souvent émis depuis des perchoirs élevés ou en vol. Cri: trille aigu «zir&rsquo;r&rsquo;rl». r<br /><br /><strong>Distribution:</strong> volontiers en zone construite dans les parcs, les jardins, les cimetières. La plupart des serins cinis migrent sur de courtes distances et passent l&rsquo;hiver en région méditerranéenne, rares hivernants chez nous. r<br /><br /><strong>Nourriture:</strong> diverses graines.r<br /><br /><strong>Nidification:</strong> 3-5 u0153ufs, nid dans un arbre ou un buisson.',
+            'description_de' => '<strong>Kennzeichen:</strong> Kleiner, leuchtend gelber Finkenvogel mit schwarzer Strichelung. Sitzt gerne auf Baumwipfeln oder Stromleitungen. Das Weibchen ist ein wenig blasser gefärbt.<br /><br /><strong>Stimme:</strong> Gleichmässig hohe, klirrende Töne bilden den lauten anhaltenden Gesang, der gerne auf hohen Warten oder im Flug vorgetragen wird. Ruft summenden Triller &bdquo;zir’r’r’r&ldquo;.<br /><br /><strong>Vorkommen:</strong> Gerne in Siedlungen, Parks, Gärten, Friedhöfen. Die meisten Girlitze sind Kurzstreckenzieher und verbringen den Winter im Mittelmeerraum, selten Überwinterer bei uns.<br /><br /><strong>Nahrung:</strong> Sämereien aller Art.<br /><br /><strong>Brut:</strong> 3-5 Eier werden im Nest in Bäumen oder Sträuchern ausgebrütet.',
+            'description_fr' => '<strong>Caractéristiques:</strong> petit fringille jaune à stries noires. Se tient volontiers sur la cime des arbres ou sur des lignes électriques. La femelle est un peu plus pâle que le mâle<br /><br /><strong>Voix:</strong> chant: babil de sons frémissants, grinu00e7ants, sur un ton uniforme, souvent émis depuis des perchoirs élevés ou en vol. Cri: trille aigu «zir&rsquo;r&rsquo;rl». r<br /><br /><strong>Distribution:</strong> volontiers en zone construite dans les parcs, les jardins, les cimetières. La plupart des serins cinis migrent sur de courtes distances et passent l&rsquo;hiver en région méditerranéenne, rares hivernants chez nous. r<br /><br /><strong>Nourriture:</strong> diverses graines<br /><br /><strong>Nidification:</strong> 3-5 œufs, nid dans un arbre ou un buisson.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 173504,
         ] );
 
         $bird230->pictures()->save($girlitz_1);
@@ -10445,9 +10737,9 @@ class BirdsTableSeeder extends Seeder
         $bird230->sizes()->attach($_spatz);
         $bird230->save();
 
-        $bird231 = Bird::create( [
+        $bird231 = Bird::firstOrCreate( [
             'name' => 'Loxia curvirostra',
-            'name_de' => '',
+            'name_de' => 'Fichtenkreuzschnabel',
             'name_fr' => 'Bec-croisé des sapins',
             'name_it' => 'Crociere',
             'gender_de' => 'M',
@@ -10455,6 +10747,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 208852,
         ] );
 
         $bird231->pictures()->save($fichtenkreuzschnabel_1);
@@ -10476,16 +10769,17 @@ class BirdsTableSeeder extends Seeder
         $bird231->sizes()->attach($spatz_amsel);
         $bird231->save();
 
-        $bird232 = Bird::create( [
+        $bird232 = Bird::firstOrCreate( [
             'name' => 'Pyrrhula pyrrhula',
-            'name_de' => '',
+            'name_de' => 'Gimpel',
             'name_fr' => 'Bouvreuil pivoine',
             'name_it' => 'Ciuffolotto',
             'gender_de' => 'M',
-            'description_de' => '',
-            'description_fr' => '<strong>Caractéristiques:</strong> mu00e2le  avec ventre rose-rouge vif, femelle  ventre beige-brun. En vol, croupion blanc bien visible. Oiseau discret se tenant dans le haut des arbres. r<br /><br /><strong>Voix:</strong> cri mélancolique, flu00fbté «pyu». Chant bas, doux et flu00fbté avec sons à demi étouffés, grinu00e7ants, ru00e2peux.r<br /><br /><strong>Distribution:</strong> vit toute l&rsquo;année dans les forêts mixtes, les parcs et les grands jardins.r<br /><br /><strong>Nourriture:</strong> son bec court au bord acéré lui sert à saisir des graines et des bourgeons. Fréquente parfois les mangeoires en hiver.r<br /><br /><strong>Nidification:</strong> nid sur un arbre ou un arbuste, 4-6 u0153ufs.',
+            'description_de' => '<strong>Kennzeichen:</strong> Männchen  mit leuchtend rosaroter Unterseite, Weibchen  beigebraun. Im Flug deutlich sichtbarer weisser Bürzel. Sehr ruhiger Vogel im oberen Laubdach.<br /><br /><strong>Stimme:</strong> Ruft melancholisch, flötend &bdquo;püh&ldquo; oder &bdquo;piü&ldquo;. Der Gesang ist tief und weich flötend, erstickt in kratzenden Lauten.<br /><br /><strong>Vorkommen:</strong> Lebt das ganze Jahr über in Mischwäldern, Parks und grösseren Gärten.<br /><br /><strong>Nahrung:</strong> Sucht mit seinem kurzen, scharfkantigen Schnabel nach Sämereien und Knospen. Besucht im Winter manchmal Futterhäuser.<br /><br /><strong>Brut:</strong> Bebrütet 4-6 Eier in Nestern auf Bäumen oder in Sträuchern.',
+            'description_fr' => '<strong>Caractéristiques:</strong> mâle  avec ventre rose-rouge vif, femelle  ventre beige-brun. En vol, croupion blanc bien visible. Oiseau discret se tenant dans le haut des arbres. r<br /><br /><strong>Voix:</strong> cri mélancolique, flu00fbté «pyu». Chant bas, doux et flu00fbté avec sons à demi étouffés, grinu00e7ants, râpeux<br /><br /><strong>Distribution:</strong> vit toute l&rsquo;année dans les forêts mixtes, les parcs et les grands jardins<br /><br /><strong>Nourriture:</strong> son bec court au bord acéré lui sert à saisir des graines et des bourgeons. Fréquente parfois les mangeoires en hiver<br /><br /><strong>Nidification:</strong> nid sur un arbre ou un arbuste, 4-6 œufs.',
             'description_it' => '',
             'garden' => true,
+            'singing_xeno_canto_id' => 171595,
         ] );
 
         $bird232->pictures()->save($gimpel_1);
@@ -10510,9 +10804,9 @@ class BirdsTableSeeder extends Seeder
         $bird232->sizes()->attach($spatz_amsel);
         $bird232->save();
 
-        $bird233 = Bird::create( [
+        $bird233 = Bird::firstOrCreate( [
             'name' => 'Carpodacus erythrinus',
-            'name_de' => '',
+            'name_de' => 'Karmingimpel',
             'name_fr' => 'Roselin cramoisi',
             'name_it' => 'Ciuffolotto scarlatto',
             'gender_de' => 'M',
@@ -10520,6 +10814,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 211624,
         ] );
 
         $bird233->pictures()->save($karmingimpel_1);
@@ -10539,9 +10834,9 @@ class BirdsTableSeeder extends Seeder
         $bird233->sizes()->attach($_spatz);
         $bird233->save();
 
-        $bird234 = Bird::create( [
+        $bird234 = Bird::firstOrCreate( [
             'name' => 'Coccothraustes coccothraustes',
-            'name_de' => '',
+            'name_de' => 'Kernbeisser',
             'name_fr' => 'Grosbec casse-noyaux',
             'name_it' => 'Frosone',
             'gender_de' => 'M',
@@ -10549,6 +10844,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 210479,
         ] );
 
         $bird234->pictures()->save($kernbeisser_1);
@@ -10572,9 +10868,9 @@ class BirdsTableSeeder extends Seeder
         $bird234->sizes()->attach($spatz_amsel);
         $bird234->save();
 
-        $bird235 = Bird::create( [
+        $bird235 = Bird::firstOrCreate( [
             'name' => 'Emberiza schoeniclus',
-            'name_de' => '',
+            'name_de' => 'Rohrammer',
             'name_fr' => 'Bruant des roseaux',
             'name_it' => 'Migliarino di palude',
             'gender_de' => 'W',
@@ -10582,6 +10878,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 56796,
         ] );
 
         $bird235->pictures()->save($rohrammer_1);
@@ -10604,9 +10901,9 @@ class BirdsTableSeeder extends Seeder
         $bird235->sizes()->attach($spatz_amsel);
         $bird235->save();
 
-        $bird236 = Bird::create( [
+        $bird236 = Bird::firstOrCreate( [
             'name' => 'Emberiza hortulana',
-            'name_de' => '',
+            'name_de' => 'Ortolan',
             'name_fr' => 'Bruant ortolan',
             'name_it' => 'Ortolano',
             'gender_de' => 'M',
@@ -10614,6 +10911,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 30192,
         ] );
 
         $bird236->pictures()->save($ortolan_1);
@@ -10632,9 +10930,9 @@ class BirdsTableSeeder extends Seeder
         $bird236->sizes()->attach($spatz_amsel);
         $bird236->save();
 
-        $bird237 = Bird::create( [
+        $bird237 = Bird::firstOrCreate( [
             'name' => 'Emberiza citrinella',
-            'name_de' => '',
+            'name_de' => 'Goldammer',
             'name_fr' => 'Bruant jaune',
             'name_it' => 'Zigolo giallo',
             'gender_de' => 'W',
@@ -10642,6 +10940,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 52398,
         ] );
 
         $bird237->pictures()->save($goldammer_1);
@@ -10664,9 +10963,9 @@ class BirdsTableSeeder extends Seeder
         $bird237->sizes()->attach($spatz_amsel);
         $bird237->save();
 
-        $bird238 = Bird::create( [
+        $bird238 = Bird::firstOrCreate( [
             'name' => 'Emberiza cirlus',
-            'name_de' => '',
+            'name_de' => 'Zaunammer',
             'name_fr' => 'Bruant zizi',
             'name_it' => 'Zigolo nero',
             'gender_de' => 'W',
@@ -10674,6 +10973,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 30193,
         ] );
 
         $bird238->habitats()->attach($aecker_und_feldflur);
@@ -10692,9 +10992,9 @@ class BirdsTableSeeder extends Seeder
         $bird238->sizes()->attach($spatz_amsel);
         $bird238->save();
 
-        $bird239 = Bird::create( [
+        $bird239 = Bird::firstOrCreate( [
             'name' => 'Emberiza calandra',
-            'name_de' => '',
+            'name_de' => 'Grauammer',
             'name_fr' => 'Bruant proyer',
             'name_it' => 'Strillozzo',
             'gender_de' => 'W',
@@ -10702,6 +11002,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 170725,
         ] );
 
         $bird239->pictures()->save($grauammer_1);
@@ -10721,9 +11022,9 @@ class BirdsTableSeeder extends Seeder
         $bird239->sizes()->attach($spatz_amsel);
         $bird239->save();
 
-        $bird240 = Bird::create( [
+        $bird240 = Bird::firstOrCreate( [
             'name' => 'Emberiza cia',
-            'name_de' => '',
+            'name_de' => 'Zippammer',
             'name_fr' => 'Bruant fou',
             'name_it' => 'Zigolo muciatto',
             'gender_de' => 'W',
@@ -10731,6 +11032,7 @@ class BirdsTableSeeder extends Seeder
             'description_fr' => '',
             'description_it' => '',
             'garden' => false,
+            'singing_xeno_canto_id' => 30102,
         ] );
 
         $bird240->pictures()->save($zippammer_1);
@@ -10752,68 +11054,7 @@ class BirdsTableSeeder extends Seeder
         $bird240->sizes()->attach($_spatz);
         $bird240->sizes()->attach($spatz_amsel);
         $bird240->save();
-        //</editor-fold>
 
-        //<editor-fold desc="Features">
-        $feature1 = Feature::create( [
-            'name_de' => 'Viele einheimische Büsche',
-            'name_fr' => 'de nombreux arbres indigènes',
-            'name_it' => '',
-        ] );
-
-        $feature2 = Feature::create( [
-            'name_de' => 'Einheimische Bäume',
-            'name_fr' => 'quelques arbres indigènes',
-            'name_it' => '',
-        ] );
-
-        $feature3 = Feature::create( [
-            'name_de' => 'Viele exotische Büsche',
-            'name_fr' => 'de nombreux arbustes exotiques',
-            'name_it' => '',
-        ] );
-
-        $feature4 = Feature::create( [
-            'name_de' => 'Exotische Büsche',
-            'name_fr' => 'quelques arbustes exotiques',
-            'name_it' => '',
-        ] );
-
-        $feature5 = Feature::create( [
-            'name_de' => 'Blumenwiesen',
-            'name_fr' => 'des prairies fleuries',
-            'name_it' => '',
-        ] );
-
-        $feature6 = Feature::create( [
-            'name_de' => 'Teich',
-            'name_fr' => 'un étang',
-            'name_it' => '',
-        ] );
-
-        $feature7 = Feature::create( [
-            'name_de' => 'Kies/Sandlächen',
-            'name_fr' => 'des surfaces de gravier/sable',
-            'name_it' => '',
-        ] );
-
-        $feature8 = Feature::create( [
-            'name_de' => 'Rasen',
-            'name_fr' => 'du gazon',
-            'name_it' => '',
-        ] );
-
-        $feature9 = Feature::create( [
-            'name_de' => 'Nistkasten',
-            'name_fr' => 'des Nichoirs',
-            'name_it' => '',
-        ] );
-
-        $feature10 = Feature::create( [
-            'name_de' => 'Holzhaufen',
-            'name_fr' => 'un tas de bois',
-            'name_it' => '',
-        ] );
-        //</editor-fold>
+//</editor-fold>
     }
 }

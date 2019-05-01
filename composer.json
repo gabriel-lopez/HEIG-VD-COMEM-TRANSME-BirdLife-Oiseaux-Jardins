@@ -13,7 +13,8 @@
         "fideloper/proxy": "^4.0",
         "intervention/validation": "^1.2",
         "laravel/framework": "5.8.*",
-        "laravel/tinker": "^1.0"
+        "laravel/tinker": "^1.0",
+        "tcg/voyager": "^1.2"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
@@ -63,7 +64,6 @@
         "post-create-project-cmd": [
             "@php artisan key:generate --ansi"
         ],
-
         "post-install-cmd": [
             "Illuminate\\Foundation\\ComposerScripts::postInstall",
             "php artisan cache:clear"
@@ -72,5 +72,11 @@
             "Illuminate\\Foundation\\ComposerScripts::postUpdate",
             "php artisan optimize"
         ]
+    },
+    "repositories": {
+        "hooks": {
+            "type": "composer",
+            "url": "https://larapack.io"
+        }
     }
 }

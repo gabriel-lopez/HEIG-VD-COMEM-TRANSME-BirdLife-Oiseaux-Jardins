@@ -12,7 +12,13 @@
 */
 
 use Illuminate\Support\Facades\Route;
+use TCG\Voyager\Facades\Voyager;
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/{vue_capture?}', function () {
+    // return view('welcome');
+    return File::get(public_path() . '/dist/index.html');
+})->where('vue_capture', '^(?!storage).*$');
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
 });

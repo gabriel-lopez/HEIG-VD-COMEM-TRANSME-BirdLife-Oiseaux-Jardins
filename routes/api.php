@@ -1,6 +1,5 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,18 +13,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
+/*Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
-});
+});*/
 
 Route::get('birds', 'BirdsController@index');
 Route::get('birds/{id}', 'BirdsController@show');
 
-Route::resource('orders', 'OrdersController');
-Route::resource('families', 'FamiliesController');
-Route::resource('habitats', 'HabitatsController');
-Route::resource('colors', 'ColorsController');
-Route::resource('sizes', 'SizesController');
-Route::resource('beakshapes', 'BeakShapesController');
-Route::resource('submissions', 'SubmissionsController');
+Route::get('orders', 'OrdersController@index');
+Route::get('families', 'FamiliesController@index');
+Route::get('habitats', 'HabitatsController@index');
+Route::get('colors', 'ColorsController@index');
+Route::get('sizes', 'SizesController@index');
+Route::get('beakshapes', 'BeakShapesController@index');
+Route::get('features', 'FeaturesController@index');
 
+Route::get('submissions', 'SubmissionsController@index');
+Route::post('submissions', 'SubmissionsController@store');
