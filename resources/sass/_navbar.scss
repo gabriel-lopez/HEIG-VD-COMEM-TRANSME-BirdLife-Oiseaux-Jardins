@@ -1,0 +1,31 @@
+// Variables
+@import 'variables';
+
+.navbar-birdlife {
+    background-color: #FFFFFF !important;
+}
+
+.navbar-birdlife .navbar-brand {
+    color: $bl_orange !important;
+}
+
+.navbar-birdlife .nav-link {
+    color: $bl_orange !important;
+}
+
+.navbar-birdlife .navbar-toggler {
+    border-color: $bl_orange !important;
+}
+
+.navbar-birdlife .fa-bars {
+    color: $bl_orange !important;
+
+        display: inline-block;
+        width: 1.5em;
+        height: 1.5em;
+        vertical-align: middle;
+        content: "";
+        background-image: none;
+        background-size: auto;
+
+}
