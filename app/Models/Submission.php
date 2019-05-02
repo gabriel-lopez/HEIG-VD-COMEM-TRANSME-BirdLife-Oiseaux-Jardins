@@ -15,7 +15,7 @@ class Submission extends Model
     public static $rules = [
         'birds' => 'required',
 
-        /*'name' => 'string|required',
+        'name' => 'string|required',
         'surname' => 'string|required',
         'email' => 'email|required',
         'birthday' => 'date|required',
@@ -27,7 +27,7 @@ class Submission extends Model
         'observation_day' => 'date|required',
         'observation_time' => 'date_format:H:i|required',
         'observation_npa' => 'digits:4|required',
-        'observation_city' => 'string|required',*/
+        'observation_city' => 'string|required',
         'observation_features' => 'required',
     ];
 
