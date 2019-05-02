@@ -25,8 +25,8 @@ class SubmissionsController extends Controller
             return response()->json(['errors' => $validation->errors()], Response::HTTP_BAD_REQUEST);
         }
 
-        //CREATEONE
+        $submission = Submission::createOne($inputs);
 
-        return response()->json('ok', Response::HTTP_CREATED);
+        return response()->json($submission, Response::HTTP_CREATED);
     }
 }
