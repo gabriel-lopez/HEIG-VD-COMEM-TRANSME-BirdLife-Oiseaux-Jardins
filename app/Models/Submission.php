@@ -94,6 +94,14 @@ class Submission extends Model
         return $new;
     }
 
+    public function delete()
+    {
+        $this->birds()->detach();
+        $this->features()->detach();
+
+        return parent::delete();
+    }
+
     public function birds()
     {
         return $this->belongsToMany(Bird::class,'bird_submission', 'submission_id', 'bird_id')->withPivot('quantity');

@@ -17,6 +17,10 @@ class SubmissionsController extends Controller
 
     public function store(Request $request)
     {
+        if(setting('event.accept') !== '1') {
+            return response()->json(['errors' => 'Too Soon'], Response::HTTP_UNAUTHORIZED);
+        }
+
         $inputs = $request->all();
         $validation = Submission::getValidation($inputs);
 

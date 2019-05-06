@@ -30,3 +30,5 @@ Route::get('features', 'FeaturesController@index');
 
 Route::get('submissions', 'SubmissionsController@index');
 Route::post('submissions', 'SubmissionsController@store');
+
+Route::get('settings', 'SettingsController@all');

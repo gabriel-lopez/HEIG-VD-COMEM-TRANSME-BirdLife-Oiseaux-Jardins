@@ -20,4 +20,9 @@ class Feature extends Model
         'updated_at',
         'deleted_at',
     ];
+
+    public function submissions()
+    {
+        return $this->belongsToMany(Submission::class);
+    }
 }
